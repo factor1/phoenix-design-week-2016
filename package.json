@@ -16,7 +16,8 @@
     "ginger-grid": "^1.1.0",
     "prelude-wp": "^3.1.6"
   },
-  "repository": { "type" : "git"
-  , "url" : "https://github.com/factor1/phoenix-design-week-2016.git"
+  "repository": {
+    "type": "git"
+  , "url": "https://github.com/factor1/phoenix-design-week-2016.git"
   }
 }
