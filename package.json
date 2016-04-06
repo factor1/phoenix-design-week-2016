@@ -1,0 +1,19 @@
+{
+  "name": "phx-design-week",
+  "version": "0.0.1",
+  "description": "A custom WordPress theme for Phoenix Design Week",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "WordPress",
+    "Theme"
+  ],
+  "author": "Eric Stout/Factor1 <factor1studios.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ginger-grid": "^1.1.0",
+    "prelude-wp": "^3.1.6"
+  }
+}
