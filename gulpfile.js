@@ -50,7 +50,9 @@ gulp.task('sass', function() {
   return gulp.src( sassFiles )
     .pipe(sourcemaps.init())
       .pipe(plumber())
-      .pipe(sass())
+      .pipe(sass({
+        includePaths: ['./node_modules/ginger-grid/']
+      }))
       .pipe(autoprefixer({
         browsers: ['last 2 versions'],
         cascade: false

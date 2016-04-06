@@ -7,7 +7,10 @@
   - Parts
   - Components
 -----------------------------------------------------------------------------*/
-// import the Sass partials in the order that you need here
+// Vendor
+// ginger
+@import 'settings/ginger-settings';
+@import 'ginger';
 
 // Variables
 @import 'settings/variables';
