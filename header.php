@@ -17,6 +17,10 @@
   <?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
 
   <?php wp_head(); ?>
+
+  <!-- Typekit -->
+  <script src="https://use.typekit.net/hbk2blk.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
 <body <?php body_class(); ?>>
 
