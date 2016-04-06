@@ -2,7 +2,7 @@
   Gulpfile.js
 ------------------------------------------------------------------------------*/
 // Name your theme - this is outputted only when packaging your project.
-var theme        = 'your-theme-name';
+var theme        = 'phx-design-week';
 
 // Set the paths you will be working with
 var phpFiles     = ['./**/*.php', './*.php'],
@@ -13,7 +13,7 @@ var phpFiles     = ['./**/*.php', './*.php'],
     jsFiles      = ['./assets/js/theme.js'],
     imageFiles   = ['./assets/img/*.{jpg,png,gif}'],
     concatFiles  = ['./assets/js/*.js', '!./assets/js/theme.min.js', '!./assets/js/all.js'],
-    url          = 'your-local-virtual-host'; // See https://browsersync.io/docs/options/#option-proxy
+    url          = 'phxdw:8888'; // See https://browsersync.io/docs/options/#option-proxy
 
 // Include gulp
 var gulp         = require('gulp');
