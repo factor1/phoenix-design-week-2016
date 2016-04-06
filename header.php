@@ -35,4 +35,4 @@
   </header>
 
   <?php // Main Content ?>
-  <main>
+  <main class="main--container">
