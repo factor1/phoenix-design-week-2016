@@ -24,15 +24,5 @@
 </head>
 <body <?php body_class(); ?>>
 
-  <header><!-- Header -->
-    <h1 class="logo">
-      <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
-    </h1>
-    <nav class="main-nav">
-      <?php wp_nav_menu( array('theme_location' => 'primary') ); ?>
-    </nav>
-    <?php get_search_form(); ?>
-  </header>
-
   <?php // Main Content ?>
   <main class="main--container">

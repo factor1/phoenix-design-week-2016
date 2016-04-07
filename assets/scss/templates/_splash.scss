@@ -1,5 +1,29 @@
 // Splash Page Styles
 
 .page-template-splash .main--container{
+  min-height: 100vh;
   background: url('../img/introBG.jpg') center top no-repeat;
+  background-size: 100%;
+  padding: rem(106px) 0 0;
+}
+
+.intro--block{
+  display: block;
+  position: relative;
+  width: 80%;
+  height: 600px;
+  margin: 0 auto;
+  padding: rem(28px) 0;
+  background: $yellow;
+    &:before{
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: rem(28px);
+      background: url('../img/Chevron-White.png') left top repeat-x;
+      background-size: contain;
+    }
 }

@@ -129,3 +129,13 @@ table tr td {
 .float-right {
   float : right;
 }
+
+.main--container{
+  display: block;
+  position: relative;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
