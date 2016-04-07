@@ -26,4 +26,13 @@
       background: url('../img/Chevron-White.png') left top repeat-x;
       background-size: contain;
     }
+    h1.event-date{
+      font-size: rem(50px);
+      color: white;
+      letter-spacing: .8rem;
+    }
+}
+
+.main-logo{
+  margin-top: rem(85px);
 }
