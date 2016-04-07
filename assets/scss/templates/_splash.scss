@@ -7,10 +7,11 @@
   padding: rem(106px) 0 0;
 }
 
+// Intro Block & Content
 .intro--block{
   display: block;
   position: relative;
-  width: 80%;
+  width: 95%;
   height: 600px;
   margin: 0 auto;
   padding: rem(28px) 0;
@@ -35,4 +36,50 @@
 
 .main-logo{
   margin-top: rem(85px);
+}
+
+// Tickets Container
+.tickets--container{
+  display: block;
+  position: relative;
+  .row{
+    padding: rem(48px) 0;
+    background: $purple;
+    max-width: rem(1136px);
+  }
+  h2{
+    font-size: rem(40px);
+    color: $teal;
+    padding: 0;
+    margin: rem(40px) 0 0;
+    line-height: rem(40px);
+  }
+  img{
+    width: 387px;
+  }
+  span{
+    display: block;
+    font-size: rem(27px);
+    text-transform: uppercase;
+    color: white;
+    line-height: rem(27px);
+  }
+  p{
+    color: white;
+    line-height: rem(28px);
+  }
+}
+
+// Pricing Table
+.pricing-table--container{
+  .row{
+    padding: 0;
+    div:first-of-type{
+      padding-left: 0;
+    }
+  }
+  p{
+    margin: 0;
+    padding: 0;
+  }
 }

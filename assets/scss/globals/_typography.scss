@@ -24,15 +24,20 @@ h3{
 }
 
 h4{
-  font-size: rem(20px);
+  font-size: rem(24px);
   text-transform: uppercase;
   color: $purple;
 }
 
 h5{
-  font-size: rem(18px);
+  font-size: rem(23px);
   text-transform: uppercase;
   color: $purple;
+}
+
+p, ul, ol{
+  font: rem(22px) $proxima;
+  color: $black;
 }
 
 // Links
