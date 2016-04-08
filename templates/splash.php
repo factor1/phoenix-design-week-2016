@@ -139,6 +139,28 @@ get_header();
           </div>
         </div>
 
+        <a href="#" class="button button-yellow">
+          Buy Tickets
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="sponsors--container">
+  <div class="container">
+    <div class="row">
+      <div class="col-10 col-centered">
+        <h2>
+          Become A Sponsor
+        </h2>
+        <p>
+          Support the most celebrated event in the Phoenix design community, and
+          hundreds of creative professionals will take notice.
+        </p>
+        <a href="#" class="button button-white">
+          Learn More
+        </a>
       </div>
     </div>
   </div>

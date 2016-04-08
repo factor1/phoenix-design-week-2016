@@ -1,5 +1,17 @@
+// Height and Transform functions for tickets container
+var fancyCalculate = function(){
+  var intro       = $('.intro--block'),
+  ticketContainer = $('.tickets--container'),
+  sponsorContainer = $('.sponsors--container'),
+  ticketHeight    = $('.tickets--container').height(),
+  translateVal    = ticketHeight/2;
+
+  intro.css('padding-bottom', translateVal+40);
+  ticketContainer.css('transform', 'translateY(-'+translateVal+'px)');
+  sponsorContainer.css('transform', 'translateY(-'+translateVal+'px)');
+
+};
+
 jQuery( document ).ready(function( $ ) {
-  // Inside of this function, $() will work as an alias for jQuery()
-  // and other libraries also using $ will not be accessible under this shortcut
-  // https://codex.wordpress.org/Function_Reference/wp_enqueue_script#jQuery_noConflict_Wrappers
+  fancyCalculate();
 });

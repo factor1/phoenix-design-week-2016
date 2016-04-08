@@ -12,7 +12,7 @@
   display: block;
   position: relative;
   width: 95%;
-  height: 600px;
+  height: auto;
   margin: 0 auto;
   padding: rem(28px) 0;
   background: $yellow;
@@ -42,10 +42,21 @@
 .tickets--container{
   display: block;
   position: relative;
-  .row{
-    padding: rem(48px) 0;
+  .container > .row{
+    padding: rem(48px) rem(32px) rem(48px) 0;
     background: $purple;
     max-width: rem(1136px);
+      &:after{
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: rem(32px);
+        height: 100%;
+        background: url('../img/Diagonals-Teal.png') repeat;
+        background-size: 100%;
+      }
   }
   h2{
     font-size: rem(40px);
@@ -72,6 +83,7 @@
 
 // Pricing Table
 .pricing-table--container{
+  margin: rem(30px) 0;
   .row{
     padding: 0;
     div:first-of-type{
@@ -81,5 +93,38 @@
   p{
     margin: 0;
     padding: 0;
+  }
+}
+
+// Sponsors Container
+.sponsors--container{
+  display: block;
+  position: relative;
+  margin-top: rem(40px);
+  .container > .row{
+    padding: rem(40px) 0 rem(48px);
+    max-width: rem(1136px);
+    background: $teal;
+    &:after{
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: rem(32px);
+      height: 100%;
+      background: url('../img/Diagonals-Blue.png') repeat;
+      background-size: 100%;
+    }
+  }
+  h2{
+    font-size: rem(60px);
+    color: $pink;
+    margin: 0;
+    padding: 0;
+  }
+  p{
+    color: white;
+    margin-bottom: rem(35px);
   }
 }
