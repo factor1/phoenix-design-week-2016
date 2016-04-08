@@ -95,3 +95,9 @@
 
   // Customize the Yoast SEO columns
   add_filter( 'wpseo_use_page_analysis', '__return_false' );
+
+  // Add Woo Commerce Support
+  add_action( 'after_setup_theme', 'woocommerce_support' );
+  function woocommerce_support() {
+      add_theme_support( 'woocommerce' );
+  }

@@ -22,19 +22,19 @@ if ( ! defined( 'ABSPATH' ) ) {
 ?>
 
 
-			<?php
-				/**
-				 * woocommerce_before_single_product hook.
-				 *
-				 * @hooked wc_print_notices - 10
-				 */
-				 do_action( 'woocommerce_before_single_product' );
+<?php
+	/**
+	 * woocommerce_before_single_product hook.
+	 *
+	 * @hooked wc_print_notices - 10
+	 */
+	 do_action( 'woocommerce_before_single_product' );
 
-				 if ( post_password_required() ) {
-				 	echo get_the_password_form();
-				 	return;
-				 }
-			?>
+	 if ( post_password_required() ) {
+	 	echo get_the_password_form();
+	 	return;
+	 }
+?>
 <div class="container">
 	<div class="row">
 		<div class="col-10 col-centered">
@@ -86,4 +86,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</div>
 	</div>
 </div>
-			<?php do_action( 'woocommerce_after_single_product' ); ?>
+<?php do_action( 'woocommerce_after_single_product' ); ?>
