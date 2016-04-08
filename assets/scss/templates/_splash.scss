@@ -117,8 +117,7 @@
       background-size: 100%;
     }
   }
-  h2{
-    font-size: rem(60px);
+  h1{
     color: $pink;
     margin: 0;
     padding: 0;
@@ -183,5 +182,52 @@
 
 // Media Queries
 @media screen and (max-width: $small-breakpoint){
-  
+
+  // Main Container
+  .page-template-splash .main--container{
+    padding: rem(20px) 0 0;
+  }
+
+  // Tickets Container
+  .tickets--container{
+    width: 95%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center;
+      .container{
+        .row .col-6:nth-child(2){
+          margin-top: rem(30px);
+          .text-left{
+            text-align: center;
+          }
+        }
+      }
+      // Pricing Table
+      .pricing-table--container{
+        .row{
+          margin-bottom: rem(35px);
+          div:first-of-type{
+            padding-left: $col-padding;
+          }
+        }
+      }
+  }
+
+  // Become a Sponsor
+  .become-sponsor--container{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    .container{
+      > .row{
+        padding-left: rem(28px);
+      }
+    }
+  }
+
+  // Sponsors Grid Item
+  .sponsors--grid-item{
+    flex: 0 0 50%;
+  }
+
 }

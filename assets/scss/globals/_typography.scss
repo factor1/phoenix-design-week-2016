@@ -50,3 +50,13 @@ a,
 a:visited {
   text-decoration : none;
 }
+
+// Media Queries
+@media screen and (max-width: $small-breakpoint){
+  h1{
+    font-size: rem(40px);
+  }
+  h2{
+    font-size: rem(30px);
+  }
+}

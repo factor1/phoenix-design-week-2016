@@ -154,9 +154,9 @@ get_header();
   <div class="container">
     <div class="row">
       <div class="col-10 col-centered">
-        <h2>
+        <h1>
           Become A Sponsor
-        </h2>
+        </h1>
         <p>
           Support the most celebrated event in the Phoenix design community, and
           hundreds of creative professionals will take notice.
