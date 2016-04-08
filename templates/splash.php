@@ -3,7 +3,7 @@
 get_header();
 ?>
 
-<div class="intro--block">
+<section class="intro--block">
   <div class="container">
     <div class="row">
       <div class="col-8 col-centered text-center">
@@ -27,9 +27,9 @@ get_header();
       </div>
     </div>
   </div>
-</div>
+</section>
 
-<div class="tickets--container">
+<section class="tickets--container">
   <div class="container">
     <div class="row">
       <div class="col-6 text-center">
@@ -145,9 +145,9 @@ get_header();
       </div>
     </div>
   </div>
-</div>
+</section>
 
-<div class="sponsors--container">
+<section class="sponsors--container">
   <div class="container">
     <div class="row">
       <div class="col-10 col-centered">
@@ -164,6 +164,32 @@ get_header();
       </div>
     </div>
   </div>
-</div>
+</section>
 
+<section class="newsletter--container">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1>
+          Sign Up For Email Alerts
+        </h1>
+        <p>
+          Phoenix Design Week 2016 is just heating up. Be the first to know
+          about PHXDW events, Method + Madness Conference speakers and more.
+        </p>
+      </div>
+    </div>
+    <form class="row">
+      <div class="col-5">
+        <input type="text" placeholder="Name">
+      </div>
+      <div class="col-5">
+        <input type="email" placeholder="Email Address">
+      </div>
+      <div class="col-2">
+        <input type="submit" class="button button-drkpurple" value="Sign Up">
+      </div>
+    </form>
+  </div>
+</section>
 <?php get_footer();?>

@@ -128,3 +128,38 @@
     margin-bottom: rem(35px);
   }
 }
+
+.newsletter--container{
+  display: block;
+  position: relative;
+  width: 95%;
+  height: auto;
+  margin: 70px auto 0;
+  background: $pink;
+  padding: rem(27px) 0 rem(190px);
+  &:before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: rem(27px);
+    background: url('../img/Chevron-White.png') left top repeat-x;
+    background-size: contain;
+  }
+  &:after{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: rem(120px);
+    background: $pink url('../img/Scribble-Pink-Bg.png') center bottom repeat-x;
+    background-position: 0 0;
+  }
+  h1,p{
+    color: white;
+  }
+}

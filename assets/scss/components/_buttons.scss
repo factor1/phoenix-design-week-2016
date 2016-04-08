@@ -8,6 +8,7 @@
   text-align: center;
   background: none;
   transition: all .3s ease;
+  cursor: pointer;
 }
 
 .button-yellow{
@@ -25,5 +26,14 @@
     &:hover{
       border: 3px solid $purple;
       color: $purple;
+    }
+}
+
+.button-drkpurple{
+  border: 3px solid $drkpurple;
+  color: $drkpurple;
+    &:hover{
+      border: 3px solid white;
+      color: white;
     }
 }
