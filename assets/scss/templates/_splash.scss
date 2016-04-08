@@ -183,6 +183,17 @@
 }
 
 // Media Queries
+
+@media screen and (max-width: rem(960px)){
+  .newsletter--container{
+    form.row{
+      div{
+        flex: 0 0 100%;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: $small-breakpoint){
 
   // Main Container
