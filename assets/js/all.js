@@ -8,7 +8,7 @@ var fancyCalculate = function(){
   translateVal    = ticketHeight/2;
 
   intro.css('padding-bottom', translateVal+40);
-  ticketContainer.css('margin', '-'+translateVal+'px 0 0');
+  ticketContainer.css('margin', '-'+translateVal+'px auto 0');
 
 };
 

@@ -42,6 +42,7 @@
 .tickets--container{
   display: block;
   position: relative;
+  max-width: 95%;
   .container > .row{
     padding: rem(48px) rem(32px) rem(48px) 0;
     background: $purple;
@@ -100,7 +101,8 @@
 .become-sponsor--container{
   display: block;
   position: relative;
-  margin-top: rem(40px);
+  margin: rem(40px) auto 0;
+  max-width: 95%;
   .container > .row{
     padding: rem(40px) 0 rem(48px);
     max-width: rem(1136px);
