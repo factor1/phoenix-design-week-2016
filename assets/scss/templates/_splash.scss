@@ -97,7 +97,7 @@
 }
 
 // Sponsors Container
-.sponsors--container{
+.become-sponsor--container{
   display: block;
   position: relative;
   margin-top: rem(40px);
@@ -134,7 +134,7 @@
   position: relative;
   width: 95%;
   height: auto;
-  margin: 70px auto 0;
+  margin: rem(77px) auto 0;
   background: $pink;
   padding: rem(27px) 0 rem(190px);
   &:before{
@@ -161,5 +161,15 @@
   }
   h1,p{
     color: white;
+  }
+  form{
+    margin: rem(37px) auto 0;
+  }
+}
+
+.sponsors--container{
+  margin: rem(33px) auto;
+  h1{
+    color: $teal;
   }
 }
