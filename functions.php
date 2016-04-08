@@ -4,6 +4,9 @@
 
     // Register Theme Features
     function prelude_features() {
+      // woocommerce
+      add_theme_support( 'woocommerce' );
+      
       // Add theme support for Automatic Feed Links
       add_theme_support( 'automatic-feed-links' );
 
