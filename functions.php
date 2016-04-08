@@ -67,6 +67,11 @@
   add_action( 'wp_enqueue_scripts', 'prelude_theme_scripts' );
 
   /**
+   * Load ACF Tweaks/Options
+   */
+  require get_template_directory() . '/inc/acf.php';
+
+  /**
    * Load menus
    */
   require get_template_directory() . '/inc/menus.php';
