@@ -5,3 +5,19 @@
   background-size: 100%;
   padding: rem(106px) 0 0;
 }
+
+.product--container{
+  padding: rem(28px) 0;
+  background: $yellow;
+    &:before{
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: rem(28px);
+      background: url('../img/Chevron-White.png') left top repeat-x;
+      background-size: contain;
+    }
+}
