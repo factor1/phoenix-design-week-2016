@@ -141,7 +141,7 @@ get_header();
           </div>
         </div>
 
-        <a href="#" class="button button-yellow">
+        <a href="<?php bloginfo('url');?>/product/method-madness-presale-ticket/" class="button button-yellow">
           Buy Tickets
         </a>
       </div>
