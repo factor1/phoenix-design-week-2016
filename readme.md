@@ -34,7 +34,7 @@ repos to easily push code changes.
 
 The **staging** repository can be found at:
 ```
-ssh://user@repourl.com/path/to/repo.git
+ssh://factor1me@factor1.me/home/factor1me/repos/phx-design-week.git
 ```
 The **production** repository can be found at:
 ```
