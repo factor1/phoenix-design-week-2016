@@ -6,7 +6,9 @@
     function prelude_features() {
       // woocommerce
       add_theme_support( 'woocommerce' );
-      
+      // remove breadcrumbs from woocommerce
+      remove_action( 'woocommerce_before_main_content','woocommerce_breadcrumb', 20, 0);
+
       // Add theme support for Automatic Feed Links
       add_theme_support( 'automatic-feed-links' );
 
