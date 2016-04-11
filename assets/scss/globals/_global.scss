@@ -139,3 +139,36 @@ img{
   max-width: 100%;
   height: auto;
 }
+
+// Blockquote Styles
+blockquote{
+  display: block;
+  position: relative;
+  margin: rem(40px) auto 0;
+  max-width: 95%;
+  .container > .row{
+    padding: rem(40px) 0 rem(48px);
+    max-width: rem(1136px);
+    background: $teal;
+    &:after{
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: rem(32px);
+      height: 100%;
+      background: url('../img/Diagonals-Blue.png') repeat;
+      background-size: 100%;
+    }
+  }
+  h1{
+    color: $purple;
+    margin: 0;
+    padding: 0;
+  }
+  p{
+    color: white;
+    margin-bottom: rem(35px);
+  }
+}
