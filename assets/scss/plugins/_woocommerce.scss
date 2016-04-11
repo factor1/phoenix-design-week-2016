@@ -66,6 +66,13 @@
   p, ul, ol{
     font-size: 1rem;
   }
+  .select2-container .select2-choice{
+    height: 45px;
+    padding: 7px 0 0 8px;
+  }
+  .select2-results .select2-result-label{
+    font-size: 1rem;
+  }
 }
 
 // Order Container
