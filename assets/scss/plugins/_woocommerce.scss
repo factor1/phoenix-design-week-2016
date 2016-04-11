@@ -89,6 +89,10 @@
 // Order Container
 #add_payment_method #payment, .woocommerce-checkout #payment{
   background: white;
+  font-size: 1rem;
+  ul,ol,p{
+    font-size: 1rem;
+  }
 }
 
 // Woo Info Containers
