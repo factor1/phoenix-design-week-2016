@@ -37,3 +37,12 @@
       color: white;
     }
 }
+
+.button-pink{
+  border: 3px solid $pink;
+  color: $pink;
+    &:hover{
+      border: 3px solid $purple;
+      color: $purple;
+    }
+}
