@@ -72,6 +72,11 @@
   }
 }
 
+// Submit Buttons
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button{
+  height: 45px;
+}
+
 .select2-results .select2-result-label{
   font-size: 1rem !important;
 }
