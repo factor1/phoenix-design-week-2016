@@ -8,8 +8,11 @@
 
 .product--container{
   position: relative;
-  padding-top: rem(28px);
+  padding-top: rem(60px);
   background: $yellow;
+    h1{
+      color: white;
+    }
     &:before{
       content: '';
       display: block;
@@ -21,4 +24,14 @@
       background: url('../img/Chevron-White.png') left top repeat-x;
       background-size: contain;
     }
+}
+
+// pricing text styles
+.woocommerce div.product p.price, .woocommerce div.product span.price{
+  color: $drkpurple;
+}
+
+// Buy buttons
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt{
+  background: $teal;
 }
