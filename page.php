@@ -10,7 +10,7 @@
 <section class="page--intro">
   <div class="container">
     <div class="row">
-      <div class="col-12 text-center">
+      <div class="col-8 col-centered text-center">
         <img src="<?php bloginfo('template_url');?>/assets/img/phxdw-logo.png" alt="Phoenix Design Week 2016" class="main-logo">
         <h1 class="event-date">
           October 21-28, 2016
