@@ -7,8 +7,8 @@
   padding: rem(106px) 0 0;
 }
 
-// Intro Block & Content
-.intro--block{
+// Intro Block & Content // Also Applies to page--intro on page.php
+.intro--block, .page--intro{
   display: block;
   position: relative;
   width: 95%;
