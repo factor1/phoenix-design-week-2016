@@ -28,7 +28,12 @@
 
 // pricing text styles
 .woocommerce div.product p.price, .woocommerce div.product span.price{
-  color: $drkpurple;
+  color: $pink;
+}
+
+// stock text styles
+.woocommerce div.product .stock{
+  color: $grey;
 }
 
 // Buy buttons
