@@ -90,3 +90,14 @@
 #add_payment_method #payment, .woocommerce-checkout #payment{
   background: white;
 }
+
+// Woo Info Containers
+.woocommerce .woocommerce-info{
+  border-top-color: $purple;
+    &:before{
+      color: $purple;
+    }
+    a{
+      color: $purple;
+    }
+}
