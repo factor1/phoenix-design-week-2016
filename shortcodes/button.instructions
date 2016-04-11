@@ -1,11 +1,11 @@
 <h2>Button Shortcodes</h2>
 <p>
   You can easily add buttons to the page using [button]. For example: <br>
-  <pre>
+
    <code>
     [button url="http://google.com" color="white" text="Hello, World!"]
    </code>
-  </pre>
+
   <br>
   This would output a white button that links to google.com with the text of "Hello, World!".
 </p>
