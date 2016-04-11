@@ -53,6 +53,9 @@
 #customer_details{
   input[type=text], input[type=email]{
     height: 45px;
-    border: 1px solid #666;
+    border: 1px solid #ccc;
+      &:focus{
+        border: 1px solid #666;
+      }
   }
 }
