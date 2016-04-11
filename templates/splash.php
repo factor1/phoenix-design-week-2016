@@ -169,86 +169,11 @@ get_header();
   </div>
 </section>
 
-<?php // Newsletter Container ?>
-<section class="newsletter--container">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h1>
-          Sign Up For Email Alerts
-        </h1>
-        <p>
-          Phoenix Design Week 2016 is just heating up. Be the first to know
-          about PHXDW events, Method + Madness Conference speakers and more.
-        </p>
-      </div>
-    </div>
-    <form class="row">
-      <div class="col-5">
-        <input type="text" placeholder="Name">
-      </div>
-      <div class="col-5">
-        <input type="email" placeholder="Email Address">
-      </div>
-      <div class="col-2">
-        <input type="submit" class="button button-drkpurple" value="Sign Up">
-      </div>
-    </form>
-  </div>
-</section>
+<?php
+// Include Newsletter Part
+get_template_part('parts/newsletter');
 
-<?php // Sponsors Container ?>
-<section class="sponsors--container">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h1>
-          PHXDW Is Made Possible By Generous Sponsors
-        </h1>
-      </div>
-    </div>
+// Include Sponsors Part
+get_template_part('parts/sponsors');
 
-    <?php // Premier Sponsors ?>
-    <div class="row">
-      <div class="col-12 text-center">
-        <h4 class="sponsors--headline">
-          Premier Sponsors
-        </h4>
-      </div>
-    </div>
-    <?php if(have_rows('premier_sponsors', 'option')):?>
-      <div class="row">
-        <?php while(have_rows('premier_sponsors', 'option')): the_row();?>
-          <div class="col-3 text-center sponsors--grid-item">
-            <a href="<?php the_sub_field('sponsor_link');?>" target="_blank">
-              <img src="<?php the_sub_field('sponsor_image');?>" alt="Sponsor Image">
-            </a>
-          </div>
-        <?php endwhile;?>
-      </div>
-    <?php endif;?>
-
-    <?php // Print Sponsors ?>
-    <div class="row">
-      <div class="col-12 text-center">
-        <h4 class="sponsors--headline">
-          Print Sponsors
-        </h4>
-      </div>
-    </div>
-    <?php if(have_rows('print_sponsors', 'option')):?>
-      <div class="row">
-        <?php while(have_rows('print_sponsors', 'option')): the_row();?>
-          <div class="col-3 text-center sponsors--grid-item">
-            <a href="<?php the_sub_field('sponsor_link');?>" target="_blank">
-              <img src="<?php the_sub_field('sponsor_image');?>" alt="Sponsor Image">
-            </a>
-          </div>
-        <?php endwhile;?>
-      </div>
-    <?php endif;?>
-
-  </div>
-</section>
-
-<?php get_footer();?>
+get_footer();?>

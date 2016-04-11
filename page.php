@@ -43,4 +43,10 @@
 <?php endif;?>
 
 <?php
-  get_footer();
+// Include Newsletter Part
+get_template_part('parts/newsletter');
+
+// Include Sponsors Part
+get_template_part('parts/sponsors');
+
+get_footer();
