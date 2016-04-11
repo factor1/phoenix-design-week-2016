@@ -30,5 +30,17 @@
   </div>
 </section>
 
+<?php if(have_posts()):?>
+  <section class="page--content container">
+    <?php while(have_posts()): the_post();?>
+      <div class="row">
+        <article class="col-10 col-centered">
+          <?php the_content();?>
+        </article>
+      </div>
+    <?php endwhile;?>
+  </section>
+<?php endif;?>
+
 <?php
   get_footer();
