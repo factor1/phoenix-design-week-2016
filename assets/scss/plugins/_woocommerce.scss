@@ -108,3 +108,14 @@
       color: $purple;
     }
 }
+
+// Ticket Type Styles
+.woocommerce td.product-name dl.variation dd{
+  padding: 0;
+  margin: 0;
+  p{
+    font-size: 1rem;
+    margin: 0;
+    font-weight: 900;
+  }
+}
