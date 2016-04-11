@@ -20,5 +20,15 @@
   </div>
 </section>
 
+<section class="page--title container">
+  <div class="row">
+    <div class="col-10 col-centered text-center">
+      <h1>
+        <?php the_title();?>
+      </h1>
+    </div>
+  </div>
+</section>
+
 <?php
   get_footer();
