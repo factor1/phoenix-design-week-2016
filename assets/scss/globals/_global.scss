@@ -197,3 +197,10 @@ blockquote{
 .flex-video.vimeo {
   padding-top: 0;
 }
+
+// Media Queries
+@media screen and (max-width: $small-breakpoint){
+  blockquote{
+    padding: 2.5rem 8.3333% 3rem 14%;
+  }
+}
