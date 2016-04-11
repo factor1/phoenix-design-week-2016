@@ -7,20 +7,18 @@
   get_header();
 ?>
 
-  <section class="main-content">
-    <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-      <article id="post-<?php the_ID(); ?>" class="post">
-        <?php if ( has_post_thumbnail() ) {
-          the_post_thumbnail();
-        } ?>
-        <h1><?php the_title(); ?></h1>
-        <?php
-          the_content();
-          edit_post_link( 'Edit this entry.', '<hr><p>', '</p>' );
-        ?>
-      </article>
-    <?php endwhile; endif; ?>
-  </section>
+<section class="page--intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <img src="<?php bloginfo('template_url');?>/assets/img/phxdw-logo.png" alt="Phoenix Design Week 2016" class="main-logo">
+        <h1 class="event-date">
+          October 21-28, 2016
+        </h1>
+      </div>
+    </div>
+  </div>
+</section>
 
 <?php
   get_footer();
