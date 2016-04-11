@@ -13,5 +13,10 @@
   position: relative;
   width: 95%;
   margin: rem(40px) auto rem(75px);
+  padding: rem(40px) 0;
   background: $purple;
+  h1{
+    color: white;
+    margin: 0;
+  }
 }
