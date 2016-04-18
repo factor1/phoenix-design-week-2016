@@ -72,6 +72,11 @@
   }
 }
 
+// Price Variations
+div[itemprop="offers"]{
+  display: none;
+}
+
 // Submit Buttons
 .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button{
   height: 45px;
