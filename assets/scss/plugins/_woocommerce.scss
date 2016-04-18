@@ -144,7 +144,12 @@ div[itemprop="offers"]{
 // Place Order Bottom Container adjustments
 #add_payment_method #payment div.form-row, .woocommerce-checkout #payment div.form-row{
   padding: 0 !important;
-  .woocommerce #payment #place_order, .woocommerce-page #payment #place_order{
-    margin: 0 13px 20px !important;
-  }
+}
+
+.woocommerce #payment #place_order, .woocommerce-page #payment #place_order{
+  margin: 0 13px 20px !important;
+}
+
+#add_payment_method #payment ul.payment_methods, .woocommerce-checkout #payment ul.payment_methods{
+  border-bottom: none;
 }
