@@ -120,9 +120,9 @@ div[itemprop="offers"]{
 
 // Woo Info Containers
 .woocommerce .woocommerce-info{
-  border-top-color: $purple;
+  border-top: none;
     &:before{
-      color: $purple;
+      display: none;
     }
     a{
       color: $purple;
