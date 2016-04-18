@@ -77,6 +77,11 @@ div[itemprop="offers"]{
   display: none;
 }
 
+// Hide Skus
+.sku_wrapper{
+  display: none;
+}
+
 // Submit Buttons
 .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button{
   height: 45px;
