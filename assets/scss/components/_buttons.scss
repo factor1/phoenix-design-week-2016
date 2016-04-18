@@ -42,6 +42,7 @@
   border: 3px solid $pink;
   color: $pink;
     &:hover{
+      background: none;
       border: 3px solid $purple;
       color: $purple;
     }
