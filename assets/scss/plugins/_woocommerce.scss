@@ -42,6 +42,11 @@
 .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt{
   @extend .button;
   @extend .button-pink;
+  display: block;
+  float: none;
+  clear: both;
+  height: auto;
+  margin-top: rem(10px);
 }
 
 // Disabled Buttons
