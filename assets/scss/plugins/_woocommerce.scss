@@ -140,3 +140,11 @@ div[itemprop="offers"]{
     font-weight: 900;
   }
 }
+
+// Place Order Bottom Container adjustments
+.form-row .place-order{
+  padding: 0 !important;
+  .woocommerce #payment #place_order, .woocommerce-page #payment #place_order{
+    margin: 0 13px 20px !important;
+  }
+}
