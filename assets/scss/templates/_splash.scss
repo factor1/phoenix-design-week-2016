@@ -165,6 +165,9 @@
   }
   form{
     margin: rem(37px) auto 0;
+    input[type=text], input[type=email]{
+      width: 98%;
+    }
   }
 }
 
