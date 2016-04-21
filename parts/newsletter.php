@@ -21,7 +21,7 @@
     	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
     </style> -->
     <div id="mc_embed_signup">
-      <form action="//aiga.us5.list-manage.com/subscribe/post?u=fb9deb0302&amp;id=f1592b3c15" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <form action="//aiga.us5.list-manage.com/subscribe/post?u=fb9deb0302&amp;id=f1592b3c15" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate row" target="_blank" novalidate>
         <div class="mc-field-group col-5">
           <input type="text" value="" name="MMERGE5" class="" id="mce-MMERGE5" placeholder="Name">
         </div>
