@@ -139,6 +139,13 @@ div[itemprop="offers"]{
     }
 }
 
+// Added info boxes
+h3#member_number_disclaimer_field {
+	font-family: $proxima;
+	font-weight: normal;
+	font-size: 1.2em;
+}
+
 // Ticket Type Styles
 .woocommerce td.product-name dl.variation dd{
   padding: 0;
