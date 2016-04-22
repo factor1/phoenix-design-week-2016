@@ -188,11 +188,16 @@
   left: 0;
   text-align: center;
   background: $pink;
-  padding: 60px 40;
+  padding: 60px 40px;
   z-index: 999;
   width: 109%;
   height: 116%;
   color: white;
+}
+@media screen and (max-width: 925px){
+  #mce-success-response.response{
+    width: 100%;
+  }
 }
 
 .sponsors--container{
