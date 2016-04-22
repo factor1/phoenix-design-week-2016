@@ -44,6 +44,10 @@ get_header();
           When they're gone, they're gone.
         </span>
         <p>
+          Act fast and get deep discounts now on PHXDW presale tickets! Better
+          yet, <a href="http://www.aiga.org/join/">become an AIGA member</a> for as little as $50/year and save even 
+          more — up to 60% off full-price admission.
+          <br>
           <em>Early Bird tickets inlcude admission to PHXDW Open Party on October 21
           and PHXDW Closing Party on October 28</em>
         </p>
