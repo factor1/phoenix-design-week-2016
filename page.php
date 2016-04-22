@@ -7,20 +7,48 @@
   get_header();
 ?>
 
-  <section class="main-content">
-    <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-      <article id="post-<?php the_ID(); ?>" class="post">
-        <?php if ( has_post_thumbnail() ) {
-          the_post_thumbnail();
-        } ?>
-        <h1><?php the_title(); ?></h1>
-        <?php
-          the_content();
-          edit_post_link( 'Edit this entry.', '<hr><p>', '</p>' );
-        ?>
-      </article>
-    <?php endwhile; endif; ?>
+<section class="page--intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-8 col-centered text-center">
+        <a href="<?php bloginfo('url');?>/">
+          <img src="<?php bloginfo('template_url');?>/assets/img/phxdw-logo.png" alt="Phoenix Design Week 2016" class="main-logo">
+        </a>
+        <h1 class="event-date">
+          October 21-28, 2016
+        </h1>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="page--title container">
+  <div class="row">
+    <div class="col-10 col-centered text-center">
+      <h1>
+        <?php the_title();?>
+      </h1>
+    </div>
+  </div>
+</section>
+
+<?php if(have_posts()):?>
+  <section class="page--content container">
+    <?php while(have_posts()): the_post();?>
+      <div class="row">
+        <article class="col-10 col-centered">
+          <?php the_content();?>
+        </article>
+      </div>
+    <?php endwhile;?>
   </section>
+<?php endif;?>
 
 <?php
-  get_footer();
+// Include Newsletter Part
+get_template_part('parts/newsletter');
+
+// Include Sponsors Part
+get_template_part('parts/sponsors');
+
+get_footer();

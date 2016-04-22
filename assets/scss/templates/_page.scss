@@ -1,0 +1,21 @@
+// Default Page Styles - You can find `.page--intro` in `scss/templates/_splash.scss`
+
+.page-template-default .main--container{
+  min-height: 100vh;
+  background: url('../img/IntroBG.jpg') center top no-repeat;
+  background-size: 100%;
+  padding: rem(106px) 0 0;
+}
+
+// Page Title Container
+.page--title{
+  position: relative;
+  width: 95%;
+  margin: rem(40px) auto rem(75px);
+  padding: rem(40px) 0;
+  background: $purple;
+  h1{
+    color: white;
+    margin: 0;
+  }
+}

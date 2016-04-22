@@ -1,0 +1,49 @@
+// Button Styles
+.button{
+  display: inline-block;
+  position: relative;
+  padding: rem(10px) rem(28px);
+  font: rem(30px) $bebas;
+  text-transform: uppercase;
+  text-align: center;
+  background: none;
+  transition: all .3s ease;
+  cursor: pointer;
+}
+
+.button-yellow{
+  border: 3px solid $yellow;
+  color: $yellow;
+    &:hover{
+      border: 3px solid white;
+      color: white;
+    }
+}
+
+.button-white{
+  border: 3px solid white;
+  color: white;
+    &:hover{
+      border: 3px solid $purple;
+      color: $purple;
+    }
+}
+
+.button-drkpurple{
+  border: 3px solid $drkpurple;
+  color: $drkpurple;
+    &:hover{
+      border: 3px solid white;
+      color: white;
+    }
+}
+
+.button-pink{
+  border: 3px solid $pink;
+  color: $pink;
+    &:hover{
+      background: none;
+      border: 3px solid $purple;
+      color: $purple;
+    }
+}

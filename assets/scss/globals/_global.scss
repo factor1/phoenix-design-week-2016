@@ -17,7 +17,7 @@ html a {
 }
 
 body {
-  font                       : 100%/1.25 arial, helvetica, sans-serif;
+  font                       : 100%/1.25 $proxima;
   min-height                 : 100%;
   overflow-y                 : scroll;
   /* has to be scroll, not auto */
@@ -128,4 +128,79 @@ table tr td {
 
 .float-right {
   float : right;
+}
+
+.main--container{
+  display: block;
+  position: relative;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+// Blockquote Styles
+blockquote{
+  display: block;
+  position: relative;
+  margin: rem(40px) auto 0;
+  padding: rem(40px) 8.3333% rem(48px);
+  max-width: rem(1136px);
+  background: $teal;
+  &:after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: rem(32px);
+    height: 100%;
+    background: url('../img/Diagonals-Blue.png') repeat;
+    background-size: 100%;
+  }
+  h1{
+    color: $ltpurple;
+    margin: 0;
+    padding: 0;
+  }
+  p{
+    color: white;
+    margin-bottom: rem(35px);
+  }
+}
+
+// Flex Video Based on Zurb Foundation
+.flex-video {
+  position: relative;
+  height: 0;
+  padding-bottom: 75%;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+.flex-video iframe,
+.flex-video object,
+.flex-video embed,
+.flex-video video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.flex-video.widescreen {
+  padding-bottom: 56.25%;
+}
+
+.flex-video.vimeo {
+  padding-top: 0;
+}
+
+// Media Queries
+@media screen and (max-width: $small-breakpoint){
+  blockquote{
+    padding: 2.5rem 8.3333% 3rem 14%;
+  }
 }
