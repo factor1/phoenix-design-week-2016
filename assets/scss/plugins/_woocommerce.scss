@@ -74,10 +74,10 @@
       }
   }
   input[type=submit]{
-    -webkit-appearence: none;
+    -webkit-appearence: none !important;
     @extend .button;
     @extend .button-pink;
-    height: auto;
+    height: auto !important;
   }
   label{
     font-size: 1rem;
