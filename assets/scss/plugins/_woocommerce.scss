@@ -70,6 +70,11 @@
         border: 1px solid #666;
       }
   }
+  input[type=submit]{
+    -webkit-appearence: none;
+    @extend .button;
+    @extend .button-pink;
+  }
   label{
     font-size: 1rem;
   }
