@@ -255,11 +255,17 @@
     width: 95%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
     .container{
       > .row{
         padding-left: rem(28px);
       }
     }
+  }
+
+  // Newsletter
+  .newsletter--container{
+    margin-top: 10px;
   }
 
   // Sponsors Grid Item
