@@ -143,7 +143,8 @@ div[itemprop="offers"]{
 
 p[id*="16_attendeecompany_"]{
   border-bottom: 2px solid $purple;
-  margin-bottom: rem(15px);
+  margin-bottom: rem(15px) !important;
+  padding-bottom: rem(22px) !important;
   &:last-of-type{
     border-bottom: none;
   }
