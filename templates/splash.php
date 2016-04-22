@@ -19,7 +19,7 @@ get_header();
           all curated to inspire and strengthen the Phoenix design community.
         </p>
         <p>
-          The highlight of Phoenix Design Week is the Method and Madness
+          The highlight of Phoenix Design Week is the Method + Madness
           Conference, a two-day conference organized by community volunteers
           that features world-class speakers and local experts imparting
           actionable insights, hands-on education and a fiery passion for their
