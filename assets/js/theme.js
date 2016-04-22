@@ -14,4 +14,9 @@ var fancyCalculate = function(){
 
 jQuery( document ).ready(function( $ ) {
   fancyCalculate();
+
+  $('.close-icon').click(function(){
+    var $this = $(this);
+    $this.parent().css('display','none');
+  });
 });
