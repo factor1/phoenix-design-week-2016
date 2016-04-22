@@ -288,6 +288,11 @@
     margin-top: 10px;
   }
 
+  .newsletter--container form input[type=text], .newsletter--container form input[type=email]{
+    width: 91%;
+    margin: 0 auto rem(15px);
+  }
+
   // Sponsors Grid Item
   .sponsors--grid-item{
     flex: 0 0 50%;
