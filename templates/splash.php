@@ -158,7 +158,7 @@ get_header();
           Become A Sponsor
         </h1>
         <p>
-          Support the most celebrated event in the Phoenix design community, and
+          Support the most celebrated event in the Arizona design community, and
           hundreds of creative professionals will take notice.
         </p>
         <a href="http://factor1.me/2016/phxdw/wp-content/uploads/2016/04/phxdw-2016-sponsorship-packet-041416.pdf" class="button button-white">
