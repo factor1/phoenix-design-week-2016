@@ -1,5 +1,5 @@
 <?php // Sponsors Container ?>
-<section class="sponsors--container">
+<section class="sponsors--container" style="display:none;">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
