@@ -142,7 +142,11 @@ div[itemprop="offers"]{
 }
 
 p[id*="16_attendeecompany_"]{
-  border-top: 2px solid $purple;
+  border-bottom: 2px solid $purple;
+  margin-bottom: rem(15px);
+  &:last-of-type{
+    border-bottom: none;
+  }
 }
 
 // Place Order Bottom Container adjustments
