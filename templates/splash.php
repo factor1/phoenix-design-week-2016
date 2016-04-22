@@ -35,7 +35,7 @@ get_header();
   <div class="container">
     <div class="row">
       <div class="col-6 text-center">
-        <img src="<?php bloginfo('template_url');?>/assets/img/presale.png" alt="Pre-sale Tickets">
+        <img src="<?php bloginfo('template_url');?>/assets/img/earl-bird.png" alt="Pre-sale Tickets">
         <h2>Method + Madness Conference<br>October 22-23, 2016</h2>
       </div>
       <div class="col-6">
