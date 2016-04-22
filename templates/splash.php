@@ -37,7 +37,7 @@ get_header();
       <div class="col-6 text-center">
         <img src="<?php bloginfo('template_url');?>/assets/img/early-bird.png" alt="Pre-sale Tickets">
         <h2>Method + Madness Conference<br>October 22-23, 2016</h2>
-        <p>
+        <p class="tickets--disclaimer">
           <em>Early Bird tickets inlcude admission to PHXDW Open Party on October 21
           and PHXDW Closing Party on October 28</em>
         </p>
