@@ -83,8 +83,9 @@
 }
 
 .tickets--disclaimer{
-  font-size: 0.90rem;
-  color: $teal;
+  font-size: 1.25rem;
+  color: $teal !important;
+  line-height: 1.5rem !important;
 }
 
 // Pricing Table
