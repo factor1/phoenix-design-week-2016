@@ -37,6 +37,10 @@ get_header();
       <div class="col-6 text-center">
         <img src="<?php bloginfo('template_url');?>/assets/img/early-bird.png" alt="Pre-sale Tickets">
         <h2>Method + Madness Conference<br>October 22-23, 2016</h2>
+        <p>
+          <em>Early Bird tickets inlcude admission to PHXDW Open Party on October 21
+          and PHXDW Closing Party on October 28</em>
+        </p>
       </div>
       <div class="col-6">
         <span>
@@ -45,11 +49,8 @@ get_header();
         </span>
         <p>
           Act fast and get deep discounts now on PHXDW presale tickets! Better
-          yet, <a href="http://www.aiga.org/join/">become an AIGA member</a> for as little as $50/year and save even 
+          yet, <a href="http://www.aiga.org/join/">become an AIGA member</a> for as little as $50/year and save even
           more — up to 60% off full-price admission.
-          <br>
-          <em>Early Bird tickets inlcude admission to PHXDW Open Party on October 21
-          and PHXDW Closing Party on October 28</em>
         </p>
 
         <?php // Pricing Table ?>
