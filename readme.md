@@ -36,10 +36,8 @@ The **staging** repository can be found at:
 ```
 ssh://factor1me@factor1.me/home/factor1me/repos/phx-design-week.git
 ```
-The **production** repository can be found at:
-```
-ssh://user@repourl.com/path/to/repo.git
-```
+The **production** repository is pushed via Master branch on github through the FTPloy.com system
+
 
 ## Contact
 For repository questions or issues contact [Eric Stout](mailto:eric@factor1studios.com) or
