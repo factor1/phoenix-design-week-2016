@@ -44,7 +44,7 @@ get_header();
           When they're gone, they're gone.
         </span>
         <p>
-          Pre-sale tickets are now on sale—act fast for deep discounts! For a
+          Early Bird tickets are now on sale—act fast for deep discounts! For a
           limited time, become an AIGA member and save up to 60% off full
           price non-member admission.
         </p>
