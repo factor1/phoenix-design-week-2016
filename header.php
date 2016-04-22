@@ -17,18 +17,12 @@
   <?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
 
   <?php wp_head(); ?>
+
+  <!-- Typekit -->
+  <script src="https://use.typekit.net/hbk2blk.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
 <body <?php body_class(); ?>>
 
-  <header><!-- Header -->
-    <h1 class="logo">
-      <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
-    </h1>
-    <nav class="main-nav">
-      <?php wp_nav_menu( array('theme_location' => 'primary') ); ?>
-    </nav>
-    <?php get_search_form(); ?>
-  </header>
-
   <?php // Main Content ?>
-  <main>
+  <main class="main--container">

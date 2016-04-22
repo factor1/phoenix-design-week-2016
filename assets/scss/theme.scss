@@ -7,7 +7,16 @@
   - Parts
   - Components
 -----------------------------------------------------------------------------*/
-// import the Sass partials in the order that you need here
+// Vendor
+// ginger
+@import 'settings/ginger-settings';
+@import 'ginger';
+
+// sugar
+@import 'sugar';
+
+// fonts
+@import 'globals/fonts';
 
 // Variables
 @import 'settings/variables';
@@ -21,6 +30,13 @@
 @import 'components/social-menu';
 @import 'components/header';
 @import 'components/footer';
+@import 'components/buttons';
+@import 'components/forms';
 
 // Plugin Overrides
 @import 'plugins/overrides';
+@import 'plugins/woocommerce';
+
+// Templates
+@import 'templates/splash';
+@import 'templates/page';

@@ -2,8 +2,61 @@
   Typography
 ------------------------------------------------------------------------------*/
 
+h1,h2,h3,h4,h5{
+  font-family: $bebas;
+}
+
+h1{
+  font-size: rem(60px);
+  text-transform: uppercase;
+}
+
+h2{
+  font-size: rem(40px);
+  text-transform: uppercase;
+  color: $purple;
+}
+
+h3{
+  font-size: rem(25px);
+  text-transform: uppercase;
+  color: $purple;
+}
+
+h4{
+  font-size: rem(24px);
+  text-transform: uppercase;
+  color: $purple;
+}
+
+h4.sponsors--headline{
+  font: rem(27px) $proxima;
+  color: $grey;
+}
+
+h5{
+  font-size: rem(23px);
+  text-transform: uppercase;
+  color: $purple;
+}
+
+p, ul, ol{
+  font: rem(22px) $proxima;
+  color: $black;
+}
+
 // Links
 a,
 a:visited {
   text-decoration : none;
+}
+
+// Media Queries
+@media screen and (max-width: $small-breakpoint){
+  h1{
+    font-size: rem(40px);
+  }
+  h2{
+    font-size: rem(30px);
+  }
 }

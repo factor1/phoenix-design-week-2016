@@ -4,6 +4,11 @@
 
     // Register Theme Features
     function prelude_features() {
+      // woocommerce
+      add_theme_support( 'woocommerce' );
+      // remove breadcrumbs from woocommerce
+      remove_action( 'woocommerce_before_main_content','woocommerce_breadcrumb', 20, 0);
+
       // Add theme support for Automatic Feed Links
       add_theme_support( 'automatic-feed-links' );
 
@@ -65,6 +70,11 @@
     wp_enqueue_script('prelude-js', get_template_directory_uri() . '/assets/js/theme.min.js', array(), '', true );
   }
   add_action( 'wp_enqueue_scripts', 'prelude_theme_scripts' );
+
+  /**
+   * Load ACF Tweaks/Options
+   */
+  require get_template_directory() . '/inc/acf.php';
 
   /**
    * Load menus

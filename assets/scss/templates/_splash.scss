@@ -1,0 +1,291 @@
+// Splash Page Styles
+
+.page-template-splash .main--container{
+  min-height: 100vh;
+  background: url('../img/IntroBG.jpg') center top no-repeat;
+  background-size: 100%;
+  padding: rem(106px) 0 0;
+}
+
+// Intro Block & Content // Also Applies to page--intro on page.php
+.intro--block, .page--intro{
+  display: block;
+  position: relative;
+  width: 95%;
+  height: auto;
+  margin: 0 auto;
+  padding: rem(28px) 0;
+  background: $yellow;
+    &:before{
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: rem(28px);
+      background: url('../img/Chevron-White.png') left top repeat-x;
+      background-size: contain;
+    }
+    h1.event-date{
+      font-size: rem(50px);
+      color: white;
+      letter-spacing: .8rem;
+    }
+}
+
+.main-logo{
+  margin-top: rem(85px);
+}
+
+// Tickets Container
+.tickets--container{
+  display: block;
+  position: relative;
+  max-width: 95%;
+  .container > .row{
+    padding: rem(48px) rem(32px) rem(48px) 0;
+    background: $purple;
+    max-width: rem(1136px);
+      &:after{
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: rem(32px);
+        height: 100%;
+        background: url('../img/Diagonals-Teal.png') repeat;
+        background-size: 100%;
+      }
+  }
+  h2{
+    font-size: rem(40px);
+    color: $teal;
+    padding: 0;
+    margin: rem(40px) 0 0;
+    line-height: rem(40px);
+  }
+  img{
+    width: 387px;
+  }
+  span{
+    display: block;
+    font-size: rem(27px);
+    text-transform: uppercase;
+    color: white;
+    line-height: rem(27px);
+  }
+  p{
+    color: white;
+    line-height: rem(28px);
+  }
+  a{
+    color: $yellow;
+  }
+}
+
+.tickets--disclaimer{
+  font-size: 1.25rem;
+  color: $teal !important;
+  line-height: 1.5rem !important;
+}
+
+// Pricing Table
+.pricing-table--container{
+  margin: rem(30px) 0;
+  .row{
+    padding: 0;
+    div:first-of-type{
+      padding-left: 0;
+    }
+  }
+  p{
+    margin: 0;
+    padding: 0;
+  }
+}
+
+// Sponsors Container
+.become-sponsor--container{
+  display: block;
+  position: relative;
+  margin: rem(40px) auto 0;
+  max-width: 95%;
+  .container > .row{
+    padding: rem(40px) 0 rem(48px);
+    max-width: rem(1136px);
+    background: $teal;
+    &:after{
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: rem(32px);
+      height: 100%;
+      background: url('../img/Diagonals-Blue.png') repeat;
+      background-size: 100%;
+    }
+  }
+  h1{
+    color: $pink;
+    margin: 0;
+    padding: 0;
+  }
+  p{
+    color: white;
+    margin-bottom: rem(35px);
+  }
+}
+
+.newsletter--container{
+  display: block;
+  position: relative;
+  width: 95%;
+  height: auto;
+  margin: rem(77px) auto 0;
+  background: $pink;
+  padding: rem(27px) 0 rem(190px);
+  &:before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: rem(27px);
+    background: url('../img/Chevron-White.png') left top repeat-x;
+    background-size: contain;
+  }
+  &:after{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: rem(120px);
+    background: $pink url('../img/Scribble-Pink-BG.png') center bottom repeat-x;
+    background-position: 0 0;
+  }
+  h1,p{
+    color: white;
+  }
+  form{
+    margin: rem(37px) auto 0;
+    input[type=text], input[type=email]{
+      width: 98%;
+      margin: 0 auto rem(15px);
+    }
+  }
+}
+
+// Mail Chimp Newsletter override
+#mce-success-response.response{
+  position: absolute;
+  display: block;
+  top: -30px;
+  left: 0;
+  text-align: center;
+  background: $pink;
+  padding: 60px 40px;
+  z-index: 999;
+  width: 109%;
+  height: 116%;
+  color: white;
+}
+@media screen and (max-width: 925px){
+  #mce-success-response.response{
+    width: 100%;
+  }
+}
+
+.sponsors--container{
+  margin: rem(33px) auto;
+  h1{
+    color: $teal;
+  }
+  img{
+    width: rem(172px);
+  }
+}
+
+.sponsors--grid-item{
+  margin-bottom: rem(30px);
+}
+
+
+// Media Queries
+
+@media screen and (max-width: rem(960px)){
+  .newsletter--container{
+    form.row{
+      div{
+        flex: 0 0 100%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $small-breakpoint){
+
+  // Main Container
+  .page-template-splash .main--container{
+    padding: rem(20px) 0 0;
+  }
+
+  // Tickets Container
+  .tickets--container{
+    width: 95%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center;
+      .container{
+        .row .col-6:nth-child(2){
+          margin-top: rem(30px);
+          .text-left{
+            text-align: center;
+          }
+        }
+      }
+      // Pricing Table
+      .pricing-table--container{
+        .row{
+          margin-bottom: rem(35px);
+          div:first-of-type{
+            padding-left: $col-padding;
+          }
+        }
+      }
+  }
+
+  // Become a Sponsor
+  .become-sponsor--container{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    .container{
+      > .row{
+        padding-left: rem(28px);
+      }
+    }
+  }
+
+  // Newsletter
+  .newsletter--container{
+    margin-top: 10px;
+  }
+
+  .newsletter--container form input[type=text], .newsletter--container form input[type=email]{
+    width: 91%;
+    margin: 0 auto rem(15px);
+  }
+
+  // Sponsors Grid Item
+  .sponsors--grid-item{
+    flex: 0 0 50%;
+  }
+
+}

@@ -2,7 +2,7 @@
   Gulpfile.js
 ------------------------------------------------------------------------------*/
 // Name your theme - this is outputted only when packaging your project.
-var theme        = 'your-theme-name';
+var theme        = 'phx-design-week';
 
 // Set the paths you will be working with
 var phpFiles     = ['./**/*.php', './*.php'],
@@ -13,7 +13,7 @@ var phpFiles     = ['./**/*.php', './*.php'],
     jsFiles      = ['./assets/js/theme.js'],
     imageFiles   = ['./assets/img/*.{jpg,png,gif}'],
     concatFiles  = ['./assets/js/*.js', '!./assets/js/theme.min.js', '!./assets/js/all.js'],
-    url          = 'your-local-virtual-host'; // See https://browsersync.io/docs/options/#option-proxy
+    url          = 'phxdw:8888'; // See https://browsersync.io/docs/options/#option-proxy
 
 // Include gulp
 var gulp         = require('gulp');
@@ -50,7 +50,12 @@ gulp.task('sass', function() {
   return gulp.src( sassFiles )
     .pipe(sourcemaps.init())
       .pipe(plumber())
-      .pipe(sass())
+      .pipe(sass({
+        includePaths: [
+          './node_modules/ginger-grid/',
+          './bower_components/sugar/'
+        ]
+      }))
       .pipe(autoprefixer({
         browsers: ['last 2 versions'],
         cascade: false
@@ -134,13 +139,12 @@ gulp.task('styles', ['minify-css']);
   Default Tasks
 ------------------------------------------------------------------------------*/
 // Default Task
-gulp.task('default', ['sass', 'scripts', 'images', 'serve', 'watch']);
+gulp.task('default', ['sass', 'scripts', 'serve', 'watch']);
 
 // Watch Files For Changes
 gulp.task('watch', function() {
   gulp.watch( styleFiles, ['styles']);
   gulp.watch( jsFiles, ['scripts']);
-  gulp.watch( imageFiles, ['images'], browserSync.reload );
   gulp.watch( phpFiles, browserSync.reload );
   gulp.watch( htmlFiles, browserSync.reload );
 });

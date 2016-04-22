@@ -1,0 +1,19 @@
+// Form Styles
+
+input[type=text], input[type=email]{
+  display: block;
+  position: relative;
+  margin: 0 0 rem(15px);
+  width: 100%;
+  height: rem(68px);
+  vertical-align: middle;
+  background: white;
+  border: none;
+  padding: 0 rem(24px);
+  font: rem(22px) $proxima;
+  color: $black;
+}
+
+input[type=submit]{
+  height: rem(68px);
+}

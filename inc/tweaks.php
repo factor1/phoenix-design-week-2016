@@ -95,3 +95,6 @@
 
   // Customize the Yoast SEO columns
   add_filter( 'wpseo_use_page_analysis', '__return_false' );
+
+  // Lets make some shortcodes
+  include(get_template_directory().'/shortcode_maker.php');
