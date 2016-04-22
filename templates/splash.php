@@ -14,9 +14,9 @@ get_header();
         </h1>
         <p>
           Every year, Phoenix Design Week brings together hundreds of creative
-          professionals and students from across the Valley for a week-long
+          professionals and students from across Arizona for a week-long
           celebration of design—a series of presentations, workshops and events,
-          all curated to inspire and strengthen the Phoenix design community.
+          all curated to inspire and strengthen the Arizona design community.
         </p>
         <p>
           The highlight of Phoenix Design Week is the Method + Madness
