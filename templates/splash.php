@@ -44,9 +44,8 @@ get_header();
           When they're gone, they're gone.
         </span>
         <p>
-          Early Bird tickets are now on sale—act fast for deep discounts! For a
-          limited time, become an AIGA member and save up to 60% off full
-          price non-member admission.
+          <em>Early Bird tickets inlcude admission to PHXDW Open Party on October 21
+          and PHXDW Closing Party on October 28</em>
         </p>
 
         <?php // Pricing Table ?>
