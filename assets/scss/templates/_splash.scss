@@ -180,6 +180,20 @@
   }
 }
 
+// Mail Chimp Newsletter override
+#mce-success-response.response{
+  position: absolute;
+  display: block;
+  top: -21px;
+  left: 0;
+  text-align: center;
+  background: $pink;
+  padding: 40px;
+  z-index: 999;
+  width: 108%;
+  color: white;
+}
+
 .sponsors--container{
   margin: rem(33px) auto;
   h1{
