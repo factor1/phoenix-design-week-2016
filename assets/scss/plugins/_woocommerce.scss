@@ -141,6 +141,10 @@ div[itemprop="offers"]{
   }
 }
 
+div[class*='16_attendeecompany_']{
+  border-top: 2px solid $purple;
+}
+
 // Place Order Bottom Container adjustments
 #add_payment_method #payment div.form-row, .woocommerce-checkout #payment div.form-row{
   padding: 0 !important;
