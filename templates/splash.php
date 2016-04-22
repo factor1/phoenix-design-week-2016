@@ -43,7 +43,7 @@ get_header();
       </div>
       <div class="col-6">
         <span>
-          <strong>Only 100 Early Bird tickets available</strong><br>
+          <strong>100 Early Bird tickets available</strong><br>
           When they're gone, they're gone.
         </span>
         <p>
