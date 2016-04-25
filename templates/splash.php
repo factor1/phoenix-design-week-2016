@@ -144,7 +144,7 @@ get_header();
           </div>
         </div>
 
-        <a href="<?php bloginfo('url');?>/product/method-madness-early-bird-ticket/" class="button button-yellow">
+        <a href="http://phxdwmethodmadness2016.eventbrite.com" class="button button-yellow">
           Buy Tickets
         </a>
       </div>
