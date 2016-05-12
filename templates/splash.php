@@ -164,7 +164,7 @@ get_header();
           Support the most celebrated event in the Arizona design community, and
           hundreds of creative professionals will take notice.
         </p>
-        <a href="http://factor1.me/2016/phxdw/wp-content/uploads/2016/04/phxdw-2016-sponsorship-packet-041416.pdf" class="button button-white">
+        <a href="<?php the_field( "sponsor_pdf" ); ?>" class="button button-white">
           Learn More
         </a>
       </div>
