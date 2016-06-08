@@ -13,11 +13,11 @@
   "author": "Eric Stout/Factor1 <factor1studios.com>",
   "license": "MIT",
   "dependencies": {
-    "ginger-grid": "^1.1.0",
+    "ginger-grid": "^1.1.3",
     "prelude-wp": "^3.1.6"
   },
   "repository": {
-    "type": "git"
-  , "url": "https://github.com/factor1/phoenix-design-week-2016.git"
+    "type": "git",
+    "url": "https://github.com/factor1/phoenix-design-week-2016.git"
   }
 }
