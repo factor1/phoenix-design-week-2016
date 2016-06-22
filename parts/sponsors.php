@@ -18,7 +18,7 @@
       </div>
     </div>
     <?php if(have_rows('premier_sponsors', 'option')):?>
-      <div class="row">
+      <div class="row row--justify-content-center">
         <?php while(have_rows('premier_sponsors', 'option')): the_row();?>
           <div class="col-3 text-center sponsors--grid-item">
             <a href="<?php the_sub_field('sponsor_link');?>" target="_blank">
@@ -38,7 +38,7 @@
       </div>
     </div>
     <?php if(have_rows('print_sponsors', 'option')):?>
-      <div class="row">
+      <div class="row row--justify-content-center">
         <?php while(have_rows('print_sponsors', 'option')): the_row();?>
           <div class="col-3 text-center sponsors--grid-item">
             <a href="<?php the_sub_field('sponsor_link');?>" target="_blank">
