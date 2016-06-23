@@ -26,3 +26,15 @@
 
   <?php // Main Content ?>
   <main class="main--container">
+  
+  <header>
+		<div class="row">
+				<h1 class="branding"><a href="">PHonix Design Week</a></h1>
+				
+				<h2>Phoenix Design Week   ||   October 21-28, 2016</h2>
+				
+				<a href="" class="buynow">Buy Method + Madness Tickets</a>
+				
+				<a id="nifty-nav-toggle"><span></span></a>
+		</div>
+  </header>
