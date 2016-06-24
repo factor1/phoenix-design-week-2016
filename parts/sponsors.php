@@ -13,7 +13,7 @@
     <div class="row">
       <div class="col-12 text-center">
         <h4 class="sponsors--headline">
-          Premier Sponsors
+          Premier Print Sponsors
         </h4>
       </div>
     </div>
