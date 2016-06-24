@@ -1,3 +1,75 @@
 /*------------------------------------------------------------------------------
   Header
 ------------------------------------------------------------------------------*/
+
+$header-height: 67px;
+
+header {
+	background: #fff;
+	height: $header-height;
+	width: 100%;
+	overflow-y: visible;
+	z-index: 10;
+	
+	h1.branding, h1.branding a {
+		text-indent: -10000px;
+		display: block;
+		height: 235px;
+		width: 245px;
+		background: pattern(diagonals-tight,teal);
+		background-size: 20%;
+		margin: 0 25px 0 0;
+		padding: 0;
+		float: left; 
+		
+		span {
+			display: block;
+			height: 210px;
+			width:225px;
+			background-color: $teal;
+			background-image: url(../img/logos/logo-random.php);
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: 85%;
+		} // end span
+	} // end h1.brand
+	
+	h2 {
+		color: $teal;
+		font-size: 24px;
+		padding: 10px 20px;
+		margin: 0;
+		display: block;
+		float: left;
+		
+	}
+	
+	
+	.buynow, .buynow:visited {
+		background: $purple;
+		color: #fff;
+		height: $header-height;
+		font-family: $bebas;
+		font-size: 24px;
+		text-transform: uppercase;
+		&:hover {
+			background: $yellow;
+			color: $purple;
+		}// end hover
+	}// end buynow
+	
+	
+	.col-1 {
+		position: relative;
+		background: $teal;
+		height: $header-height;
+		}
+	
+	#nifty-nav-toggle {
+		display: block;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	} // end togle
+	
+}// end header

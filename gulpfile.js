@@ -53,7 +53,8 @@ gulp.task('sass', function() {
       .pipe(sass({
         includePaths: [
           './node_modules/ginger-grid/',
-          './bower_components/sugar/'
+          './bower_components/sugar/',
+           './bower_components/nifty-nav/src/'
         ]
       }))
       .pipe(autoprefixer({

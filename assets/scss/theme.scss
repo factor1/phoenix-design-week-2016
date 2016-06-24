@@ -20,6 +20,12 @@
 
 // Variables
 @import 'settings/variables';
+@import 'settings/mixins';
+@import 'settings/functions';
+@import 'settings/niftynav';
+
+// Niftynav
+@import 'scss/nifty-nav';
 
 // Global Styles
 @import 'globals/global';
@@ -37,6 +43,8 @@
 @import 'plugins/overrides';
 @import 'plugins/woocommerce';
 
+
 // Templates
 @import 'templates/splash';
 @import 'templates/page';
+@import 'templates/home';

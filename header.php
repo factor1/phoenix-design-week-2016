@@ -27,14 +27,18 @@
   <?php // Main Content ?>
   <main class="main--container">
   
-  <header>
+  <header class="container">
 		<div class="row">
-				<h1 class="branding"><a href="">PHonix Design Week</a></h1>
-				
+			<div class="col-8" style="padding-left:0px;">
+				<h1 class="branding"><a href=""><span>Phonix Design Week</span></a></h1>
 				<h2>Phoenix Design Week   ||   October 21-28, 2016</h2>
+			</div>
 				
-				<a href="" class="buynow">Buy Method + Madness Tickets</a>
-				
-				<a id="nifty-nav-toggle"><span></span></a>
+			<a href="" class="col-3 buynow">
+				Buy Method + Madness Tickets
+			</a>
+			<div class="col-1">
+				<a id="nifty-nav-toggle" ><span></span></a>
+			</div>
 		</div>
   </header>
