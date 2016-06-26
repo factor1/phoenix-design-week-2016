@@ -124,7 +124,7 @@ get_header();
           <div class="row">
             <div class="col-5">
               <p>
-                Student
+                Student/Educator
               </p>
             </div>
             <div class="col-3 text-left">
