@@ -67,7 +67,7 @@
 <section class="container home-sponsor">
 	<div class="row text-center">
 		<h3>Become a sponsor</h3>
-		<p>Invest in the most celebrated event in the Arizona design community, and hundreds of creative professionals will take notice./p>
+		<p>Invest in the most celebrated event in the Arizona design community, and hundreds of creative professionals will take notice.</p>
 		<a href="#" class="button white">See sponsorship opportunities</a>
 	</div>
 </section>
