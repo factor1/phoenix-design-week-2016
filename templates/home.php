@@ -30,7 +30,12 @@
 		
 		<?php // Left Col, Spans the next col splits top and bottom ?>
 		<div class="col-6">
-	     	<?php the_content();?>
+		
+			<?php if(have_posts()): 
+				while(have_posts()): the_post();
+					the_content();
+		     	endwhile; 
+		     	endif ?>
 	    </div>
 	    
 	    <?php // Right Col, Splits top and bottom ?>
