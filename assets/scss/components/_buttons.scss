@@ -47,3 +47,28 @@
       color: $purple;
     }
 }
+
+
+
+// Buttons
+
+.button {
+	display: block;
+	font-family: $bebas;
+	font-size: 24px;
+	text-transform: uppercase;
+	padding: 25px 35px;
+	
+	&.white 		{background: #fff;}
+	&.yellow 	{background: $yellow;}
+	&.ltpurple	{background: $ltpurple;}
+	&.purple		{background: $purple;}
+	&.drkpurple	{background: $drkpurple;}
+	&.pink		{background: $pink;}
+	&.teal		{background: $teal;}
+
+}
+
+
+
+	

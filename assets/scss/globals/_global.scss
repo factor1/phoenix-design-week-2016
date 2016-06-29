@@ -246,6 +246,25 @@ blockquote{
 }
 
 
+
+// Text color
+	
+	
+.text-white 		{color: #fff;}
+.text-yellow 		{color: $yellow;}
+.text-ltpurple		{color: $ltpurple;}
+.text-purple		{color: $purple;}
+.text-drkpurple		{color: $drkpurple;}
+.text-pink			{color: $pink;}
+.text-teal			{color: $teal;}
+
+
+
+// Text alignments 
+.text-center 	{text-align: center;}
+.text-right		{text-align: right;}
+
+
 // Media Queries
 @media screen and (max-width: $small-breakpoint){
   blockquote{
