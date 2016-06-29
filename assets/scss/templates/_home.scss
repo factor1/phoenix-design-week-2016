@@ -1,3 +1,4 @@
+//Home hero
 .home-hero {
 	background: $purple url(../img/patterns/line-shape-pattern-purple-bg-tile.png) repeat;
 	background-size: 50%;
@@ -9,3 +10,55 @@
 	}// end hero-content
 	
 }// end home-hero
+
+
+
+
+
+
+// Home Intros
+.home-intros {
+	.home-thecontent {
+		background: $purple;
+		padding: 65px 0;
+		p {color: #fff;}
+	} // End /home-thecontent
+	
+	
+	.home-splits {
+		.home-cta-top {
+			background: #fff;
+			
+			h3 {color: $pink;}
+			p {color: $grey}
+		} // End home-cta-top
+		
+		.home-cta-bottom {
+			background: $teal;
+			h3 {color: #fff;}
+			p {color: #fff}
+		} // End home-cta-bottom
+		
+	}// End home-splits
+}// End home-intro
+
+
+
+
+// home-sponsor
+.home-sponsor {
+	background: $pink url(../img/photos/0067-purple-pink.jpg) center center no-repeat;
+	background-size: cover;
+	color: #fff;
+	padding: 75px 0;
+	position: relative;
+	
+	&:after {
+		height: 30px;
+		width: 100%;
+		background: pattern(circles,yellow);
+		position: absolute;
+		bottom: 0px;
+		z-index: 10;
+		}	
+} // End home-sponsor

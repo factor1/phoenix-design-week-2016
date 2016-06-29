@@ -29,7 +29,7 @@
 	<div class="row">
 		
 		<?php // Left Col, Spans the next col splits top and bottom ?>
-		<div class="col-6">
+		<div class="col-6 home-thecontent">
 		
 			<?php if(have_posts()): 
 				while(have_posts()): the_post();
@@ -39,7 +39,7 @@
 	    </div>
 	    
 	    <?php // Right Col, Splits top and bottom ?>
-	    <div class="col-6">
+	    <div class="col-6 home-splits">
 	    	<div class="home-cta-top">
 		    	<h3>Attend the Method + Madness Conference</h3>
 		    	<p>Check out this year’s speakers and reserve your spot now!</p>
@@ -49,7 +49,7 @@
 	    	<div class="home-cta-bottom">
 		    	<h3>See all Phoenix Design Week events</h3>
 		    	<p>There are design events all week across the city.</p>
-		    	<a href="#" class="button purple">SSEE THE EVENT SCHEDULE</a>
+		    	<a href="#" class="button purple">SEE THE EVENT SCHEDULE</a>
 	    	</div>
 	      
 	    </div>
