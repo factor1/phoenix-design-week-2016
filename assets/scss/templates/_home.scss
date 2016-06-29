@@ -63,6 +63,8 @@
 		background: pattern(circles,yellow);
 		position: absolute;
 		bottom: 0px;
-		z-index: 10;
+		z-index: 100;
+		content: '';
+		display: block;
 		}	
 } // End home-sponsor
