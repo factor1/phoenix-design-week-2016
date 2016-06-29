@@ -1,3 +1,14 @@
+<!--
+Title Sponsor - Limit 1
+Premier Sponsor - Limit 5
+Leadership Sponsor 
+Industry Sponsor
+Agency Sponsor
+-->
+
+
+
+
 <?php // Sponsors Container ?>
 <section class="sponsors--container">
   <div class="container">

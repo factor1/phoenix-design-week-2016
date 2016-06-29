@@ -11,9 +11,9 @@
 //============ ** ============ //?>
 
 <section class="home-hero container">
-	<div class="row hero-content">
-		<h1>PHOENIX DESIGN WEEK IS COMING</h1>
-		<h3>October 22-28, 2016  •  Phoenix Design Week 2016</h3>
+	<div class="row hero-content text-center">
+		<h1 class="text-white">PHOENIX DESIGN WEEK IS COMING</h1>
+		<h3 class="text-white">October 22-28, 2016  •  Phoenix Design Week 2016</h3>
 	</div>
 </section>
 
@@ -66,8 +66,8 @@
 
 <section class="container home-sponsor">
 	<div class="row text-center">
-		<h3>Become a sponsor</h3>
-		<p>Invest in the most celebrated event in the Arizona design community, and hundreds of creative professionals will take notice.</p>
+		<h3 class="text-white">Become a sponsor</h3>
+		<p class="text-white">Invest in the most celebrated event in the Arizona design community, and hundreds of creative professionals will take notice.</p>
 		<a href="#" class="button white text-pink">See sponsorship opportunities</a>
 	</div>
 </section>
