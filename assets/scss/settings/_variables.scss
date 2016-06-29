@@ -22,3 +22,36 @@ $black:       #333333;
 
 
 
+// Buttons
+
+.button {
+	display: block;
+	font-family: $bebas;
+	font-size: 24px;
+	text-transform: uppercase;
+	padding: 25px 35px;
+	
+	.white 		{background: #fff;}
+	.yellow 	{background: $yellow;}
+	.ltpurple	{background: $ltpurple;}
+	.purple		{background: $purple;}
+	.drkpurple	{background: $drkpurple;}
+	.pink		{background: $pink;}
+	.teal		{background: $teal;}
+
+}
+
+
+// Text color
+	
+	
+.text-white 		{color: #fff;}
+.text-yellow 		{color: $yellow;}
+.text-ltpurple		{color: $ltpurple;}
+.text-purple		{color: $purple;}
+.text-drkpurple		{color: $drkpurple;}
+.text-pink			{color: $pink;}
+.text-teal			{color: $teal;}
+	
+	
+	

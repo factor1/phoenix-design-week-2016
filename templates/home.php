@@ -41,15 +41,15 @@
 	    <?php // Right Col, Splits top and bottom ?>
 	    <div class="col-6 home-splits">
 	    	<div class="home-cta-top">
-		    	<h3>Attend the Method + Madness Conference</h3>
+		    	<h3 style="text-pink">Attend the Method + Madness Conference</h3>
 		    	<p>Check out this year’s speakers and reserve your spot now!</p>
-		    	<a href="#" class="button pink">LEARN MORE ABOUT M + M</a>
+		    	<a href="#" class="button pink text-white">LEARN MORE ABOUT M + M</a>
 	    	</div>
 	    	
 	    	<div class="home-cta-bottom">
-		    	<h3>See all Phoenix Design Week events</h3>
-		    	<p>There are design events all week across the city.</p>
-		    	<a href="#" class="button purple">SEE THE EVENT SCHEDULE</a>
+		    	<h3 class="text-white">See all Phoenix Design Week events</h3>
+		    	<p class="text-white">There are design events all week across the city.</p>
+		    	<a href="#" class="button purple text-white">SEE THE EVENT SCHEDULE</a>
 	    	</div>
 	      
 	    </div>
@@ -68,7 +68,7 @@
 	<div class="row text-center">
 		<h3>Become a sponsor</h3>
 		<p>Invest in the most celebrated event in the Arizona design community, and hundreds of creative professionals will take notice.</p>
-		<a href="#" class="button white">See sponsorship opportunities</a>
+		<a href="#" class="button white text-pink">See sponsorship opportunities</a>
 	</div>
 </section>
 
