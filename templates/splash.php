@@ -45,7 +45,7 @@ get_header();
         <p>
           Act fast and get discounts now on PHXDW advance tickets! Better
           yet, <a href="http://www.aiga.org/join/">become an AIGA member</a> for as little as $50/year and save even
-          more — up to 60% off full-price admission.
+          more — up to 30% off full-price admission.
         </p>
 
         <?php // Pricing Table ?>
