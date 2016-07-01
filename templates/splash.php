@@ -35,17 +35,20 @@ get_header();
   <div class="container">
     <div class="row">
       <div class="col-6 text-center">
-        <img src="<?php bloginfo('template_url');?>/assets/img/early-bird.png" alt="Pre-sale Tickets">
+        <img src="<?php bloginfo('template_url');?>/assets/img/advance.png" alt="Advance Tickets">
         <h2>Method + Madness Conference<br>October 22-23, 2016</h2>
         <p class="tickets--disclaimer">
           <em>Tickets include admission to PHXDW Opening Party on October 21, evening reception on Saturday, October 22 and PHXDW Closing Party on October 28.</em>
         </p>
       </div>
       <div class="col-6">
+        <span>
+          <strong>Get your advance tickets while they are 30% off!</strong><br>
+          Prices go up september 1
+        </span>
         <p>
-          Act fast and get discounts now on PHXDW advance tickets! Better
-          yet, <a href="http://www.aiga.org/join/">become an AIGA member</a> for as little as $50/year and save even
-          more — up to 30% off full-price admission.
+        Act fast and get deep discounts now on PHXDW advance tickets! Better yet, <a href="http://www.aiga.org/join/">become an AIGA member</a> 		for as little as $50/year and save even more — up to 30% off full-price admission
+
         </p>
 
         <?php // Pricing Table ?>
