@@ -10,7 +10,7 @@
 // 			Home HERO 
 //============ ** ============ //?>
 
-<section class="home-hero container">
+<section class="hero container">
 	<div class="row hero-content text-center">
 		<h1 class="text-white">PHOENIX DESIGN WEEK IS COMING</h1>
 		<h3 class="text-white">October 22-28, 2016  •  Phoenix Design Week 2016</h3>
