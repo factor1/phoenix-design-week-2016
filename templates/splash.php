@@ -38,16 +38,12 @@ get_header();
         <img src="<?php bloginfo('template_url');?>/assets/img/early-bird.png" alt="Pre-sale Tickets">
         <h2>Method + Madness Conference<br>October 22-23, 2016</h2>
         <p class="tickets--disclaimer">
-          <em>Early Bird tickets include admission to PHXDW Opening Party on October 21, evening reception on Saturday, October 22 and PHXDW Closing Party on October 28.</em>
+          <em>Tickets include admission to PHXDW Opening Party on October 21, evening reception on Saturday, October 22 and PHXDW Closing Party on October 28.</em>
         </p>
       </div>
       <div class="col-6">
-        <span>
-          <strong>100 Early Bird tickets available</strong><br>
-          When they're gone, they're gone.
-        </span>
         <p>
-          Act fast and get deep discounts now on PHXDW presale tickets! Better
+          Act fast and get discounts now on PHXDW advance tickets! Better
           yet, <a href="http://www.aiga.org/join/">become an AIGA member</a> for as little as $50/year and save even
           more — up to 60% off full-price admission.
         </p>
