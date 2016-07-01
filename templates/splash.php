@@ -64,7 +64,7 @@ get_header();
             <div class="col-3 text-left">
               <p>
                 <strong>
-                  $149
+                  $199
                 </strong>
               </p>
             </div>
@@ -86,7 +86,7 @@ get_header();
             <div class="col-3 text-left">
               <p>
                 <strong>
-                  $229
+                  $269
                 </strong>
               </p>
             </div>
@@ -108,7 +108,7 @@ get_header();
             <div class="col-3 text-left">
               <p>
                 <strong>
-                  $79
+                  $99
                 </strong>
               </p>
             </div>
@@ -124,7 +124,29 @@ get_header();
           <div class="row">
             <div class="col-5">
               <p>
-                Student/Educator
+                Student
+              </p>
+            </div>
+            <div class="col-3 text-left">
+              <p>
+                <strong>
+                  $129
+                </strong>
+              </p>
+            </div>
+            <div class="col-4 text-left">
+              <p>
+                <strike>
+                  $149 full price
+                </strike>
+              </p>
+            </div>
+          </div>
+           <?php // row ?>
+          <div class="row">
+            <div class="col-5">
+              <p>
+                Faculty Member
               </p>
             </div>
             <div class="col-3 text-left">
@@ -142,6 +164,29 @@ get_header();
               </p>
             </div>
           </div>
+		   <?php // row ?>
+          <div class="row">
+            <div class="col-5">
+              <p>
+                Faculty
+              </p>
+            </div>
+            <div class="col-3 text-left">
+              <p>
+                <strong>
+                  $129
+                </strong>
+              </p>
+            </div>
+            <div class="col-4 text-left">
+              <p>
+                <strike>
+                  $149 full price
+                </strike>
+              </p>
+            </div>
+          </div>
+
         </div>
 
         <a href="http://phxdwmethodmadness2016.eventbrite.com" class="button button-yellow">
