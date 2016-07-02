@@ -113,10 +113,10 @@
 			padding: 10px;
 		}
 		
-		&.first {background-image: pattern(diagonals-loose,pink);}
-		&.second {background-image: pattern(cirlces,pink);}
-		&.third {background-image: pattern(zigzag,pink);}
-		&.fourth {background-image: pattern(diagonals-tight,pink);}
+		&.first {background: $purple pattern(diagonals-loose,pink);}
+		&.second {background: $purple pattern(cirlces,pink);}
+		&.third {background: $purple pattern(zigzag,pink);}
+		&.fourth {background: $purple pattern(diagonals-tight,pink);}
 		
 		
 		.button {margin: 25px auto;}
