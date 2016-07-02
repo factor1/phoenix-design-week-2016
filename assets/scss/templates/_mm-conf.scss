@@ -1,0 +1,121 @@
+.hero {
+	background: $purple url(../img/patterns/scribble-pattern-purple-bg-tile) repeat;
+	padding-top: 80px;
+	text-align: center;
+	
+	.hero-content {
+		background: $pink;
+		padding: 100px;
+		
+	}// end hero-content
+	
+}// end home-hero
+
+
+
+
+// Conference Detail Copy  (aka the_content + Speakers
+
+.conf-content{
+	
+	p {}
+	
+	.speakerthumbgrid {
+		.speakerthumb {
+			
+		} // End speakerthumb
+	} // end speakerthumbgrid
+	
+} // End conf-content
+
+
+
+
+
+
+// Testimonials
+
+.tesimonial {
+	background: $pink url(../img/photos/0101-purple-pink.jpg) bottom center no-repeat;
+	background-size: cover;
+	color: #fff;
+	padding: 75px 0;
+	position: relative;
+	
+	&:after {
+		height: 30px;
+		width: 100%;
+		background: pattern(circles,lime);
+		position: absolute;
+		bottom: 0px;
+		z-index: 100;
+		content: '';
+		display: block;
+		}	
+		
+		blockquote {
+			
+			cite {
+				
+			} // end cite
+		}// end blockquote
+		
+	
+} // end testimonials
+
+
+
+
+
+
+// Join us downtown
+// phase 2 only
+
+
+
+
+// Conf compare
+// phase 2 only
+
+
+
+
+
+// Convince your boss
+// phase 2 only
+
+
+
+
+
+
+// Price grid
+.pricegrid {
+	background: $pink;
+	
+	.priceblock {
+		background-color: $purple;
+		text-align: center;
+		color: #fff;
+		
+		p {
+			text-transform: uppercase;
+			text-align: center;
+			font-size: 18px;
+			line-height: 22px;
+		}
+		
+		p.price {
+			font-size: 36px;
+			padding: 10px;
+		}
+		
+		.first {background-image: pattern(diagonals-loose,pink) repeat;}
+		.second {background-image: pattern(cirlces,pink) repeat;}
+		.third {background-image: pattern(zigzag,pink) repeat;}
+		.fourth {background-image: pattern(diagonals-tight,pink) repeat;}
+		
+		
+		.button {margin: 25px auto;}
+	}
+}

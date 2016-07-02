@@ -1,6 +1,13 @@
+<?php get_header(); 
+	
+//Template Name: MM Conference Page
+
+?>
+
+
 <?php 
 //============ ** ============ //
-// 			Home HERO 
+// 			Page HERO 
 //============ ** ============ //?>
 
 <section class="hero container">
@@ -30,10 +37,18 @@
 	</article>	
 	</div>
 	
-	<div class="row">
+	<div class="row speakerthumbgrid">
 	<h2 class=" col-12 text-white text-center">M+M Speakers</h2>
 	
-	<div class="col-4">
+	<div class="col-4 speakerthumb">
+		<a href="#">
+			<img src="http://placehold.it/300x300">
+			<h4>Speaker Name</h4>
+			<p>Speaker short Bio</p>
+		</a>
+	</div>
+	 
+	<div class="col-4 speakerthumb">
 		<a href="#">
 			<img src="http://placehold.it/300x300">
 			<h4>Speaker Name</h4>
@@ -41,15 +56,7 @@
 		</a>
 	</div>
 	
-	<div class="col-4">
-		<a href="#">
-			<img src="http://placehold.it/300x300">
-			<h4>Speaker Name</h4>
-			<p>Speaker short Bio</p>
-		</a>
-	</div>
-	
-	<div class="col-4">
+	<div class="col-4 speakerthumb">
 		<a href="#">
 			<img src="http://placehold.it/300x300">
 		</a>
@@ -76,4 +83,102 @@
 	</div>
 </section>
 			
+
+<?php 
+//============ ** ============ //	
+//  Join us downtown  (Phase 2)
+//============ ** ============ //
+?>		
+
+
+<?php 
+//============ ** ============ //	
+//  Compare | Convince your boss  (Phase 2)
+//============ ** ============ //
+?>	
+
+
+<?php 
+//============ ** ============ //	
+//  Pricing Grid
+//============ ** ============ //
+?>	
+
+<section class="container pricegrid">
+	<div class="row">
+		<div class="col-12">
+			<h2 class="text-center text-white">
+				Save up to 60% now with Early Bird ticket pricing!<br>
+				<strong>Prices go up July 15</strong>
+			</h2>
 			
+			<p class="text-white text-center">
+				All tickets include entrance to the Method + Madness Conference, PHXDW Kickoff Party, 
+				Method + Madness 	Opening Reception, and the PHXDW Closing Party
+			</p>
+			
+			<div class="row">
+				<div class="col-3 priceblock first">
+					<p class="title">AIGA Member<br>General Admission</p>
+					<p class="price">$199</p>
+				</div>
+				
+				<div class="col-3 priceblock second">
+					<p class="title">AIGA Non-Member<br>General Admission</p>
+					<p class="price">$269</p>
+				</div>
+				
+				<div class="col-3 priceblock third">
+					<p class="title">AIGA Member<br>Student Admission</p>
+					<p class="price">$99</p>
+				</div>
+				
+				<div class="col-3 priceblock fourth">
+					<p class="title">AIGA Non-Member<br>Student Admission</p>
+					<p class="price">$129</p>
+				</div>
+				
+			</div>
+			
+			<a href="#" class="button white text-pink text-center">GET YOUR TICKET</a>
+			
+		</div>
+				
+			
+			
+	
+	</div>
+</section>
+
+
+
+<?php 
+//============ ** ============ //	
+//  Students  (Phase 2)
+//============ ** ============ //
+?>	
+
+
+
+<?php 
+//============ ** ============ //
+// 	   Sign up for email 
+//============ ** ============ //
+
+get_template_part('parts/newsletter');
+
+
+?>
+
+
+<?php 
+//============ ** ============ //
+// 	   Include Sponsors
+//============ ** ============ //
+
+get_template_part('parts/sponsors');
+
+?>
+
+
+<?php get_footer(); ?>
