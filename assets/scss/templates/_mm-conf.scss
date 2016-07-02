@@ -98,14 +98,14 @@
 	
 	.priceblock {
 		background-color: $purple;
-		text-align: center;
-		color: #fff;
+		background-size: 50%;
 		
 		p {
 			text-transform: uppercase;
 			text-align: center;
 			font-size: 18px;
 			line-height: 22px;
+			color: #fff;
 		}
 		
 		p.price {
