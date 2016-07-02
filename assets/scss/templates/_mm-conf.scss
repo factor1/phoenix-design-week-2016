@@ -54,6 +54,9 @@
 		}	
 		
 		blockquote {
+			background: none;
+			&:before {background: none;}
+			
 			
 			cite {
 				
@@ -97,7 +100,6 @@
 		background-color: $purple;
 		text-align: center;
 		color: #fff;
-		margin: 10px;
 		
 		p {
 			text-transform: uppercase;
@@ -111,10 +113,10 @@
 			padding: 10px;
 		}
 		
-		&.first {background-image: pattern(diagonals-loose,pink) repeat;}
-		&.second {background-image: pattern(cirlces,pink) repeat;}
-		&.third {background-image: pattern(zigzag,pink) repeat;}
-		&.fourth {background-image: pattern(diagonals-tight,pink) repeat;}
+		&.first {background-image: pattern(diagonals-loose,pink);}
+		&.second {background-image: pattern(cirlces,pink);}
+		&.third {background-image: pattern(zigzag,pink);}
+		&.fourth {background-image: pattern(diagonals-tight,pink);}
 		
 		
 		.button {margin: 25px auto;}
