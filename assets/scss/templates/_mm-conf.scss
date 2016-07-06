@@ -17,7 +17,8 @@
 // Conference Detail Copy  (aka the_content + Speakers
 
 .conf-content{
-	background: $teal;
+	background-color: $teal ;
+	background: pattern(zigzag,purple);
 	padding: 50px 0;
 	
 	p {}
@@ -48,6 +49,7 @@
 		height: 30px;
 		width: 100%;
 		background: pattern(circles,lime);
+		background-size: 55px 55px;
 		position: absolute;
 		bottom: 0px;
 		z-index: 100;
@@ -83,6 +85,77 @@
 // phase 2 only
 
 
+.halfsplit {
+	.row {max-width: 100%;}
+	
+	.leftyleft, .rightyright {width: 50%;}
+	
+	
+	.leftyleft {
+		display: flex;
+		flex-flow: column wrap;
+		justify-content: center;
+		align-items: flex-end;
+		background: $purple pattern(waves,pink);
+		background-size: 55px 55px;
+		min-height: 500px;
+		
+		.thecontent {
+			background: $purple;
+			padding: 20px;
+			width: 100%;
+			max-width: 600px;
+			
+			p {color: #fff;}
+		}
+	} // end lefty left
+	
+	.rightyright {
+		display: flex;
+		flex-flow: column wrap;
+		justify-content: center;
+		align-items: flex-start;
+		
+		
+		.content-a {
+			flex: 1 1 auto;
+			background: #fff pattern(diagonal,teal);
+			background-size: 55px 55px;
+			width: 100%;
+			//min-height: 250px;
+			
+			.thecontent {
+				background: #fff;
+				padding: 20px;
+				flex: 1 1 auto;
+				width: 100%;
+			max-width: 580px;
+			margin: 20px 0 0 20px;
+			}
+		}
+		
+		
+		.content-b{
+			flex: 1 1 auto;
+			background: $teal pattern(diamonds,purple);
+			background-size: 55px 55px;		
+			width: 100%;
+			//min-height: 250px;
+			
+			.thecontent {
+				background: $teal;
+				padding: 20px;
+				flex: 1 1 auto;
+				width: 100%;
+				max-width: 600px;
+				
+				p {color: #fff;}
+			}
+		}
+	} // end righty right
+	
+}
+
 
 
 
@@ -115,10 +188,10 @@
 			padding: 10px;
 		}
 		
-		&.first {background: $purple pattern(diagonals-loose,pink);}
-		&.second {background: $purple pattern(cirlces,pink);}
-		&.third {background: $purple pattern(zigzag,pink);}
-		&.fourth {background: $purple pattern(diagonals-tight,pink);}
+		&.first {background: $purple pattern(diagonals-loose,pink); background-size: 55px 55px;}
+		&.second {background: $purple pattern(cirlces,pink); background-size: 55px 55px;}
+		&.third {background: $purple pattern(zigzag,pink); background-size: 55px 55px;}
+		&.fourth {background: $purple pattern(diagonals-tight,pink); background-size: 55px 55px;}
 		
 		
 		.button {margin: 25px auto;}

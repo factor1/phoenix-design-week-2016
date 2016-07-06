@@ -91,11 +91,30 @@
 ?>		
 
 
+
+
 <?php 
 //============ ** ============ //	
 //  Compare | Convince your boss  (Phase 2)
 //============ ** ============ //
 ?>	
+
+<section class="container halfsplit">
+	<div class="leftyleft">
+			<div class="thecontent">kdhsjf</div>
+	</div>
+	
+		<div class="rightyright stretch">
+			<div class="content-a">
+				<div class="thecontent">kdhsjf</div>
+			</div>
+			<div class="content-b">
+					<div class="thecontent">kdhsjf</div>
+			</div>
+	</div>
+</section>
+
+
 
 
 <?php 
