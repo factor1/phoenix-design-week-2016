@@ -18,33 +18,88 @@
 
 
 // Home Intros
-.home-intros {
-	.home-thecontent {
-		background: $purple;
-		padding: 65px 0;
-		p {
-			font-size: 21px;
-			color: #fff;}
-	} // End /home-thecontent
-	
-	
-	.home-splits {
-		.home-cta-top {
-			background: #fff;
-			
-			h3 {color: $pink;}
-			p {color: $grey}
-		} // End home-cta-top
-		
-		.home-cta-bottom {
-			background: $teal;
-			h3 {color: #fff;}
-			p {color: #fff}
-		} // End home-cta-bottom
-		
-	}// End home-splits
-}// End home-intro
 
+.halfsplit {
+	.row {max-width: 100%;}
+	
+	.leftyleft, .rightyright {width: 50%;}
+	
+	
+	.leftyleft {
+		display: flex;
+		flex-flow: column wrap;
+		justify-content: center;
+		align-items: flex-end;
+		background: $purple pattern(waves,pink);
+		background-size: 55px 55px;
+		min-height: 500px;
+		
+		.thecontent {
+			background: $purple;
+			padding: 20px;
+			width: 100%;
+			max-width: 600px;
+			
+			p {
+			font-size: 21px;
+			color: #fff;
+			
+			a, a:visited {color: $teal;}
+			a:hover {color: $lime;}
+			
+			}
+		}
+	} // end lefty left
+	
+	.rightyright {
+		display: flex;
+		flex-flow: column wrap;
+		justify-content: center;
+		align-items: flex-start;
+		
+		
+		.content-a {
+			flex: 1 1 auto;
+			background: #fff pattern(diagonal,teal);
+			background-size: 55px 55px;
+			width: 100%;
+			//min-height: 250px;
+			
+			.thecontent {
+				background: #fff;
+				padding: 20px;
+				flex: 1 1 auto;
+				width: 100%;
+				max-width: 580px;
+				margin: 20px 0 0 20px;
+			
+				h3 {color: $pink;}
+				p {color: $grey}
+			}
+		}
+		
+		
+		.content-b{
+			flex: 1 1 auto;
+			background: $teal pattern(diamonds,purple);
+			background-size: 55px 55px;		
+			width: 100%;
+			//min-height: 250px;
+			
+			.thecontent {
+				background: $teal;
+				padding: 20px;
+				flex: 1 1 auto;
+				width: 100%;
+				max-width: 600px;
+				
+				h3 {color: #fff;}
+				p {color: #fff}
+			}
+		}
+	} // end righty right
+	
+}
 
 
 
