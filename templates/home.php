@@ -27,39 +27,41 @@
 
 
 <section class="container home-intros halfsplit">
-	<div class="leftyleft">
-			<div class="thecontent">
-			
-				<?php if(have_posts()): 
-				while(have_posts()): the_post();
-					the_content();
-		     	endwhile; 
-		     	endif ?>
-			</div><?php // end thecontent ?>
-	</div><?php // end leftyleft ?>
-	
-	<div class="rightyright stretch">
-		<div class="content-a">
-			<div class="thecontent">
-			
-			<h3 style="text-pink">Attend the Method + Madness Conference</h3>
-	    	<p>Check out this year’s speakers and reserve your spot now!</p>
-	    	<a href="#" class="button pink text-white">LEARN MORE ABOUT M + M</a>
-			
-			
-			</div><?php // end thecontent ?>
-		</div><?php // end content a ?>
+	<div class="row">
+		<div class="leftyleft">
+				<div class="thecontent">
+				
+					<?php if(have_posts()): 
+					while(have_posts()): the_post();
+						the_content();
+			     	endwhile; 
+			     	endif ?>
+				</div><?php // end thecontent ?>
+		</div><?php // end leftyleft ?>
 		
-		<div class="content-b">
-			<div class="thecontent">
+		<div class="rightyright stretch">
+			<div class="content-a">
+				<div class="thecontent">
 				
-			<h3 class="text-white">See all Phoenix Design Week events</h3>
-			<p class="text-white">There are design events all week across the city.</p>
-			<a href="#" class="button purple text-white">SEE THE EVENT SCHEDULE</a>
+				<h3 style="text-pink">Attend the Method + Madness Conference</h3>
+		    	<p>Check out this year’s speakers and reserve your spot now!</p>
+		    	<a href="#" class="button pink text-white">LEARN MORE ABOUT M + M</a>
 				
-			</div><?php // end thecontent ?>
-		</div><?php // end content b ?>
-	</div><?php // end rightyright ?>
+				
+				</div><?php // end thecontent ?>
+			</div><?php // end content a ?>
+			
+			<div class="content-b">
+				<div class="thecontent">
+					
+				<h3 class="text-white">See all Phoenix Design Week events</h3>
+				<p class="text-white">There are design events all week across the city.</p>
+				<a href="#" class="button purple text-white">SEE THE EVENT SCHEDULE</a>
+					
+				</div><?php // end thecontent ?>
+			</div><?php // end content b ?>
+		</div><?php // end rightyright ?>
+	</div><?php // end row ?>
 </section>
 
 
