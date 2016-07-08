@@ -34,22 +34,26 @@
 				<h2>Phoenix Design Week   ||   October 21-28, 2016</h2>
 			</div>
 
-			<a href="" class="col-3 buynow">
-				Buy Method + Madness Tickets
-			</a>
-			<div class="col-1">
-				<a id="nifty-nav-toggle" ><span></span></a>
+			<div class="col-4 header-buy-menu">
+        <a href="#" class="buynow">
+		      Buy Method + Madness Tickets
+        </a>
+        <div class="nifty-burger">
+          <a id="nifty-nav-toggle" ><span></span></a>
+        </div>
+
+        <?php // Nifty Nav Panel ?>
+        <div class="nifty-panel">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 text-right" style="padding: 0;">
+                <?php wp_nav_menu(array('theme_location' => 'primary')); ?>
+              </div>
+            </div>
+          </div>
+        </div>
+
 			</div>
+
 		</div>
   </header>
-
-  <?php // Nifty Nav Panel ?>
-  <div class="nifty-panel">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 text-right">
-          <?php wp_nav_menu(array('theme_location' => 'primary')); ?>
-        </div>
-      </div>
-    </div>
-  </div>
