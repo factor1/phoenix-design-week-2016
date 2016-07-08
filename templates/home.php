@@ -77,10 +77,12 @@
 ?>
 
 <section class="container home-sponsor">
-	<div class="row text-center">
-		<h3 class="text-white">Become a sponsor</h3>
-		<p class="text-white">Invest in the most celebrated event in the Arizona design community, and hundreds of creative professionals will take notice.</p>
-		<a href="#" class="button white text-pink">See sponsorship opportunities</a>
+	<div class="row">
+		<div class="col-10 col-centered text-center">
+			<h3 class="text-white">Become a sponsor</h3>
+			<p class="text-white">Invest in the most celebrated event in the Arizona design community, and hundreds of creative professionals will take notice.</p>
+			<a href="#" class="button white text-pink">See sponsorship opportunities</a>
+		</div>
 	</div>
 </section>
 
