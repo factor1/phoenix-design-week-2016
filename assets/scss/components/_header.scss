@@ -46,9 +46,11 @@ header {
 
 	.header-buy-menu{
 		display: flex;
+		position: relative;
 		flex-flow: row nowrap;
 		justify-content: center;
 		align-items: center;
+		padding: 0;
 	}
 
 	.buynow, .buynow:visited {
