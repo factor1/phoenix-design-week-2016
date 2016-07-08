@@ -42,9 +42,7 @@ header {
 		margin: 0 0 0 230px;
 		display: block;
 		float: left;
-
 	}
-
 
 	.buynow, .buynow:visited {
 		display: inline-block;
@@ -74,13 +72,5 @@ header {
 	.nifty-burger.active{
 		background: $purple;
 	}
-
-
-	#nifty-nav-toggle {
-		display: block;
-		width: 100%;
-		padding: 0;
-		margin: 0;
-	} // end togle
 
 }// end header
