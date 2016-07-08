@@ -133,6 +133,9 @@ header {
 		li{
 			width: 100%;
 			position: relative;
+			&:hover{
+				background: rgba($purple, 0.9);
+			}
 			a{
 				display: block;
 				padding: 8px 0;
