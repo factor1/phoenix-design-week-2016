@@ -12,9 +12,6 @@ var fancyCalculate = function(){
 
 };
 
-// niftyNav
-niftyNav();
-
 jQuery( document ).ready(function( $ ) {
   fancyCalculate();
 
@@ -22,4 +19,10 @@ jQuery( document ).ready(function( $ ) {
     var $this = $(this);
     $this.parent().css('display','none');
   });
+
+  // niftyNav
+  niftyNav({
+    mask: false
+  });
+  
 });
