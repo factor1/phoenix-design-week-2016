@@ -3,13 +3,17 @@
 	background: $purple url(../img/patterns/line-shape-pattern-purple-bg-tile.png) repeat;
 	padding-top: 80px;
 	text-align: center;
-	
+
 	.hero-content {
 		background: $pink;
 		padding: 100px;
-		
+
+		h1{
+			margin-bottom: 15px;
+		}
+
 	}// end hero-content
-	
+
 }// end home-hero
 
 
@@ -21,10 +25,10 @@
 
 .home-intros.halfsplit {
 	.row {max-width: 100%; padding: 0;}
-	
+
 	.leftyleft, .rightyright {width: 50%;}
-	
-	
+
+
 	.leftyleft {
 		display: flex;
 		flex-flow: column wrap;
@@ -34,39 +38,39 @@
 		background-size: 55px 55px;
 		margin: 0;
 		//min-height: 500px;
-		
+
 		.thecontent {
 			background: $purple;
 			padding: 80px 50px;
 			width: 100%;
 			max-width: 570px;
-			
+
 			p {
 			font-size: 21px;
 			line-height: 1.22em;
 			color: #fff;
-			
+
 			a, a:visited {color: $teal;}
 			a:hover {color: $lime;}
-			
+
 			}// end the content
 		}
 	} // end lefty left
-	
+
 	.rightyright {
 		display: flex;
 		flex-flow: column wrap;
 		justify-content: center;
 		align-items: flex-start;
-		
-		
+
+
 		.content-a {
 			flex: 1 1 auto;
 			background: #fff pattern(diagonals-loose,teal);
 			background-size: 55px 55px;
 			width: 100%;
 			//min-height: 250px;
-			
+
 			.thecontent {
 				background: #fff;
 				padding: 20px;
@@ -76,20 +80,20 @@
 				margin: 20px 0 0 20px;
 				justify-content: flex-end;
 				align-items: flex-end;
-			
+
 				h3 {color: $pink;}
 				p {color: $grey}
 			}
 		}
-		
-		
+
+
 		.content-b{
 			flex: 1 1 auto;
 			background: $teal pattern(diamonds1,purple);
-			background-size: 55px 55px;		
+			background-size: 55px 55px;
 			width: 100%;
 			//min-height: 250px;
-			
+
 			.thecontent {
 				background: $teal;
 				padding: 20px;
@@ -98,13 +102,13 @@
 				max-width: 580px;
 				justify-content: flex-start;
 				align-items: flex-start;
-				
+
 				h3 {color: #fff;}
 				p {color: #fff}
 			}
 		}
 	} // end righty right
-	
+
 }// end home-intros
 
 
@@ -116,7 +120,7 @@
 	color: #fff;
 	padding: 75px 0;
 	position: relative;
-	
+
 	&:after {
 		height: 30px;
 		width: 100%;
@@ -127,5 +131,5 @@
 		z-index: 100;
 		content: '';
 		display: block;
-		}	
+		}
 } // End home-sponsor
