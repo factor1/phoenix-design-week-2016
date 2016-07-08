@@ -122,3 +122,23 @@ header {
     top: 8px;
     right: 0;
 }
+
+// Nifty Panel Styles
+.nifty-panel{
+	left: 0;
+	ul{
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		li{
+			width: 100%;
+			position: relative;
+			a{
+				display: block;
+				padding: 8px 0;
+				text-transform: uppercase;
+				color: white;
+			}
+		}
+	}
+}
