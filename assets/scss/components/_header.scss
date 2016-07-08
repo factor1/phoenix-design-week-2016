@@ -63,10 +63,12 @@ header {
 
 	.nifty-burger {
 		display: inline-block;
+		height: $header-height;
 		position: relative;
+		vertical-align: top;
 		background: $teal;
 		width: 30px;
-		height: $header-height;
+
 	}
 
 	.nifty-burger.active{
