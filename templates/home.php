@@ -1,27 +1,29 @@
-<?php get_header(); 
-	
+<?php get_header();
+
 //Template Name: Home Page
 
 ?>
- 
- 
-<?php 
+
+
+<?php
 //============ ** ============ //
-// 			Home HERO 
+// 			Home HERO
 //============ ** ============ //?>
 
 <section class="hero container">
 	<div class="row hero-content text-center">
-		<h1 class="text-white">PHOENIX DESIGN WEEK IS COMING</h1>
-		<h3 class="text-white">October 22-28, 2016  •  Phoenix Design Week 2016</h3>
+		<div class="col-12">
+			<h1 class="text-white">PHOENIX DESIGN WEEK IS COMING</h1>
+			<h3 class="text-white">October 22-28, 2016  •  Phoenix Design Week 2016</h3>
+		</div>
 	</div>
 </section>
 
 
 
-<?php 
-//============ ** ============ //	
-//  Second Row, info block 
+<?php
+//============ ** ============ //
+//  Second Row, info block
 //============ ** ============ //
 ?>
 
@@ -30,34 +32,34 @@
 	<div class="row">
 		<div class="leftyleft">
 				<div class="thecontent">
-				
-					<?php if(have_posts()): 
+
+					<?php if(have_posts()):
 					while(have_posts()): the_post();
 						the_content();
-			     	endwhile; 
+			     	endwhile;
 			     	endif ?>
 				</div><?php // end thecontent ?>
 		</div><?php // end leftyleft ?>
-		
+
 		<div class="rightyright stretch">
 			<div class="content-a">
 				<div class="thecontent">
-				
+
 				<h3 style="text-pink">Attend the Method + Madness Conference</h3>
 		    	<p>Check out this year’s speakers and reserve your spot now!</p>
 		    	<a href="#" class="button pink text-white">LEARN MORE ABOUT M + M</a>
-				
-				
+
+
 				</div><?php // end thecontent ?>
 			</div><?php // end content a ?>
-			
+
 			<div class="content-b">
 				<div class="thecontent">
-					
+
 				<h3 class="text-white">See all Phoenix Design Week events</h3>
 				<p class="text-white">There are design events all week across the city.</p>
 				<a href="#" class="button purple text-white">SEE THE EVENT SCHEDULE</a>
-					
+
 				</div><?php // end thecontent ?>
 			</div><?php // end content b ?>
 		</div><?php // end rightyright ?>
@@ -68,9 +70,9 @@
 
 
 
-<?php 
+<?php
 //============ ** ============ //
-// 	   Become a Sponsor CTA 
+// 	   Become a Sponsor CTA
 //============ ** ============ //
 ?>
 
@@ -84,9 +86,9 @@
 
 
 
-<?php 
+<?php
 //============ ** ============ //
-// 	   Sign up for email 
+// 	   Sign up for email
 //============ ** ============ //
 
 get_template_part('parts/newsletter');
@@ -95,7 +97,7 @@ get_template_part('parts/newsletter');
 ?>
 
 
-<?php 
+<?php
 //============ ** ============ //
 // 	   Include Sponsors
 //============ ** ============ //
