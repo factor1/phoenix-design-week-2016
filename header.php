@@ -46,13 +46,13 @@
         <div class="nifty-panel">
           <div class="container">
             <div class="row">
-              <div class="col-12 text-right">
+              <div class="col-12 text-right" style="padding: 0;">
                 <?php wp_nav_menu(array('theme_location' => 'primary')); ?>
               </div>
             </div>
           </div>
         </div>
-        
+
 			</div>
 
 		</div>
