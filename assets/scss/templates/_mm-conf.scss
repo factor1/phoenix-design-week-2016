@@ -87,30 +87,18 @@
 
 .halfsplit.comparesplit {	
 	.leftyleft {
-		background: $purple pattern(waves,pink);
+		background: #fff pattern(diagonals-loose,teal);
 		
 		.thecontent {
-			background: $purple;
+			background: #fff;
 			padding: 20px;
 			
-			p {color: #fff;}
+			p {color: $grey;}
 		}
 	} // end lefty left
 	
 	.rightyright {		
-		.content-a {
-			background: #fff pattern(diagonal,teal);
-			
-			.thecontent {
-				background: #fff;
-			max-width: 580px;
-			margin: 20px 0 0 20px;
-			}
-		}
-		
-		
-		.content-b{
-			background: $teal pattern(diamonds,purple);
+		background: $teal pattern(diamonds,purple);
 			
 			.thecontent {
 				background: $teal;
@@ -119,7 +107,6 @@
 				
 				p {color: #fff;}
 			}
-		}
 	} // end righty right
 	
 }

@@ -99,18 +99,25 @@
 //============ ** ============ //
 ?>	
 
+
 <section class="container halfsplit comparesplit">
-	<div class="leftyleft">
-			<div class="thecontent">kdhsjf</div>
-	</div>
-	
+	<div class="row">
+		<div class="leftyleft">
+			<div class="thecontent">
+				<h2 class="text-pink">Headline</h2>
+				<p>Some content here</p>
+				<a href="" class="button pink text-white">CTA!</a>
+			
+			</div>
+		</div>
+		
 		<div class="rightyright stretch">
-			<div class="content-a">
-				<div class="thecontent">kdhsjf</div>
+			<div class="thecontent">
+				<h2 class="text-white">Headline</h2>
+				<p class="text-white">Some content here</p>
+				<a href="" class="button purple text-white">CTA!</a>
 			</div>
-			<div class="content-b">
-					<div class="thecontent">kdhsjf</div>
-			</div>
+		</div>
 	</div>
 </section>
 
