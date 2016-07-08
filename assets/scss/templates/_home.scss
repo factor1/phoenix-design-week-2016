@@ -65,11 +65,13 @@
 
 
 		.content-a {
+			display: flex;
+			justify-content: flex-start;
+			align-items: stretch;
 			flex: 1 1 auto;
 			background: #fff pattern(diagonals-loose,teal);
 			background-size: 55px 55px;
 			width: 100%;
-			//min-height: 250px;
 
 			.thecontent {
 				background: #fff;
@@ -88,6 +90,7 @@
 
 
 		.content-b{
+			display: flex;
 			flex: 1 1 auto;
 			background: $teal pattern(diamonds1,purple);
 			background-size: 55px 55px;
@@ -102,6 +105,7 @@
 				max-width: 580px;
 				justify-content: flex-start;
 				align-items: flex-start;
+				margin-bottom: 20px;
 
 				h3 {color: #fff;}
 				p {color: #fff}
