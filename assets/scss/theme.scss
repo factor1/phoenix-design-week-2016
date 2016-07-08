@@ -22,10 +22,10 @@
 @import 'settings/variables';
 @import 'settings/mixins';
 @import 'settings/functions';
-//@import 'settings/nifty-nav';
 
 // Niftynav
-//@import 'scss/nifty-nav';
+@import 'settings/nifty-nav';
+@import 'scss/nifty-nav';
 
 // Global Styles
 @import 'globals/global';
@@ -38,6 +38,7 @@
 @import 'components/footer';
 @import 'components/buttons';
 @import 'components/forms';
+@import 'components/halfsplits';
 
 // Plugin Overrides
 @import 'plugins/overrides';

@@ -19,4 +19,10 @@ jQuery( document ).ready(function( $ ) {
     var $this = $(this);
     $this.parent().css('display','none');
   });
+
+  // niftyNav
+  niftyNav({
+    mask: false
+  });
+  
 });

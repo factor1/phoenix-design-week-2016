@@ -10,18 +10,19 @@ header {
 	width: 100%;
 	overflow-y: visible;
 	z-index: 10;
-	
+
 	h1.branding, h1.branding a {
 		text-indent: -10000px;
 		display: block;
+		position: absolute;
 		height: 235px;
 		width: 245px;
 		background: pattern(diagonals-tight,teal);
 		background-size: 20%;
 		margin: 0 25px 0 0;
 		padding: 0;
-		float: left; 
-		
+		float: left;
+
 		span {
 			display: block;
 			height: 210px;
@@ -33,19 +34,27 @@ header {
 			background-size: 85%;
 		} // end span
 	} // end h1.brand
-	
+
 	h2 {
 		color: $teal;
 		font-size: 24px;
 		padding: 20px;
-		margin: 0;
+		margin: 0 0 0 230px;
 		display: block;
 		float: left;
-		
 	}
-	
-	
+
+	.header-buy-menu{
+		display: flex;
+		position: relative;
+		flex-flow: row nowrap;
+		justify-content: center;
+		align-items: center;
+		padding: 0;
+	}
+
 	.buynow, .buynow:visited {
+		flex: 1 1 auto;
 		background: $purple;
 		color: #fff;
 		height: $header-height;
@@ -59,19 +68,80 @@ header {
 			color: $purple;
 		}// end hover
 	}// end buynow
-	
-	
-	.col-1 {
-		position: relative;
-		background: $teal;
+
+
+	.nifty-burger {
+		flex: 0 1 67px;
 		height: $header-height;
+		position: relative;
+		vertical-align: top;
+		background: $teal;
+		cursor: pointer;
+		&:hover{
+			background: $purple;
 		}
-	
-	#nifty-nav-toggle {
-		display: block;
-		width: 100%;
-		padding: 0;
-		margin: 0;
-	} // end togle
-	
+	}
+
+	.nifty-burger.active{
+		background: $purple;
+	}
+
 }// end header
+
+#nifty-nav-toggle {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: none;
+    position: absolute;
+    transition: all .3s ease;
+    top: 0;
+    right: 0;
+}
+
+#nifty-nav-toggle span{
+    cursor: pointer;
+    border-radius: 1px;
+    height: 3px;
+    width: 30px;
+    background: #fff;
+    position: absolute;
+    top: 31px;
+    right: 20px;
+    display: block;
+    content: '';
+}
+
+#nifty-nav-toggle span:before {
+    top: -8px;
+    right: 0;
+}
+
+#nifty-nav-toggle span:after {
+    bottom: -8px;
+    top: 8px;
+    right: 0;
+}
+
+// Nifty Panel Styles
+.nifty-panel{
+	left: 0;
+	ul{
+		list-style: none;
+		margin: 20px 0;
+		padding: 0;
+		li{
+			width: 100%;
+			position: relative;
+			&:hover{
+				background: rgba($purple, 0.9);
+			}
+			a{
+				display: block;
+				padding: 8px 15px;
+				text-transform: uppercase;
+				color: white;
+			}
+		}
+	}
+}
