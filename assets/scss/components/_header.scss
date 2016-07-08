@@ -52,7 +52,6 @@ header {
 	}
 
 	.buynow, .buynow:visited {
-		//display: inline-block;
 		flex: 1 1 auto;
 		background: $purple;
 		color: #fff;
@@ -70,14 +69,11 @@ header {
 
 
 	.nifty-burger {
-		//display: inline-block;
 		flex: 0 1 40px;
 		height: $header-height;
 		position: relative;
 		vertical-align: top;
 		background: $teal;
-		width: 30px;
-
 	}
 
 	.nifty-burger.active{
