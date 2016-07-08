@@ -1,11 +1,11 @@
 
 .halfsplit {
 	.row {max-width: 100%; padding: 0;}
-	
-	.leftyleft, 
+
+	.leftyleft,
 	.rightyright {width: 50%;}
-	
-	
+
+
 	.leftyleft {
 		display: flex;
 		flex-flow: column wrap;
@@ -13,30 +13,30 @@
 		align-items: flex-end;
 		background-size: 55px 55px;
 		margin: 0;
-		
+
 		.thecontent {
 			width: 100%;
 		}// end the content
-		
-		}
+
+
 	} // end lefty left
-	
+
 	.rightyright {
 		display: flex;
 		flex-flow: column wrap;
 		justify-content: center;
 		align-items: flex-start;
-		
+
 		.thecontent {
 			width: 100%;
 		}// end the content
-		
-		
+
+
 		.content-a {
 			flex: 1 1 auto;
 			background-size: 55px 55px;
 			width: 100%;
-			
+
 			.thecontent {
 				flex: 1 1 auto;
 				width: 100%;
@@ -45,21 +45,21 @@
 				align-items: flex-end;
 			} // end thecontent
 		} // end content-a
-		
-		
+
+
 		.content-b{
 			flex: 1 1 auto;
-			background-size: 55px 55px;		
+			background-size: 55px 55px;
 			width: 100%;
 			//min-height: 250px;
-			
+
 			.thecontent {
 				flex: 1 1 auto;
 				width: 100%;
 				max-width: 600px;
 				justify-content: flex-start;
 				align-items: flex-start;
-				
+
 			} // end thecontent
 		}
 		//end content-b
