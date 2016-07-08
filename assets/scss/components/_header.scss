@@ -44,8 +44,16 @@ header {
 		float: left;
 	}
 
+	.header-buy-menu{
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: center;
+		align-items: center;
+	}
+
 	.buynow, .buynow:visited {
-		display: inline-block;
+		//display: inline-block;
+		flex: 1 1 auto;
 		background: $purple;
 		color: #fff;
 		height: $header-height;
@@ -62,7 +70,8 @@ header {
 
 
 	.nifty-burger {
-		display: inline-block;
+		//display: inline-block;
+		flex: 0 1 40px;
 		height: $header-height;
 		position: relative;
 		vertical-align: top;
