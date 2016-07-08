@@ -74,6 +74,10 @@ header {
 		position: relative;
 		vertical-align: top;
 		background: $teal;
+		cursor: pointer;
+		&:hover{
+			background: $purple;
+		}
 	}
 
 	.nifty-burger.active{
