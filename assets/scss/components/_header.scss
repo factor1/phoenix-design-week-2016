@@ -47,6 +47,7 @@ header {
 
 
 	.buynow, .buynow:visited {
+		display: inline-block;
 		background: $purple;
 		color: #fff;
 		height: $header-height;
@@ -63,6 +64,7 @@ header {
 
 
 	.nifty-burger {
+		display: inline-block;
 		position: relative;
 		background: $teal;
 		height: $header-height;
