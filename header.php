@@ -34,12 +34,15 @@
 				<h2>Phoenix Design Week   ||   October 21-28, 2016</h2>
 			</div>
 
-			<a href="" class="col-3 buynow">
-				Buy Method + Madness Tickets
-			</a>
-			<div class="col-1">
-				<a id="nifty-nav-toggle" ><span></span></a>
+			<div href="" class="col-4">
+        <a class="buynow">
+		      Buy Method + Madness Tickets
+        </a>
+        <div class="nifty-burger">
+          <a id="nifty-nav-toggle" ><span></span></a>
+        </div>
 			</div>
+
 		</div>
   </header>
 
