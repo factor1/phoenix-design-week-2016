@@ -137,8 +137,7 @@
 				Learn About Downtown Phoenix
 			</a>
 		</div>
-		<div class="col-6 stretch" style="padding: 0;">
-			<img src="<?php bloginfo('template_url');?>/assets/img/map.png" alt="Map of Phoenix">
+		<div class="col-6 stretch" style="background: url(<?php bloginfo('template_url');?>/assets/img/map.png) center center no-repeat; background-size:cover; padding: 0;">
 		</div>
 	</div>
 </section>
