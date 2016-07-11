@@ -75,7 +75,7 @@
 							<?php the_title();?>
 						</h4>
 
-						<?php the_excerpt();?>
+						<?php the_field('title');?>
 					</a>
 				</div>
 		<?php endwhile;?>
