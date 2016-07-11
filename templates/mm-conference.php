@@ -48,7 +48,7 @@
 	</div>
 
 	<div class="row">
-		<div class="col-10 col-centered">
+		<div class="col-11 col-centered">
 		<?php
 		$args = array(
 	        'posts_per_page'            => -1,
@@ -69,7 +69,7 @@
 					M+M Speakers
 				</h2>
 				<?php while( $query->have_posts() ): $query->the_post();?>
-					<div class="col-3 speakerthumb">
+					<div class="col-4 speakerthumb">
 						<a href="<?php the_permalink();?>">
 							<?php the_post_thumbnail('profile-picture'); ?>
 							<h4>
@@ -83,7 +83,7 @@
 					</div>
 			<?php endwhile;?>
 
-			<div class="col-3 speakerthumb">
+			<div class="col-4 speakerthumb">
 				<img src="<?php bloginfo('template_url');?>/assets/img/andmore.png" alt="And many more!">
 			</div>
 
