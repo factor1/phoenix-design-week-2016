@@ -21,8 +21,8 @@
 				<br>The Phoenix Convention Center
 				<br>8am Check­in • 9am Talks begin
 			</h3>
-			<a href="" class="button white text-purple">
-				Be There
+			<a href="https://www.eventbrite.com/e/method-madness-conference-phxdw-2016-tickets-24939107542" class="button white text-purple">
+				Claim Your Spot
 			</a>
 		</div>
 	</div>
