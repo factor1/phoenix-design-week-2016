@@ -112,6 +112,9 @@
 .join-us{
 	background: $purple pattern('diagonals-tight', 'purple');
 	background-size: 55px 55px;
+	.col-6{
+		background: $purple;
+	}
 }
 
 
