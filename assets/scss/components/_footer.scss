@@ -48,6 +48,9 @@ footer{
     display: inline-block;
     margin: 0 8px;
     border: 5px solid $yellow;
+    width: rem(54px);
+    height: rem(54px);
+    text-align: center;
     i{
       font-size: 21px;
     }
