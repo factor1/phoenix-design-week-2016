@@ -17,7 +17,7 @@
 // Conference Detail Copy  (aka the_content + Speakers
 
 .conf-content{
-	background: $teal pattern(zigzag,purple);
+	background: $teal pattern('zigzag','purple');
 	padding: 50px 0;
 
 	p {}
