@@ -5,6 +5,7 @@
 footer{
   width: 100%;
   overflow: hidden;
+  // row patterns
   .row{
     background: $purple;
     &:before{
@@ -26,6 +27,15 @@ footer{
       right: -50%;
       background: $purple pattern('diagonals-tight', 'teal');
       background-size: 55px 55px;
+    }
+  }
+  .social-icons{
+    h3{
+      display: inline-block;
+      font: rem(30px) $proxima;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: $yellow;
     }
   }
 }
