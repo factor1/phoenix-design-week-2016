@@ -47,47 +47,50 @@
 	</article>
 	</div>
 
-	<?php
-	$args = array(
-        'posts_per_page'            => -1,
-        'post_type'              		=> 'f1_staffgrid_cpt',
-        //'f1_staffgrid_tax'        => 'leadership', // Department Taxonomy (per site)
-        'meta_key'              		=> 'last_name',
-        'orderby'                   => 'meta_value',
-        'order'                     => 'ASC'
-  );
+	<div class="row">
+		<div class="col-10 col-centered">
+		<?php
+		$args = array(
+	        'posts_per_page'            => -1,
+	        'post_type'              		=> 'f1_staffgrid_cpt',
+	        //'f1_staffgrid_tax'        => 'leadership', // Department Taxonomy (per site)
+	        'meta_key'              		=> 'last_name',
+	        'orderby'                   => 'meta_value',
+	        'order'                     => 'ASC'
+	  );
 
-	// The Query
-	$query = new WP_Query( $args );
+		// The Query
+		$query = new WP_Query( $args );
 
-	if( $query->have_posts() ):
-	?>
-		<div class="row row--justify-content-start speakerthumbgrid">
+		if( $query->have_posts() ):
+		?>
+			<div class="row row--justify-content-start speakerthumbgrid">
+				<h2 class="col-12 text-white text-center">
+					M+M Speakers
+				</h2>
+				<?php while( $query->have_posts() ): $query->the_post();?>
+					<div class="col-4 speakerthumb">
+						<a href="<?php the_permalink();?>">
+							<?php the_post_thumbnail('profile-picture'); ?>
+							<h4>
+								<?php the_title();?>
+							</h4>
 
-			<h2 class="col-12 text-white text-center">
-				M+M Speakers
-			</h2>
-			<?php while( $query->have_posts() ): $query->the_post();?>
-				<div class="col-4 speakerthumb">
-					<a href="<?php the_permalink();?>">
-						<?php the_post_thumbnail('profile-picture'); ?>
-						<h4>
-							<?php the_title();?>
-						</h4>
+							<p>
+								<?php the_field('title');?>
+							</p>
+						</a>
+					</div>
+			<?php endwhile;?>
 
-						<p>
-							<?php the_field('title');?>
-						</p>
-					</a>
-				</div>
-		<?php endwhile;?>
+			<div class="col-4 speakerthumb">
+				<img src="<?php bloginfo('template_url');?>/assets/img/andmore.png" alt="And many more!">
+			</div>
 
-		<div class="col-4 speakerthumb">
-			<img src="<?php bloginfo('template_url');?>/assets/img/andmore.png" alt="And many more!">
+			</div>
+		<?php endif; wp_reset_postdata();?>
 		</div>
-
-		</div>
-	<?php endif; wp_reset_postdata();?>
+	</div>
 
 </section>
 
