@@ -4,9 +4,23 @@
 <footer class="container">
   <div class="row">
     <div class="col-12 text-center social-icons">
+      
       <h3>
-        Follow us and sahre the #PHXDW love!
+        Follow us and share the #PHXDW love!
       </h3>
+
+      <a href="http://twitter.com/phxdc" class="social-icon">
+        <i class="fa fa-twitter"></i>
+      </a>
+
+      <a href="https://www.facebook.com/phxdw/" class="social-icon">
+        <i class="fa fa-facebook"></i>
+      </a>
+
+      <a href="https://www.instagram.com/aigaarizona/" class="social-icon">
+        <i class="fa fa-instagram"></i>
+      </a>
+
     </div>
   </div>
   <div class="row">
