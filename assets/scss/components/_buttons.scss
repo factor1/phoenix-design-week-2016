@@ -57,9 +57,23 @@
 	//padding: 25px 35px;
 
 	&.white{
+    border: 2px solid white;
     background: #fff;
+    color: $pink;
+    &:hover{
+      background: none;
+      color: white;
+    }
   }
-	&.yellow     {background: $yellow;}
+
+	&.yellow{
+    border: 2px solid $yellow;
+    background: $yellow;
+    &:hover{
+      background: none;
+    }
+  }
+
 	&.ltpurple	 {background: $ltpurple;}
 	&.purple		 {background: $purple;}
 	&.drkpurple	 {background: $drkpurple;}
