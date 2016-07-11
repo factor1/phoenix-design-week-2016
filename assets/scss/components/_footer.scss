@@ -3,14 +3,15 @@
 ------------------------------------------------------------------------------*/
 
 footer{
-  p{
-    font-size: rem(18px);
-  }
-  a{
-    color: $black;
-    text-decoration: underline;
-    &:hover{
-      color: $teal;
+  .row{
+    background: $purple;
+    &:before{
+      content: '';
+      display: block;
+      position: absolute;
+      width: 50%;
+      background: $purple pattern('diamonds1', 'teal');
+      background-size: 55px 55px;
     }
   }
 }
