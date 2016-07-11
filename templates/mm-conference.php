@@ -121,7 +121,7 @@
 ?>
 <section class="container join-us">
 	<div class="row">
-		<div class="col-6">
+		<div class="col-6 stretch">
 			<h2>Join us in downtown<br>Phoenix, AZ</h2>
 			<p>
 				M + M takes place in the heart of the city. The increasingly revitalized
@@ -137,7 +137,7 @@
 				Learn About Downtown Phoenix
 			</a>
 		</div>
-		<div class="col-6">
+		<div class="col-6 stretch" style="padding: 0;">
 			<img src="<?php bloginfo('template_url');?>/assets/img/map.png" alt="Map of Phoenix">
 		</div>
 	</div>
