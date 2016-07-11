@@ -31,7 +31,11 @@
 
 	.speakerthumbgrid {
 		.speakerthumb {
-
+			h4{
+				font: rem(25px) $proxima;
+				font-weight: 600;
+				color: white;
+			}
 		} // End speakerthumb
 	} // end speakerthumbgrid
 

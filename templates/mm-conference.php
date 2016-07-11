@@ -54,13 +54,13 @@
 
 		<div class="col-4 speakerthumb">
 			<a href="#">
-				<img src="http://placehold.it/300x300">
+				<?php the_post_thumbnail('profile-picture'); ?>
 				<h4>
 					<?php the_title();?>
 				</h4>
-				<p>
-					Speaker short Bio
-				</p>
+
+				<?php the_excerpt();?>
+				
 			</a>
 		</div>
 
