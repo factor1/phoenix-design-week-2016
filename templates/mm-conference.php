@@ -138,7 +138,7 @@
 			</a>
 		</div>
 		<div class="col-6">
-			<img href="<?php bloginfo('template_url');?>/assets/img/map.png" alt="Map of Phoenix">
+			<img src="<?php bloginfo('template_url');?>/assets/img/map.png" alt="Map of Phoenix">
 		</div>
 	</div>
 </section>
