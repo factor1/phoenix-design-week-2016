@@ -38,6 +38,7 @@
         <a href="#">
           Privacy Policy
         </a>
+        
         <a href="#">
           Contact Us
         </a>
