@@ -67,5 +67,10 @@ footer{
     text-transform: uppercase;
     font-weight: 600;
     color: white;
+    img{
+      max-width: 250px;
+      vertical-align: middle;
+      margin-left: rem(15px);
+    }
   }
 }
