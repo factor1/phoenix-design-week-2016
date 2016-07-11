@@ -138,7 +138,7 @@
 			</a>
 		</div>
 		<div class="col-6">
-
+			<div class="<?php bloginfo('template_url');?>/assets/img/map.png" alt="Map of Phoenix">
 		</div>
 	</div>
 </section>
