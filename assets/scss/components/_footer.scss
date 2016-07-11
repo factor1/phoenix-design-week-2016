@@ -6,7 +6,7 @@ footer{
   width: 100%;
   overflow: hidden;
   // row patterns
-  .row{
+  .row:first-of-type{
     background: $purple;
     &:before{
       content: '';
