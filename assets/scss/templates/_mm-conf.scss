@@ -138,11 +138,16 @@
 
 		.thecontent {
 			background: #fff;
-			padding: 20px;
+			padding-top: 47px;
+			padding-bottom: 47px;
 			margin-top: 20px;
 			width: 100%;
 			max-width: 570px;
-
+			h2{
+				margin-top: 0;
+				font: rem(20px) $proxima;
+				font-weight: normal;
+			}
 			p {color: $grey;}
 		}
 	} // end lefty left

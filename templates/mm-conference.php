@@ -156,9 +156,11 @@
 	<div class="row">
 		<div class="leftyleft">
 			<div class="thecontent">
+				
 				<h2 class="text-pink">How does Method + Madness compare to other conferences?</h2>
-			<p>Not all conferences are created equal. Here’s why you should definitely attend this one.</p>
-			<a href="" class="button">SEE HOW M + M STACKS UP</a>
+				<p>Not all conferences are created equal. Here’s why you should definitely attend this one.</p>
+
+				<a href="" class="button pink">SEE HOW M + M STACKS UP</a>
 
 			</div>
 		</div>
