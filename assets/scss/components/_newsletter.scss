@@ -1,0 +1,102 @@
+.newsletter--container{
+  display: block;
+  position: relative;
+  width: 95%;
+  height: auto;
+  margin: rem(77px) auto 0;
+  background: $pink;
+  padding: rem(27px) 0 rem(190px);
+  &:before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: rem(27px);
+    background: url('../img/Chevron-White.png') left top repeat-x;
+    background-size: contain;
+  }
+  &:after{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: rem(120px);
+    background: $pink url('../img/Scribble-Pink-BG.png') center bottom repeat-x;
+    background-position: 0 0;
+  }
+  h1,p{
+    color: white;
+  }
+  form{
+    margin: rem(37px) auto 0;
+    input[type=text], input[type=email]{
+      width: 98%;
+      margin: 0 auto rem(15px);
+    }
+  }
+}
+
+// Mail Chimp Newsletter override
+#mce-success-response.response{
+  position: absolute;
+  display: block;
+  top: -30px;
+  left: 0;
+  text-align: center;
+  background: $pink;
+  padding: 60px 40px;
+  z-index: 999;
+  width: 109%;
+  height: 116%;
+  color: white;
+}
+@media screen and (max-width: 925px){
+  #mce-success-response.response{
+    width: 100%;
+  }
+}
+
+.sponsors--container{
+  margin: rem(33px) auto;
+  h1{
+    color: $teal;
+  }
+  img{
+    width: rem(172px);
+  }
+}
+
+.sponsors--grid-item{
+  margin-bottom: rem(30px);
+}
+
+
+// Media Queries
+
+@media screen and (max-width: rem(960px)){
+  .newsletter--container{
+    form.row{
+      div{
+        flex: 0 0 100%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $small-breakpoint){
+
+  // Newsletter
+  .newsletter--container{
+    margin-top: 10px;
+  }
+
+  .newsletter--container form input[type=text], .newsletter--container form input[type=email]{
+    width: 91%;
+    margin: 0 auto rem(15px);
+  }
+
+}
