@@ -47,24 +47,42 @@
 	</article>
 	</div>
 
-	<div class="row speakerthumbgrid">
-		<h2 class="col-12 text-white text-center">
-			M+M Speakers
-		</h2>
+	<?php
+	$args = array(
+        'posts_per_page'            => -1,
+        'post_type'              		=> 'f1_staffgrid_cpt',
+        //'f1_staffgrid_tax'        => 'leadership', // Department Taxonomy (per site)
+        'meta_key'              		=> 'last_name',
+        'orderby'                   => 'meta_value',
+        'order'                     => 'ASC'
+  );
 
-		<div class="col-4 speakerthumb">
-			<a href="#">
-				<?php the_post_thumbnail('profile-picture'); ?>
-				<h4>
-					<?php the_title();?>
-				</h4>
+	// The Query
+	$query = new WP_Query( $args );
 
-				<?php the_excerpt();?>
-				
-			</a>
+	if( $query->have_posts() ):
+	?>
+		<div class="row speakerthumbgrid">
+
+			<h2 class="col-12 text-white text-center">
+				M+M Speakers
+			</h2>
+			<?php while( $query->have_posts() ): $query->the_post();?>
+				<div class="col-4 speakerthumb">
+					<a href="<?php the_permalink();?>">
+						<?php the_post_thumbnail('profile-picture'); ?>
+						<h4>
+							<?php the_title();?>
+						</h4>
+
+						<?php the_excerpt();?>
+					</a>
+				</div>
+		<?php endwhile;?>
+
 		</div>
+	<?php endif; wp_reset_postdata();?>
 
-	</div>
 </section>
 
 
