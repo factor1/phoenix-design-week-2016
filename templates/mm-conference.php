@@ -129,8 +129,8 @@
 				and by October we’ll be experiencing some of the best weather of the year.
 			</p>
 			<p>
-				<strong>The Phoenix Convention Center</strong>
-				100 N. 3rd Street
+				<strong>The Phoenix Convention Center</strong><br>
+				100 N. 3rd Street<br>
 				Phoenix, AZ 85004
 			</p>
 			<a href="#" class="button white">
