@@ -54,14 +54,47 @@
 	display: inline-block;
   font: rem(24px) $bebas;
 	text-transform: uppercase;
-	padding: 25px 35px;
+	//padding: 25px 35px;
 
-	&.white 		 {background: #fff;}
-	&.yellow     {background: $yellow;}
+	&.white{
+    border: 2px solid white;
+    background: #fff;
+    color: $pink;
+    &:hover{
+      background: none;
+      color: white;
+    }
+  }
+
+	&.yellow{
+    border: 2px solid $yellow;
+    background: $yellow;
+    &:hover{
+      background: none;
+    }
+  }
+
 	&.ltpurple	 {background: $ltpurple;}
-	&.purple		 {background: $purple;}
+
+	&.purple{
+    background: $purple;
+    border: 2px solid $purple;
+    &:hover{
+      background: none;
+      color: $purple;
+    }
+  }
+
 	&.drkpurple	 {background: $drkpurple;}
-	&.pink		   {background: $pink;}
+	&.pink{
+    border: 2px solid $pink;
+    background: $pink;
+    color: white;
+    &:hover{
+      background: none;
+      color: $pink;
+    }
+  }
 	&.teal		   {background: $teal;}
 
 }
