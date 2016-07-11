@@ -114,6 +114,18 @@
 	background-size: 55px 55px;
 	.col-6{
 		background: $purple;
+		&:first-of-type{
+			padding-top: rem(58px);
+			padding-bottom: rem(58px);
+		}
+	}
+	h2, p{
+		color: white;
+	}
+	h2{
+		font: rem(40px) $proxima;
+		font-weight: normal;
+		text-transform: none;
 	}
 }
 
