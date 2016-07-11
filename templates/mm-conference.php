@@ -80,7 +80,7 @@
 				</div>
 		<?php endwhile;?>
 
-		<div class="col-4">
+		<div class="col-4 speakerthumb">
 			<img src="<?php bloginfo('template_url');?>/assets/img/andmore.png" alt="And many more!">
 		</div>
 
