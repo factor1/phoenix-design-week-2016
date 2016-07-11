@@ -3,9 +3,9 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h1>
+        <h2>
           Sign Up For Email Alerts
-        </h1>
+        </h2>
         <p>
           Phoenix Design Week 2016 is just heating up. Be the first to know
           about PHXDW events, Method + Madness Conference speakers and more.

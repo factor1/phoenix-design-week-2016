@@ -3,20 +3,9 @@
   position: relative;
   width: 95%;
   height: auto;
-  margin: rem(77px) auto 0;
-  background: $pink;
-  padding: rem(27px) 0 rem(190px);
-  &:before{
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: rem(27px);
-    background: url('../img/Chevron-White.png') left top repeat-x;
-    background-size: contain;
-  }
+  margin: 0 auto;
+  background: $yellow;
+  padding: rem(63px) 0;
   &:after{
     content: '';
     display: block;
@@ -24,12 +13,12 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    height: rem(120px);
-    background: $pink url('../img/Scribble-Pink-BG.png') center bottom repeat-x;
-    background-position: 0 0;
+    height: rem(35px);
+    background: pattern('diagonals-tight','lime');
   }
-  h1,p{
-    color: white;
+  h2{
+    text-transform: none;
+    color: $pink;
   }
   form{
     margin: rem(37px) auto 0;
@@ -58,20 +47,6 @@
   #mce-success-response.response{
     width: 100%;
   }
-}
-
-.sponsors--container{
-  margin: rem(33px) auto;
-  h1{
-    color: $teal;
-  }
-  img{
-    width: rem(172px);
-  }
-}
-
-.sponsors--grid-item{
-  margin-bottom: rem(30px);
 }
 
 
