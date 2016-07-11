@@ -63,7 +63,6 @@
 
 
 // Testimonials
-
 .tesimonial {
 	background: $pink url(../img/photos/0101-purple-pink.jpg) bottom center no-repeat;
 	background-size: cover;
@@ -87,9 +86,17 @@
 			background: none;
 			&:before {background: none;}
 
+			h2{
+				font: rem(40px) $proxima;
+				color: white;
+				font-weight: normal;
+				text-transform: none;
+			}
 
 			cite {
-
+				font: rem(20px) $proxima;
+				text-transform: uppercase;
+				color: white;
 			} // end cite
 		}// end blockquote
 

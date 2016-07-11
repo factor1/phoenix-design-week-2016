@@ -100,12 +100,14 @@
 
 <section class="container tesimonial">
 	<div class="row">
-		<div class="col-12">
+		<div class="col-12 text-center">
 			<blockquote>
-			<h2  class="text-center">"Method + Madness inspires me to create more,
+				<h2>
+					"Method + Madness inspires me to create more,
 					strive to make my work better, and try new things.
-					It reminds me why I love design."</h2>
-					<cite>Kristie Erkkila</cite>
+					It reminds me why I love design."
+				</h2>
+				<cite>Kristie Erkkila</cite>
 			</blockquote>
 		</div>
 	</div>
