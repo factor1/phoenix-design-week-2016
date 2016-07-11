@@ -28,11 +28,19 @@
       Presented By <a href="https://arizona.aiga.org/"><img src="<?php bloginfo('template_url');?>/assets/img/aiga-logo.png" alt="AIGA Arizona"></a>
     </div>
   </div>
-  <div class="row">
+  <div class="row" style="margin-top: 30px;">
     <div class="col-12 text-center">
       <p>
         Phoenix Design Week was founded by <a href="http://www.lostcreature.com/">Lost Creature</a> and is organized by
         <a href="http://arizona.aiga.org/">AIGA Arizona</a>.
+      </p>
+      <p>
+        <a href="#">
+          Privacy Policy
+        </a>
+        <a href="#">
+          Contact Us
+        </a>
       </p>
     </div>
   </div>
