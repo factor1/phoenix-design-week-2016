@@ -56,12 +56,22 @@
 	text-transform: uppercase;
 	padding: 25px 35px;
 
-	&.white 		 {background: #fff;}
+	&.white{
+    background: #fff;
+  }
 	&.yellow     {background: $yellow;}
 	&.ltpurple	 {background: $ltpurple;}
 	&.purple		 {background: $purple;}
 	&.drkpurple	 {background: $drkpurple;}
-	&.pink		   {background: $pink;}
+	&.pink{
+    border: 2px solid $pink;
+    background: $pink;
+    color: white;
+    &:hover{
+      background: none;
+      color: $pink;
+    }
+  }
 	&.teal		   {background: $teal;}
 
 }
