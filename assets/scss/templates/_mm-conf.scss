@@ -58,10 +58,6 @@
 } // End conf-content
 
 
-
-
-
-
 // Testimonials
 .tesimonial {
 	background: $pink url(../img/photos/0101-purple-pink.jpg) bottom center no-repeat;
@@ -132,20 +128,20 @@
 	}
 }
 
-
-
-
 // Conf compare
 // phase 2 only
-
 
 .halfsplit.comparesplit {
 	.leftyleft {
 		background: #fff pattern(diagonals-loose,teal);
+		background-size: 55px 55px;
 
 		.thecontent {
 			background: #fff;
 			padding: 20px;
+			margin-top: 20px;
+			width: 100%;
+			max-width: 570px;
 
 			p {color: $grey;}
 		}
@@ -170,10 +166,6 @@
 
 // Convince your boss
 // phase 2 only
-
-
-
-
 
 
 // Price grid
