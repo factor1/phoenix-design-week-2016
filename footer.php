@@ -38,7 +38,7 @@
         <a href="#">
           Privacy Policy
         </a>
-        
+        &nbsp; &nbsp;
         <a href="#">
           Contact Us
         </a>
