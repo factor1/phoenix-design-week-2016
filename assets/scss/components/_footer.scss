@@ -5,29 +5,29 @@
 footer{
   width: 100%;
   overflow: hidden;
+  &:before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: -50%;
+    background: $purple pattern('diamonds1', 'teal');
+    background-size: 55px 55px;
+  }
+  &:after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    right: -50%;
+    background: $purple pattern('diagonals-tight', 'teal');
+    background-size: 55px 55px;
+  }
   // row patterns
-  .row:first-of-type{
+  .row{
     background: $purple;
-    &:before{
-      content: '';
-      display: block;
-      position: absolute;
-      width: 50%;
-      height: 100%;
-      left: -50%;
-      background: $purple pattern('diamonds1', 'teal');
-      background-size: 55px 55px;
-    }
-    &:after{
-      content: '';
-      display: block;
-      position: absolute;
-      width: 50%;
-      height: 100%;
-      right: -50%;
-      background: $purple pattern('diagonals-tight', 'teal');
-      background-size: 55px 55px;
-    }
   }
   .social-icons{
     h3{
