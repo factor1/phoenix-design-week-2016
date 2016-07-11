@@ -51,8 +51,12 @@ footer{
     width: rem(54px);
     height: rem(54px);
     text-align: center;
+    padding-top: rem(10px);
+    &:first-of-type{
+      margin-left: rem(20px);
+    }
     i{
-      font-size: 21px;
+      font-size: 25px;
       color: $yellow;
     }
   }
