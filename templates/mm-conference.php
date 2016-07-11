@@ -62,7 +62,7 @@
 
 	if( $query->have_posts() ):
 	?>
-		<div class="row speakerthumbgrid">
+		<div class="row row--justify-content-start speakerthumbgrid">
 
 			<h2 class="col-12 text-white text-center">
 				M+M Speakers
