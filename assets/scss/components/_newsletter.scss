@@ -39,12 +39,12 @@
   top: -30px;
   left: 0;
   text-align: center;
-  background: $pink;
+  background: $yellow;
   padding: 60px 40px;
   z-index: 999;
   width: 109%;
   height: 116%;
-  color: white;
+  color: $pink;
 }
 @media screen and (max-width: 925px){
   #mce-success-response.response{
