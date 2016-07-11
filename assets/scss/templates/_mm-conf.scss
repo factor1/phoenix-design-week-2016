@@ -32,7 +32,6 @@
 	.speakerthumbgrid {
 		.speakerthumb {
 			h4{
-				margin-bottom: rem(15px);
 				font: rem(25px) $proxima;
 				font-weight: 600;
 				color: white;
@@ -41,6 +40,7 @@
 				max-width: 320px;
 			}
 			p{
+				margin-top: rem(15px);
 				a{
 					font-size: rem(20px);
 					color: white;
