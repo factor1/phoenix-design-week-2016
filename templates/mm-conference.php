@@ -122,7 +122,7 @@
 <section class="container join-us">
 	<div class="row">
 		<div class="col-6">
-			<h2>Join us in downtown Phoenix, AZ</h2>
+			<h2>Join us in downtown<br>Phoenix, AZ</h2>
 			<p>
 				M + M takes place in the heart of the city. The increasingly revitalized
 				downtown area is full of plenty of dining options and nightlife hotspots,
