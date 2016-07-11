@@ -3,6 +3,8 @@
 ------------------------------------------------------------------------------*/
 
 footer{
+  width: 100%;
+  overflow: hidden;
   .row{
     background: $purple;
     &:before{
