@@ -4,7 +4,7 @@
 <footer class="container">
   <div class="row">
     <div class="col-12 text-center social-icons">
-      
+
       <h3>
         Follow us and share the #PHXDW love!
       </h3>
@@ -21,6 +21,11 @@
         <i class="fa fa-instagram"></i>
       </a>
 
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-8 col-centered text-center aiga">
+      Presented By <a href="https://arizona.aiga.org/"><img src="<?php bloginfo('template_url');?>/assets/img/aiga-logo.png" alt="AIGA Arizona"></a>
     </div>
   </div>
   <div class="row">
