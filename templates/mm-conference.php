@@ -48,29 +48,21 @@
 	</div>
 
 	<div class="row speakerthumbgrid">
-	<h2 class=" col-12 text-white text-center">M+M Speakers</h2>
+		<h2 class="col-12 text-white text-center">
+			M+M Speakers
+		</h2>
 
-	<div class="col-4 speakerthumb">
-		<a href="#">
-			<img src="http://placehold.it/300x300">
-			<h4>Speaker Name</h4>
-			<p>Speaker short Bio</p>
-		</a>
-	</div>
-
-	<div class="col-4 speakerthumb">
-		<a href="#">
-			<img src="http://placehold.it/300x300">
-			<h4>Speaker Name</h4>
-			<p>Speaker short Bio</p>
-		</a>
-	</div>
-
-	<div class="col-4 speakerthumb">
-		<a href="#">
-			<img src="http://placehold.it/300x300">
-		</a>
-	</div>
+		<div class="col-4 speakerthumb">
+			<a href="#">
+				<img src="http://placehold.it/300x300">
+				<h4>
+					<?php the_title();?>
+				</h4>
+				<p>
+					Speaker short Bio
+				</p>
+			</a>
+		</div>
 
 	</div>
 </section>
