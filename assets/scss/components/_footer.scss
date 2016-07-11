@@ -10,7 +10,19 @@ footer{
       display: block;
       position: absolute;
       width: 50%;
+      height: 100%;
+      left: -50%;
       background: $purple pattern('diamonds1', 'teal');
+      background-size: 55px 55px;
+    }
+    &:after{
+      content: '';
+      display: block;
+      position: absolute;
+      width: 50%;
+      height: 100%;
+      right: -50%;
+      background: $purple pattern('diagonals-tight', 'teal');
       background-size: 55px 55px;
     }
   }
