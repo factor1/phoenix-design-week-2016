@@ -73,4 +73,16 @@ footer{
       margin-left: rem(15px);
     }
   }
+
+  p{
+    font: rem(18px) $proxima;
+    color: white;
+    a{
+      color: white;
+      text-decoration: underline;
+      &:hover{
+        color: $yellow;
+      }
+    }
+  }
 }
