@@ -119,12 +119,29 @@
 //  Join us downtown  (Phase 2)
 //============ ** ============ //
 ?>
+<section class="container join-us">
+	<div class="row">
+		<div class="col-6">
+			<h2>Join us in downtown Phoenix, AZ</h2>
+			<p>
+				M + M takes place in the heart of the city. The increasingly revitalized
+				downtown area is full of plenty of dining options and nightlife hotspots,
+				and by October we’ll be experiencing some of the best weather of the year.
+			</p>
+			<p>
+				<strong>The Phoenix Convention Center</strong>
+				100 N. 3rd Street
+				Phoenix, AZ 85004
+			</p>
+			<a href="#" class="button white">
+				Learn About Downtown Phoenix
+			</a>
+		</div>
+		<div class="col-6">
 
-<h2>Join us in downtown Phoenix, AZ</h2>
-<p>M + M takes place in the heart of the city. The increasingly revitalized downtown area is full of plenty of dining options and nightlife hotspots, and by October we’ll be experiencing some of the best weather of the year. </p>
-
-	Button text: Learn About Downtown Phoenix
-
+		</div>
+	</div>
+</section>
 
 <?php
 //============ ** ============ //
