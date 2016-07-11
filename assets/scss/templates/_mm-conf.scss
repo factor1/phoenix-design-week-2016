@@ -156,8 +156,17 @@
 
 			.thecontent {
 				background: $teal;
-				padding: 20px;
-				max-width: 600px;
+				padding: 66px 20px;
+				max-width: 570px;
+				width: 100%;
+				margin-bottom: 20px;
+
+				h2{
+					margin-top: 0;
+					font: rem(40px) $proxima;
+					font-weight: normal;
+					color: white;
+				}
 
 				p {color: #fff;}
 			}

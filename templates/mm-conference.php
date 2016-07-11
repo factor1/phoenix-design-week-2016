@@ -156,7 +156,7 @@
 	<div class="row">
 		<div class="leftyleft">
 			<div class="thecontent">
-				
+
 				<h2 class="text-pink">How does Method + Madness compare to other conferences?</h2>
 				<p>Not all conferences are created equal. Here’s why you should definitely attend this one.</p>
 
@@ -167,8 +167,12 @@
 
 		<div class="rightyright stretch">
 			<div class="thecontent">
-				<h2 class="text-white">Need help convincing your boss?</h2>
-				<p>The Method + Madness Conference is a solid investment in your design career.</p>
+				<h2 class="text-white">
+					Need help convincing your boss?
+				</h2>
+				<p>
+					The Method + Madness Conference is a solid investment in your design career.
+				</p>
 				<a href="" class="button">WHY YOU SHOULD ATTEND</a>
 			</div>
 		</div>
