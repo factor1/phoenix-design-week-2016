@@ -2,7 +2,7 @@
 </main>
 
 <footer class="container">
-  <div class="row">
+  <div class="row" style="padding-top: 60px;">
     <div class="col-12 text-center social-icons">
 
       <h3>
