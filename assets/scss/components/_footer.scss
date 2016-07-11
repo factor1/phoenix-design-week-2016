@@ -3,14 +3,86 @@
 ------------------------------------------------------------------------------*/
 
 footer{
-  p{
-    font-size: rem(18px);
+  width: 100%;
+  overflow: hidden;
+  &:before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: $purple pattern('diamonds1', 'teal');
+    background-size: 55px 55px;
+    z-index: -1;
   }
-  a{
-    color: $black;
-    text-decoration: underline;
-    &:hover{
-      color: $teal;
+  &:after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background: $purple pattern('diagonals-tight', 'teal');
+    background-size: 55px 55px;
+    z-index: -1;
+  }
+  // row patterns
+  .row{
+    background: $purple;
+  }
+  .social-icons{
+    h3{
+      display: inline-block;
+      font: rem(30px) $proxima;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: $yellow;
+    }
+  }
+
+  // single social icon
+  .social-icon{
+    display: inline-block;
+    margin: 0 8px;
+    border: 5px solid $yellow;
+    width: rem(54px);
+    height: rem(54px);
+    text-align: center;
+    padding-top: rem(10px);
+    &:first-of-type{
+      margin-left: rem(20px);
+    }
+    i{
+      font-size: 25px;
+      color: $yellow;
+    }
+  }
+
+  // aiga row
+  .aiga{
+    font: rem(19px) $proxima;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    img{
+      max-width: 250px;
+      vertical-align: middle;
+      margin-left: rem(15px);
+    }
+  }
+
+  p{
+    font: rem(18px) $proxima;
+    color: white;
+    a{
+      color: white;
+      text-decoration: underline;
+      &:hover{
+        color: $yellow;
+      }
     }
   }
 }

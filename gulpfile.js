@@ -54,7 +54,8 @@ gulp.task('sass', function() {
         includePaths: [
           './node_modules/ginger-grid/',
           './bower_components/sugar/',
-           './bower_components/nifty-nav/src/'
+           './bower_components/nifty-nav/src/',
+           './bower_components/font-awesome/scss/'
         ]
       }))
       .pipe(autoprefixer({

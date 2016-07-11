@@ -22,6 +22,7 @@
   ],
   "dependencies": {
     "sugar": "more-sugar#^1.0.5",
-    "nifty-nav": "^2.2.0"
+    "nifty-nav": "^2.2.0",
+    "font-awesome": "^4.6.3"
   }
 }
