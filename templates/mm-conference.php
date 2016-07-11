@@ -80,6 +80,10 @@
 				</div>
 		<?php endwhile;?>
 
+		<div class="col-4">
+			<img src="<?php bloginfo('template_url');?>/assets/img/andmore.png" alt="And many more!">
+		</div>
+
 		</div>
 	<?php endif; wp_reset_postdata();?>
 
