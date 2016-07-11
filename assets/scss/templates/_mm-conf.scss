@@ -19,7 +19,6 @@
 .conf-content{
 	background: $teal pattern('zigzag','purple');
 	background-size: 70px;
-	padding: 50px 0;
 
 	p {
 		color: white;
@@ -27,6 +26,7 @@
 
 	.row{
 		background: $teal;
+		padding: rem(50px) 0;
 	}
 
 	.speakerthumbgrid {
