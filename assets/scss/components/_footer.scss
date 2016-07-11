@@ -11,9 +11,11 @@ footer{
     position: absolute;
     width: 50%;
     height: 100%;
-    left: -50%;
+    left: 0;
+    top: 0;
     background: $purple pattern('diamonds1', 'teal');
     background-size: 55px 55px;
+    z-index: -1;
   }
   &:after{
     content: '';
@@ -21,9 +23,11 @@ footer{
     position: absolute;
     width: 50%;
     height: 100%;
-    right: -50%;
+    right: 0;
+    top: 0;
     background: $purple pattern('diagonals-tight', 'teal');
     background-size: 55px 55px;
+    z-index: -1;
   }
   // row patterns
   .row{
