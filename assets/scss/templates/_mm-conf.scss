@@ -2,13 +2,13 @@
 	background: $purple url(../img/patterns/scribble-pattern-purple-bg-tile.png) repeat;
 	padding-top: 80px;
 	text-align: center;
-	
+
 	.hero-content {
 		background: $pink;
 		padding: 100px;
-		
+
 	}// end hero-content
-	
+
 }// end home-hero
 
 
@@ -17,34 +17,55 @@
 // Conference Detail Copy  (aka the_content + Speakers
 
 .conf-content{
-	background-color: $teal ;
-	background: pattern(zigzag,purple);
-	padding: 50px 0;
-	
-	p {}
-	
+	background: $teal pattern('zigzag','purple');
+	background-size: 70px;
+
+	p {
+		color: white;
+	}
+
+	.row{
+		background: $teal;
+		&:first-of-type{
+			padding-top: rem(50px);
+		}
+		&:last-of-type{
+			padding-bottom: rem(50px);
+		}
+	}
+
 	.speakerthumbgrid {
 		.speakerthumb {
-			
+			h4{
+				font: rem(25px) $proxima;
+				font-weight: 600;
+				color: white;
+				margin-bottom: 0;
+			}
+			img{
+				max-width: 100%;
+			}
+			p{
+				margin-top: rem(15px);
+				a{
+					font-size: rem(20px);
+					color: white;
+				}
+			}
 		} // End speakerthumb
 	} // end speakerthumbgrid
-	
+
 } // End conf-content
 
 
-
-
-
-
 // Testimonials
-
 .tesimonial {
 	background: $pink url(../img/photos/0101-purple-pink.jpg) bottom center no-repeat;
 	background-size: cover;
 	color: #fff;
 	padding: 75px 0;
 	position: relative;
-	
+
 	&:after {
 		height: 30px;
 		width: 100%;
@@ -55,19 +76,27 @@
 		z-index: 100;
 		content: '';
 		display: block;
-		}	
-		
+		}
+
 		blockquote {
 			background: none;
 			&:before {background: none;}
-			
-			
+
+			h2{
+				font: rem(40px) $proxima;
+				color: white;
+				font-weight: normal;
+				text-transform: none;
+			}
+
 			cite {
-				
+				font: rem(20px) $proxima;
+				text-transform: uppercase;
+				color: white;
 			} // end cite
 		}// end blockquote
-		
-	
+
+
 } // end testimonials
 
 
@@ -76,39 +105,74 @@
 
 
 // Join us downtown
-// phase 2 only
-
-
-
+.join-us{
+	background: $purple pattern('diagonals-tight', 'purple');
+	background-size: 55px 55px;
+	.col-6{
+		background: $purple;
+		&:first-of-type{
+			padding-top: rem(58px);
+			padding-bottom: rem(58px);
+		}
+	}
+	h2, p{
+		color: white;
+	}
+	h2{
+		font: rem(40px) $proxima;
+		font-weight: normal;
+		text-transform: none;
+	}
+	.button{
+		color: $purple;
+	}
+}
 
 // Conf compare
 // phase 2 only
 
-
-.halfsplit.comparesplit {	
+.halfsplit.comparesplit {
 	.leftyleft {
 		background: #fff pattern(diagonals-loose,teal);
-		
+		background-size: 55px 55px;
+
 		.thecontent {
 			background: #fff;
-			padding: 20px;
-			
-			p {color: $grey;}
+			padding: 50px 20px;
+			margin-top: 20px;
+			width: 100%;
+			max-width: 586px;
+			h2{
+				margin-top: 0;
+				font: rem(40px) $proxima;
+				font-weight: normal;
+			}
+			p {color: $black;}
 		}
 	} // end lefty left
-	
-	.rightyright {		
-		background: $teal pattern(diamonds,purple);
-			
+
+	.rightyright {
+		background: $teal pattern(diamonds1,purple);
+		background-size: 55px 55px;
+		justify-content: flex-start;
 			.thecontent {
 				background: $teal;
-				padding: 20px;
-				max-width: 600px;
-				
+				padding: 66px 20px;
+				max-width: 586px;
+				width: 100%;
+				margin-bottom: 20px;
+
+				h2{
+					margin-top: 0;
+					font: rem(40px) $proxima;
+					font-weight: normal;
+					color: white;
+				}
+
 				p {color: #fff;}
 			}
 	} // end righty right
-	
+
 }
 
 
@@ -118,19 +182,15 @@
 // phase 2 only
 
 
-
-
-
-
 // Price grid
 .pricegrid {
 	background: $pink;
-	
+
 	.priceblock {
 		@include aspect-ratio(7,6);
-		
+
 		.content {margin: 0 10px;}
-		
+
 		p {
 			text-transform: uppercase;
 			text-align: center;
@@ -138,18 +198,18 @@
 			line-height: 22px;
 			color: #fff;
 		}
-		
+
 		p.price {
 			font-size: 36px;
 			padding: 10px;
 		}
-		
+
 		&.first .content {background: $purple pattern(diagonals-loose,pink); background-size: 55px 55px;}
 		&.second .content {background: $purple pattern(cirlces,pink); background-size: 55px 55px;}
 		&.third .content {background: $purple pattern(zigzag,pink); background-size: 55px 55px;}
 		&.fourth .content {background: $purple pattern(diagonals-tight,pink); background-size: 55px 55px;}
-		
-		
+
+
 		.button {margin: 25px auto;}
 	}
 }

@@ -47,32 +47,51 @@
 	</article>
 	</div>
 
-	<div class="row speakerthumbgrid">
-	<h2 class=" col-12 text-white text-center">M+M Speakers</h2>
+	<div class="row">
+		<div class="col-11 col-centered">
+		<?php
+		$args = array(
+	        'posts_per_page'            => -1,
+	        'post_type'              		=> 'f1_staffgrid_cpt',
+	        //'f1_staffgrid_tax'        => 'leadership', // Department Taxonomy (per site)
+	        'meta_key'              		=> 'last_name',
+	        'orderby'                   => 'meta_value',
+	        'order'                     => 'ASC'
+	  );
 
-	<div class="col-4 speakerthumb">
-		<a href="#">
-			<img src="http://placehold.it/300x300">
-			<h4>Speaker Name</h4>
-			<p>Speaker short Bio</p>
-		</a>
+		// The Query
+		$query = new WP_Query( $args );
+
+		if( $query->have_posts() ):
+		?>
+			<div class="row row--justify-content-start speakerthumbgrid">
+				<h2 class="col-12 text-white text-center">
+					M+M Speakers
+				</h2>
+				<?php while( $query->have_posts() ): $query->the_post();?>
+					<div class="col-4 speakerthumb">
+						<a href="<?php the_permalink();?>">
+							<?php the_post_thumbnail('profile-picture'); ?>
+							<h4>
+								<?php the_title();?>
+							</h4>
+
+							<p>
+								<?php the_field('title');?>
+							</p>
+						</a>
+					</div>
+			<?php endwhile;?>
+
+			<div class="col-4 speakerthumb">
+				<img src="<?php bloginfo('template_url');?>/assets/img/andmore.png" alt="And many more!">
+			</div>
+
+			</div>
+		<?php endif; wp_reset_postdata();?>
+		</div>
 	</div>
 
-	<div class="col-4 speakerthumb">
-		<a href="#">
-			<img src="http://placehold.it/300x300">
-			<h4>Speaker Name</h4>
-			<p>Speaker short Bio</p>
-		</a>
-	</div>
-
-	<div class="col-4 speakerthumb">
-		<a href="#">
-			<img src="http://placehold.it/300x300">
-		</a>
-	</div>
-
-	</div>
 </section>
 
 
@@ -84,12 +103,14 @@
 
 <section class="container tesimonial">
 	<div class="row">
-		<div class="col-12">
+		<div class="col-12 text-center">
 			<blockquote>
-			<h2  class="text-center">"Method + Madness inspires me to create more,
+				<h2>
+					"Method + Madness inspires me to create more,
 					strive to make my work better, and try new things.
-					It reminds me why I love design."</h2>
-					<cite>Kristie Erkkila</cite>
+					It reminds me why I love design."
+				</h2>
+				<cite>Kristie Erkkila</cite>
 			</blockquote>
 		</div>
 	</div>
@@ -101,12 +122,28 @@
 //  Join us downtown  (Phase 2)
 //============ ** ============ //
 ?>
-
-<h2>Join us in downtown Phoenix, AZ</h2>
-<p>M + M takes place in the heart of the city. The increasingly revitalized downtown area is full of plenty of dining options and nightlife hotspots, and by October we’ll be experiencing some of the best weather of the year. </p>
-
-	Button text: Learn About Downtown Phoenix
-
+<section class="container join-us">
+	<div class="row">
+		<div class="col-6 stretch">
+			<h2>Join us in downtown<br>Phoenix, AZ</h2>
+			<p>
+				M + M takes place in the heart of the city. The increasingly revitalized
+				downtown area is full of plenty of dining options and nightlife hotspots,
+				and by October we’ll be experiencing some of the best weather of the year.
+			</p>
+			<p>
+				<strong>The Phoenix Convention Center</strong><br>
+				100 N. 3rd Street<br>
+				Phoenix, AZ 85004
+			</p>
+			<a href="#" class="button white">
+				Learn About Downtown Phoenix
+			</a>
+		</div>
+		<div class="col-6 stretch" style="background: url(<?php bloginfo('template_url');?>/assets/img/map.png) center center no-repeat; background-size:cover; padding: 0;">
+		</div>
+	</div>
+</section>
 
 <?php
 //============ ** ============ //
@@ -119,18 +156,24 @@
 	<div class="row">
 		<div class="leftyleft">
 			<div class="thecontent">
+
 				<h2 class="text-pink">How does Method + Madness compare to other conferences?</h2>
-			<p>Not all conferences are created equal. Here’s why you should definitely attend this one.</p>
-			<a href="" class="button">SEE HOW M + M STACKS UP</a>
+				<p>Not all conferences are created equal. Here’s why you should definitely attend this one.</p>
+
+				<a href="" class="button pink">SEE HOW M + M STACKS UP</a>
 
 			</div>
 		</div>
 
 		<div class="rightyright stretch">
 			<div class="thecontent">
-				<h2 class="text-white">Need help convincing your boss?</h2>
-				<p>The Method + Madness Conference is a solid investment in your design career.</p>
-				<a href="" class="button">WHY YOU SHOULD ATTEND</a>
+				<h2 class="text-white">
+					Need help convincing your boss?
+				</h2>
+				<p>
+					The Method + Madness Conference is a solid investment in your design career.
+				</p>
+				<a href="" class="button purple">WHY YOU SHOULD ATTEND</a>
 			</div>
 		</div>
 	</div>
