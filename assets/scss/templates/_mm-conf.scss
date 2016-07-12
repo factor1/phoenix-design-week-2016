@@ -154,6 +154,7 @@
 	.rightyright {
 		background: $teal pattern(diamonds1,purple);
 		background-size: 55px 55px;
+		justify-content: flex-start;
 			.thecontent {
 				background: $teal;
 				padding: 66px 20px;
