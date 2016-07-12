@@ -173,7 +173,7 @@
 				<p>
 					The Method + Madness Conference is a solid investment in your design career.
 				</p>
-				<a href="" class="button">WHY YOU SHOULD ATTEND</a>
+				<a href="" class="button purple">WHY YOU SHOULD ATTEND</a>
 			</div>
 		</div>
 	</div>
