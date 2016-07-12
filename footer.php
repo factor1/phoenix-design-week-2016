@@ -32,13 +32,17 @@
     <div class="col-12 text-center">
       <p>
         Phoenix Design Week was founded by <a href="http://www.lostcreature.com/">Lost Creature</a> and is organized by
-        <a href="http://arizona.aiga.org/">AIGA Arizona</a>.
+        <a href="http://arizona.aiga.org/">AIGA Arizona</a>.  
       </p>
       <p>
         <a href="#">
           Privacy Policy
         </a>
         &nbsp; &nbsp;
+        <a href="#">
+          Code of Conduct
+        </a>
+         &nbsp; &nbsp;
         <a href="#">
           Contact Us
         </a>
