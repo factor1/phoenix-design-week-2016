@@ -1,0 +1,31 @@
+.about_intro {
+	background: $teal pattern(zigzags, purple);
+	background-size: 55px 55px;
+	
+	.row {background: $teal;}
+	
+	h2, h3, p {color: #fff;}
+}
+
+
+.past_speakers {
+	background: #fff;
+	
+	ul {
+		margin: 20px;
+		padding: 0;
+		list-style: none;
+		display: block;
+		
+			li {
+				display: block;
+				text-align: left;
+				margin: 0;
+				padding: 15px 0;
+				width: 33%;
+				float: left;
+			}
+		
+		}
+	
+}

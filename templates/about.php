@@ -29,7 +29,7 @@
 //================= ** ================ //
 ?>
 
-<section class="container ">
+<section class="container about_intro">
 	<div class="row">
 	<article class="col-12">
 
@@ -53,12 +53,12 @@
 //=============== ** =============== //
 ?>
 
-<section class="container">
+<section class="container past_speakers">
 	<div class="row">
 	<div class="col-12">
 
 		
-<h2>Past Method + Madness Speakers</h2>
+<h2 class="text-pink">Past Method + Madness Speakers</h2>
 
 <p>Past speakers list: </p>
 
