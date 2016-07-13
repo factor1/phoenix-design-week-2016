@@ -115,11 +115,11 @@
 ?>
 
 
-<section class="container">
+<section class="container meet_team">
 	<div class="row">
 	<div class="col-12">
 
-<h2>Meet the team</h2>
+<h2 class="text-center text-yellow">Meet the team</h2>
 <p>These are the volunteers who have given their time and talents to put together this year’s Phoenix Design Week. </p>
 
 <p>Team list:</p>

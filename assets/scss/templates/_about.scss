@@ -27,5 +27,31 @@
 			}
 		
 		}
+	&:after {
+		display: block;
+		height: 40px;
+		background: #fff pattern(zigzags, lime);
+		background-size: 55px 55px;
+	}
+}
+
+
+.meet_team {
+	background: $purple;
 	
+	p, li {color: #fff;}
+	
+	ul {
+		margin: 0; 
+		padding: 0;
+		list-style: none;
+		text-align: center;
+		}
+		
+		li {
+			text-align: center;
+			list-style: none;
+			margin: 0px;
+			padding: 15px 0;
+		}
 }
