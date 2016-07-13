@@ -60,8 +60,6 @@
 		
 <h2 class="text-pink">Past Method + Madness Speakers</h2>
 
-<p>Past speakers list: </p>
-
 <ul>
 	<li>Altay Sendil, Pinterest</li>
 	<li>Armin Vit, Under Consideration</li>
@@ -122,7 +120,6 @@
 <h2 class="text-center text-yellow">Meet the team</h2>
 <p>These are the volunteers who have given their time and talents to put together this year’s Phoenix Design Week. </p>
 
-<p>Team list:</p>
 <ul>
 	<li>Liz Magura, AIGA Arizona President and Speaker Coordination</li>
 	<li>Amy Robinson, Project Management and Volunteer Coordination</li>
@@ -153,7 +150,7 @@
 
 
 
-<section class="container halfsplit">
+<section class="container halfsplit abouthalves">
 	<div class="row">
 		<div class="leftyleft">
 			<div class="thecontent">
@@ -169,7 +166,7 @@
 		<div class="rightyright stretch">
 			<div class="thecontent">
 				<h2 class="text-white">	Check out Phoenix Design Week events</h2>
-				<p>There are design events all week across the city. Button: See the event schedule.</p>
+				<p>There are design events all week across the city.</p>
 				<a href="" class="button purple">See the event schedule</a>
 			</div>
 		</div>
