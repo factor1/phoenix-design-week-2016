@@ -77,6 +77,8 @@
 		background-size: 55px 55px;
 		.thecontent {
 			background: #fff;
+			width: 100%;
+			max-width: 580px;
 			padding: 40px;
 		}
 	}
@@ -86,6 +88,8 @@
 		background-size: 55px 55px;
 		.thecontent {
 			background: $teal;
+			width: 100%;
+			max-width: 580px;
 			padding: 40px;
 		}
 	}
