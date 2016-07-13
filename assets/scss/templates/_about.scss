@@ -31,7 +31,7 @@
 	&:after {
 		display: block;
 		height: 40px;
-		background: #fff pattern(zigzags, lime);
+		background: #fff pattern(zigzag, lime);
 		background-size: 55px 55px;
 	}
 }
@@ -84,7 +84,7 @@
 	}
 	
 	.rightyright {
-		background: $teal pattern(diamonds, purple);
+		background: $teal pattern(diamonds1, purple);
 		background-size: 55px 55px;
 		.thecontent {
 			background: $teal;
