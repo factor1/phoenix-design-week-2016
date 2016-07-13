@@ -1,9 +1,11 @@
 .about_intro {
 	background: $teal pattern(zigzag, purple);
 	background-size: 55px 55px;
-	padding: 80px 0;
 	
-	.row {background: $teal;}
+	
+	.row {background: $teal;
+		padding: 80px 0;
+	}
 	
 	h2, h3, p {color: #fff;}
 }
