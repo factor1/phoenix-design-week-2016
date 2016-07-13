@@ -14,12 +14,11 @@
 	<div class="row hero-content">
 		<div class="col-10 col-centered text-center">
 			<h1 class="text-white">
-				Phoenix Design Week Events
+				Get in touch
 			</h1>
 			<h2 class="text-white">
-				Phoenix Design Week opens with the Kickoff Party and Method + Madness Conference, 
-				followed by an impressive series of events hosted by individual groups across Phoenix. 
-				See the current schedule below.
+				Got a question? Reach out to the appropriate person for the job, or 
+				send us a message below. We’ll get back to you ASAP.
 			</p>
 		</div>
 	</div>
