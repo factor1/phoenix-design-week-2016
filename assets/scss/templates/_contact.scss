@@ -27,12 +27,15 @@
 	
 	
 	form {
-		input {border: 1px solid $grey;}
+		input, select {
+			border-radius: 2px;
+			border: 1px solid $grey;}
+			
 		.gform_button {
 		  display: inline-block;
 		  margin: 20px auto;
 		  position: relative;
-		  padding: rem(10px) rem(28px);
+		  padding: rem(10px) rem(40px);
 		  font: rem(30px) $bebas;
 		  text-transform: uppercase;
 		  text-align: center;
@@ -40,10 +43,12 @@
 		  transition: all .3s ease;
 		  cursor: pointer;
 		  border: 3px solid $drkpurple;
-		  color: $drkpurple;
+		  background: $drkpurple;
+		  color: #fff;
 		    &:hover{
-		      border: 3px solid white;
-		      color: white;
+		      border: 3px solid $drkpurple;
+		      color: $drkpurple;
+		      background: #fff;
 		    }
 
 		}
