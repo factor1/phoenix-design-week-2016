@@ -28,8 +28,9 @@
 	
 	form {
 		input, select {
-			border-radius: 2px;
-			border: 1px solid $grey;
+			border-radius: 4px;
+			padding-left: 10px;
+			border: 1px solid $ltgrey;
 			}
 		
 		select {height: 60px;}
