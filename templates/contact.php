@@ -16,7 +16,7 @@
 			<h1 class="text-white">
 				Get in touch
 			</h1>
-			<h2 class="text-white">
+			<p class="text-white">
 				Got a question? Reach out to the appropriate person for the job, or 
 				send us a message below. We’ll get back to you ASAP.
 			</p>
@@ -39,19 +39,9 @@
 	</div>
 
 
-
-
-<?php 
-//============ ** ============ //
-// 	   Gravity Form ID 1
-//============ ** ============ //
-
-?>
-
-
-<div class="col-8">
-FORMS
-</div>
+	<div class="col-8">
+		<?php gravity_form( 3, false, false, false, '', false ); ?>
+	</div>
 
 	</div>
 </section>
