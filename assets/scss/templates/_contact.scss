@@ -29,7 +29,15 @@
 	form {
 		input, select {
 			border-radius: 2px;
-			border: 1px solid $grey;}
+			border: 1px solid $grey;
+			}
+		
+		select {height: 60px;}
+			
+		label {
+			color: $ltgrey;
+			text-transform: uppercase;
+			}	
 			
 		.gform_button {
 		  display: inline-block;
