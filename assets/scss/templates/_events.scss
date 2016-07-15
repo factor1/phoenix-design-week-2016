@@ -24,6 +24,7 @@
 			background: #fff;
 			width: 100%;
 			padding-left: 15px !important;
+			border-radius: 4px;
 		}
 		
 		label {
@@ -32,8 +33,8 @@
 		}
 		
 		.gform_button {
-		  display: inline-block;
-		  margin: 20px auto;
+		  display: block;
+		  margin: 20px auto !important;
 		  position: relative;
 		  padding: rem(10px) rem(40px) !important;
 		  max-width: 300px;
@@ -45,6 +46,7 @@
 		  cursor: pointer;
 		  border: 3px solid #fff;
 		  background: #fff;
+		  border-radius: 0px;
 		  color: $purple;
 		    &:hover{
 		      border: 3px solid $teal;

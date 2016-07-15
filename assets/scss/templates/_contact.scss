@@ -41,12 +41,13 @@
 			}	
 			
 		.gform_button {
-		  display: inline-block;
+		  display: block;
 		  margin: 20px auto;
 		  position: relative;
 		  padding: rem(10px) rem(40px) !important;
 		  font: rem(30px) $bebas;
 		  text-transform: uppercase;
+		  max-width: 250px;
 		  text-align: center;
 		  background: none;
 		  transition: all .3s ease;
