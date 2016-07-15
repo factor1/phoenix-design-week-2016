@@ -16,10 +16,10 @@
 			<h1 class="text-white">
 				Phoenix Design Week Events
 			</h1>
-			<h2 class="text-white">
+			<p class="text-white">
 				Phoenix Design Week opens with the Kickoff Party and Method + Madness Conference, 
 				followed by an impressive series of events hosted by individual groups across Phoenix. 
-				See the current schedule below.
+				<br>See the current schedule below.
 			</p>
 		</div>
 	</div>
@@ -79,8 +79,9 @@
 <section class="container" id="event_form">
 	<div class="row">
 
-		<h2>Interested in putting together an event? Let us know!</article>
-		[form = gf_id=2]
+		<h2>Interested in putting together an event? Let us know!</h2>
+		
+		<?php gravity_form( 2, false, false, false, '', false ); ?>
 		
 	</div>
 </section>

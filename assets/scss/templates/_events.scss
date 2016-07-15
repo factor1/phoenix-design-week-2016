@@ -1,0 +1,44 @@
+
+
+
+
+
+
+
+#event_form {
+	background: $purple;
+	padding: 40px;
+	
+	form {
+		input, select, textarea {
+			background: #fff;
+		}
+		
+		label {
+			color: #fff;
+			text-transform: uppercase;
+		}
+		
+		.gform_button {
+		  display: inline-block;
+		  margin: 20px auto;
+		  position: relative;
+		  padding: rem(10px) rem(40px) !important;
+		  font: rem(30px) $bebas;
+		  text-transform: uppercase;
+		  text-align: center;
+		  background: none;
+		  transition: all .3s ease;
+		  cursor: pointer;
+		  border: 3px solid #fff;
+		  background: #fff;
+		  color: $purple;
+		    &:hover{
+		      border: 3px solid $teal;
+		      color: $teal;
+		      background: $purple;
+		    }
+
+		}
+	}
+}
