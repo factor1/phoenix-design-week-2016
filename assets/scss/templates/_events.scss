@@ -1,4 +1,11 @@
-
+.weekevents {
+	background: #fff pattern(zigzags, teal);
+	
+	.row {
+		padding: 40px;
+		background: #fff}
+	
+}
 
 
 
@@ -12,6 +19,8 @@
 	form {
 		input, select, textarea {
 			background: #fff;
+			width: 100%;
+			padding-left: 15px !important;
 		}
 		
 		label {

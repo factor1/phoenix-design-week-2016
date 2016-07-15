@@ -34,7 +34,7 @@
 //================= ** ================ //
 ?>
 
-<section class="container ">
+<section class="container weekevents">
 	<div class="row">
 	<article class="col-12">
 
@@ -78,10 +78,11 @@
 
 <section class="container" id="event_form">
 	<div class="row">
-
-		<h2>Interested in putting together an event? Let us know!</h2>
+		<div class="col-12">
+		<h2 class="text-center text-white">Interested in putting together an event? Let us know!</h2>
 		
 		<?php gravity_form( 2, false, false, false, '', false ); ?>
+		</div>
 		
 	</div>
 </section>
