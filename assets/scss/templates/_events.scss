@@ -21,6 +21,8 @@
 		  
 		  .accordion--content {
 			  background: $purple;
+			  display: none;
+			  width: 100%;
 			  h3 {color: $teal;}
 			  p {color: #fff;}
 			  button {background: #fff; color: $purple;}
@@ -62,8 +64,7 @@
 		
 		.accordion--content{
 		  display: none;
-		  width: 100%;
-			  background: #fff;
+		  background: #fff;
 			  h3 {color: $teal;}
 			  p {color: $grey;}
 			  button {background: $purple; color: #fff;}
