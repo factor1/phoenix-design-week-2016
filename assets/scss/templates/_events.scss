@@ -12,9 +12,16 @@
 		  padding: rem(32px) 0;
 		  cursor: pointer;
 		  
-		  > .row {
+		  > .row:nth-type-event {
 		  background: $purple;
 		  color: $fff;
+		  h2 {color: $fff;}
+		  }
+		  
+		  > .row:nth-type-odd {
+		  background: #fff;
+		  color: $purple;
+		  h2 {color: $purple;}
 		  }
 		
 		
