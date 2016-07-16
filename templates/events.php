@@ -60,10 +60,12 @@
         <div class="accordion--content">
           <div class="container">
             <div class="row">
-              <div class="col-10 col-centered text-center">
+              <div class="col-10 col-centered">
+              
+              <div class="row">
 			  	
 			  	<?php if( have_rows('events') ): while( have_rows('events') ): the_row(); ?>
-               	 
+               	 	<div class="col-4">
 		               	 <h4 class="text-teal"><?php the_sub_field('event_name'); ?></h4>
 		               	 
 		               	 <p><?php the_sub_field('event_date_location'); ?></p>
@@ -74,8 +76,9 @@
 		               	 		<?php the_sub_field('event_button_text>'); ?>
 					   	 	</a>
 		               	 <?php endif; ?>
+               	 	</div>
                 <?php endwhile; endif; ?>
-
+              </div>
               </div>
             </div>
           </div>
