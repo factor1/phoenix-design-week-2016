@@ -4,6 +4,43 @@
 	.row {
 		padding: 40px;
 		background: #fff}
+
+
+		.accordion--title{
+		  width: 100%;
+		  position: relative;
+		  padding: rem(32px) 0;
+		  cursor: pointer;
+		  
+		  > .row {
+		  background: $purple;
+		  color: $fff;
+		  }
+		
+		
+		  h2{
+		    display: inline-block;
+		    vertical-align: middle;
+		    margin-top: 0;
+		    margin-bottom: 0;
+		  }
+		  i{
+		    font-size: rem(20px);
+		    margin-left: rem(10px);
+		    vertical-align: middle;
+		  }
+		}
+		
+		.accordion--content{
+		  display: none;
+		  background: none !important;
+		  width: 100%;
+		  margin-top: 20px;
+		  padding: rem(10px) 0;
+		  border-top: 1px solid #ccc;
+		}
+
+	
 	
 }
 

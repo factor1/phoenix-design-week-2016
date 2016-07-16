@@ -134,3 +134,15 @@ jQuery( document ).ready(function( $ ) {
   });
   
 });
+
+
+// Flexible Accordions
+
+$accordion = $('.accordion--title');
+$accordion.click(function(){
+  $this = $(this);
+  $this.find('.fa').toggleClass('fa-chevron-down');
+  $this.find('.fa').toggleClass('fa-chevron-up');
+  $this.find('.accordion--content').slideToggle();
+});
+
