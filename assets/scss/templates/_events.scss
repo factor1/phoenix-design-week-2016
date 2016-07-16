@@ -20,12 +20,6 @@
 		  i {color: #fff;}
 		  }
 		  
-		  >.row:nth-of-type(2n){
-		  background: #fff;
-		  color: $purple;
-		  h2 {color: $purple;}
-		  i {color: $purple;}
-		  }
 		
 		  .titlebox {
 			  position: relative;
@@ -43,11 +37,20 @@
 			    vertical-align: middle;
 			    position: absolute;
 			    right: 0px;
-			    top: 40px;
+			    top: 15px;
 			  }
 		  
+		  } // end titlebox
+		} // end accordian title
+		
+		.accordion--title:nth-of-type(2n){
+		  >.row {
+		  background: #fff;
+		  color: $purple;
+		  h2 {color: $purple;}
+		  i {color: $purple;}
 		  }
-		}
+		  } // end odd rows
 		
 		.accordion--content{
 		  display: none;
