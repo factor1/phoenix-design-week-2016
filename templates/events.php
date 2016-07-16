@@ -52,7 +52,7 @@
       <?php // ACCORDION TITLE ?>
       <div class="accordion--title container">
         <div class="row">
-          <div class="col-10 col-centered text-center">
+          <div class="col-10 col-centered">
             <h2><?php the_sub_field('event_date');?></h2><i class="fa fa-chevron-down"></i>
           </div>
         </div>
@@ -64,12 +64,12 @@
 			  	
 			  	<?php if( have_rows('events') ): while( have_rows('events') ): the_row(); ?>
                	 
-		               	 <h4><?php the_sub_field('event_name'); ?></h4>
+		               	 <h4 class="text-teal"><?php the_sub_field('event_name'); ?></h4>
 		               	 
 		               	 <p><?php the_sub_field('event_date_location'); ?></p>
 		               	 <p><?php the_sub_field('event_detail'); ?></p>
 		               	 
-		               	 <a href="<?php the_sub_field('event_cta_url'); ?>" class="button">
+		               	 <a href="<?php the_sub_field('event_cta_url'); ?>" class="button purple text-white">
 		               	 	<?php the_sub_field('event_button_text>'); ?>
 		               	 </a>
                 <?php endwhile; endif; ?>
