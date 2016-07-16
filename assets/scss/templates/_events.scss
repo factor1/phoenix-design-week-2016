@@ -10,7 +10,6 @@
 		.accordion--title{
 		  width: 100%;
 		  position: relative;
-		  padding: rem(32px) 0;
 		  cursor: pointer;
 		  
 		  >.row {
@@ -18,6 +17,13 @@
 		  color: $fff;
 		  h2 {color: $fff;}
 		  i {color: #fff;}
+		  }
+		  
+		  .accordion--content {
+			  background: $purple;
+			  h3 {color: $teal;}
+			  p {color: #fff;}
+			  button {background: #fff; color: $purple;}
 		  }
 		  
 		
@@ -54,8 +60,11 @@
 		
 		.accordion--content{
 		  display: none;
-		  background: none !important;
 		  width: 100%;
+			  background: #fff;
+			  h3 {color: $teal;}
+			  p {color: $grey;}
+			  button {background: $purple; color: #fff;}
 		}
 
 	
