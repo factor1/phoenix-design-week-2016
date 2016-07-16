@@ -69,9 +69,11 @@
 		               	 <p><?php the_sub_field('event_date_location'); ?></p>
 		               	 <p><?php the_sub_field('event_detail'); ?></p>
 		               	 
-		               	 <a href="<?php the_sub_field('event_cta_url'); ?>" class="button purple text-white">
-		               	 	<?php the_sub_field('event_button_text>'); ?>
-		               	 </a>
+		               	 <?php if (the_sub_field('event_cta_url')): ?>
+		               	 	<a href="<?php the_sub_field('event_cta_url'); ?>" class="button purple text-white">
+		               	 		<?php the_sub_field('event_button_text>'); ?>
+					   	 	</a>
+		               	 <?php endif; ?>
                 <?php endwhile; endif; ?>
 
               </div>
