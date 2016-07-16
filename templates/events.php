@@ -52,7 +52,7 @@
       <?php // ACCORDION TITLE ?>
       <div class="accordion--title container">
         <div class="row">
-          <div class="col-10 col-centered">
+          <div class="col-12 titlebox">
             <h2><?php the_sub_field('event_date');?></h2><i class="fa fa-chevron-down"></i>
           </div>
         </div>
@@ -60,7 +60,7 @@
         <div class="accordion--content">
           <div class="container">
             <div class="row">
-              <div class="col-10 col-centered">
+              <div class="col-12">
               
               <div class="row">
 			  	

@@ -12,29 +12,39 @@
 		  padding: rem(32px) 0;
 		  cursor: pointer;
 		  
-		  > .row:nth-type-event {
+		  > .row {
 		  background: $purple;
 		  color: $fff;
 		  h2 {color: $fff;}
+		  i {color: #fff;}
 		  }
 		  
-		  > .row:nth-type-odd {
+		  > .row:nth-of-type(2n){
 		  background: #fff;
 		  color: $purple;
 		  h2 {color: $purple;}
+		  i {color: $purple;}
 		  }
 		
-		
-		  h2{
-		    display: inline-block;
-		    vertical-align: middle;
-		    margin-top: 0;
-		    margin-bottom: 0;
-		  }
-		  i{
-		    font-size: rem(20px);
-		    margin-left: rem(10px);
-		    vertical-align: middle;
+		  .titlebox {
+			  position: relative;
+			  
+			  h2{
+			    display: inline-block;
+			    vertical-align: middle;
+			    margin-top: 0;
+			    margin-bottom: 0;
+			    
+			  }
+			  i{
+			    font-size: rem(20px);
+			    margin-left: rem(10px);
+			    vertical-align: middle;
+			    position: absolute;
+			    right: 0px;
+			    top: 40px;
+			  }
+		  
 		  }
 		}
 		
