@@ -1,5 +1,6 @@
 .weekevents {
 	background: #fff pattern(zigzag, teal);
+	background-size: 55px 55px;
 	
 	.row {
 		padding: 40px;
@@ -12,14 +13,14 @@
 		  padding: rem(32px) 0;
 		  cursor: pointer;
 		  
-		  > .row {
+		  >.row {
 		  background: $purple;
 		  color: $fff;
 		  h2 {color: $fff;}
 		  i {color: #fff;}
 		  }
 		  
-		  > .row:nth-of-type(2n){
+		  >.row:nth-of-type(2n){
 		  background: #fff;
 		  color: $purple;
 		  h2 {color: $purple;}
@@ -52,9 +53,6 @@
 		  display: none;
 		  background: none !important;
 		  width: 100%;
-		  margin-top: 20px;
-		  padding: rem(10px) 0;
-		  border-top: 1px solid #ccc;
 		}
 
 	
