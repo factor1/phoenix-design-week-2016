@@ -17,7 +17,8 @@
 		  color: $fff;
 		  h2 {color: $fff;}
 		  i {color: #fff;}
-		  }
+		  } // End row
+		  } // end title
 		  
 		  .accordion--content {
 			  background: $purple;
@@ -53,13 +54,16 @@
 		
 		
 		
-		.accordion--title:nth-of-type(2n){
+		.big-accordian:nth-of-type(2n) {
+		
+		.accordion--title{
 		  >.row {
 		  background: #fff;
 		  color: $purple;
 		  h2 {color: $purple;}
 		  i {color: $purple;}
-		  }
+		  }// end row
+		  } // end title
 		  
 		
 		.accordion--content{
@@ -68,9 +72,7 @@
 			  h3 {color: $teal;}
 			  p {color: $grey;}
 			  button {background: $purple; color: #fff;}
-		}
-		
-		} // end odd rows
+			} // end odd rows
 
 	
 	
