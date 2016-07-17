@@ -26,7 +26,7 @@
 			  background: $purple;
 			  display: none;
 			  width: 100%;
-			  >.row {padding: 0;}
+			  >.container >.row {padding: 0;}
 			  h3 {color: $teal;}
 			  p {color: #fff;}
 			  button {background: #fff; color: $purple;}
