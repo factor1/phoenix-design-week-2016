@@ -17,13 +17,11 @@
 		  color: $fff;
 		  h2 {color: $fff;}
 		  i {color: #fff;}
-		  } // End row
-		  } // end title
+		  }
 		  
 		  .accordion--content {
 			  background: $purple;
 			  display: none;
-			  width: 100%;
 			  h3 {color: $teal;}
 			  p {color: #fff;}
 			  button {background: #fff; color: $purple;}
@@ -54,25 +52,24 @@
 		
 		
 		
-		.big-accordian:nth-of-type(2n) {
-		
-		.accordion--title{
+		.accordion--title:nth-of-type(2n){
 		  >.row {
 		  background: #fff;
 		  color: $purple;
 		  h2 {color: $purple;}
 		  i {color: $purple;}
-		  }// end row
-		  } // end title
+		  }
 		  
 		
 		.accordion--content{
 		  display: none;
-		  background: #fff;
+			 background: #fff;
 			  h3 {color: $teal;}
 			  p {color: $grey;}
 			  button {background: $purple; color: #fff;}
-			} // end odd rows
+		}
+		
+		} // end odd rows
 
 	
 	
