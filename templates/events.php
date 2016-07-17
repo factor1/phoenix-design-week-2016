@@ -48,7 +48,7 @@
   <section class="flex-accordions container">
 
     <?php while( have_rows('event_day') ): the_row(); ?>
-
+		<div class="big-accordian">
       <?php // ACCORDION TITLE ?>
       <div class="accordion--title container">
         <div class="row">
@@ -84,7 +84,7 @@
           </div>
         </div>
       </div>
-
+		</div> <?php // END big-accordian ?>
     <?php endwhile;?>
 
   </section>
