@@ -127,8 +127,10 @@
 	<li>Kathy Morgan, Finance Director</li>
 	<li>Melissa Balkon, Creative Director</li>
 	<li>Tara Anderson, Design Support</li>
+	<li>Allison Perlis, Design Support</li>
 	<li>Jessie Gould, Copywriting</li>
 	<li>Matt Adams, Web Director</li>
+	<li>Eric Stout, Web Developer</li>
 	<li>Matt Quirk, Promotions Director</li>
 </ul>
 
