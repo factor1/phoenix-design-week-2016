@@ -78,7 +78,7 @@ header {
 		background: $teal;
 		cursor: pointer;
 		&:hover{
-			background: $purple;
+			background: $ltpurple;
 		}
 	}
 
@@ -134,7 +134,7 @@ header {
 			width: 100%;
 			position: relative;
 			&:hover{
-				background: rgba($purple, 0.9);
+				background: rgba($ltpurple, 0.9);
 			}
 			a{
 				display: block;
