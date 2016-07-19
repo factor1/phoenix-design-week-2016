@@ -126,7 +126,8 @@ header {
 // Nifty Panel Styles
 .nifty-panel{
 	left: 0;
-	background: $ltpurple;
+	background: rgba($ltpurple, 0.9);
+	overflow-y: hidden;
 	ul{
 		list-style: none;
 		margin: 20px 0;
