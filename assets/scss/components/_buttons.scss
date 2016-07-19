@@ -12,38 +12,38 @@
 }
 
 .button-yellow{
-  border: 3px solid $yellow;
+  border: 5px solid $yellow;
   color: $yellow;
     &:hover{
-      border: 3px solid white;
+      border: 5px solid white;
       color: white;
     }
 }
 
 .button-white{
-  border: 3px solid white;
+  border: 5px solid white;
   color: white;
     &:hover{
-      border: 3px solid $purple;
+      border: 5px solid $purple;
       color: $purple;
     }
 }
 
 .button-drkpurple{
-  border: 3px solid $drkpurple;
+  border: 5px solid $drkpurple;
   color: $drkpurple;
     &:hover{
-      border: 3px solid white;
+      border: 5px solid white;
       color: white;
     }
 }
 
 .button-pink{
-  border: 3px solid $pink;
+  border: 5px solid $pink;
   color: $pink;
     &:hover{
       background: none;
-      border: 3px solid $purple;
+      border: 5px solid $purple;
       color: $purple;
     }
 }
@@ -57,7 +57,7 @@
 	//padding: 25px 35px;
 
 	&.white{
-    border: 2px solid white;
+    border: 5px solid white;
     background: #fff;
     color: $pink;
     &:hover{
@@ -67,7 +67,7 @@
   }
 
 	&.yellow{
-    border: 2px solid $yellow;
+    border: 5px solid $yellow;
     background: $yellow;
     &:hover{
       background: none;
@@ -78,7 +78,7 @@
 
 	&.purple{
     background: $purple;
-    border: 2px solid $purple;
+    border: 5px solid $purple;
     color: white;
     &:hover{
       background: none;
@@ -88,7 +88,7 @@
 
 	&.drkpurple	 {background: $drkpurple;}
 	&.pink{
-    border: 2px solid $pink;
+    border: 5px solid $pink;
     background: $pink;
     color: white;
     &:hover{
