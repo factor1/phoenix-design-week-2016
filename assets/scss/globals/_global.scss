@@ -272,6 +272,16 @@ blockquote{
 	background: $drkpurple;
 	}
 
+// hero content
+.hero-content {
+	background: $pink;
+	padding: 70px;
+	h1{
+		margin-bottom: 15px;
+	}
+}
+
+
 
 // Media Queries
 @media screen and (max-width: $small-breakpoint){
