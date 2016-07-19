@@ -5,7 +5,7 @@
 footer{
   width: 100%;
   overflow: hidden;
-  padding-bottom: 55px;
+  
   &:before{
     content: '';
     display: block;
@@ -33,6 +33,7 @@ footer{
   // row patterns
   .row{
     background: $purple;
+    padding-bottom: 55px;
   }
   .social-icons{
     h3{
