@@ -206,10 +206,10 @@
 			padding: 10px;
 		}
 
-		&.first .content {background: $purple pattern(diagonals-loose,pink); background-size: 55px 55px;}
-		&.second .content {background: $purple pattern(cirlces,pink); background-size: 55px 55px;}
-		&.third .content {background: $purple pattern(zigzag,pink); background-size: 55px 55px;}
-		&.fourth .content {background: $purple pattern(diagonals-tight,pink); background-size: 55px 55px;}
+		&.first .content {background: $drkpurple pattern(diagonals-loose,purple); background-size: 55px 55px;}
+		&.second .content {background: $drkpurple pattern(cirlces,purple); background-size: 55px 55px;}
+		&.third .content {background: $drkpurple pattern(zigzag,purple); background-size: 55px 55px;}
+		&.fourth .content {background: $drkpurple pattern(diagonals-tight,purple); background-size: 55px 55px;}
 
 
 		.button {margin: 25px auto;}
