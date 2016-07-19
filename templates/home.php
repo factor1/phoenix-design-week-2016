@@ -10,7 +10,7 @@
 // 			Home HERO
 //============ ** ============ //?>
 
-<section class="hero container">
+<section class="hero home_hero container">
 	<div class="row hero-content text-center">
 		<div class="col-12">
 			<h1 class="text-white">PHOENIX DESIGN WEEK IS COMING</h1>
