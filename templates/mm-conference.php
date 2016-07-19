@@ -36,7 +36,7 @@
 
 <section class="container conf-content">
 	<div class="row">
-	<article class="col-12">
+	<article class="col-11 col-centered">
 
 		<?php if(have_posts()):
 			while(have_posts()): the_post();
