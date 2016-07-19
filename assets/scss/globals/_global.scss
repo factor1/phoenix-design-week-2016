@@ -266,6 +266,13 @@ blockquote{
 
 
 
+//heros
+
+.hero {
+	background: $drkpurple;
+	}
+
+
 // Media Queries
 @media screen and (max-width: $small-breakpoint){
   blockquote{
