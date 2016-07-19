@@ -99,6 +99,7 @@
 	<li>Von Glitschka</li>
 	<li>Yomar Agusto</li>
 	<li>Bianca Giaever</li>
+	<br style="clear:both;">
 </ul>
 	
 	</div>	
