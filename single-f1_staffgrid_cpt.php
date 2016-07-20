@@ -52,7 +52,7 @@
 	
 	
 	<div class="row">
-		<div class="col-8">
+		<div class="col-8 staffbio">
 			<?php the_field('staff_bio');?>
 		</div>
 		
@@ -68,8 +68,9 @@
 
 
 								</div>
-								
-			<?php the_field('quote');?>
+			<div class="speakerquote">				
+				<?php the_field('quote');?>
+			</div>
 		</div>
 	</div>
 

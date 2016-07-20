@@ -5,4 +5,12 @@
 	.row {background: #fff;}
 	
 	.nopadding {padding: 0; margin: 0;}
+	
+	.staffbio {padding: 60px;}
+	
+	.speakerquote {
+		font-size: rem(40px);
+		color: $teal;
+		font-style: italic;
+	}
 }
