@@ -59,11 +59,10 @@
 		<div class="col-4">
 			<h3 class="text-teal">Find them online</h3>
 			<div class="f1_mentor_details_social_container">
-				<?php if(get_field( "twitter_url" )) : echo('<a href="'); the_field( "twitter_url" ); echo('">Twitter</a>');  endif; ?>
-				<?php if(get_field( "facebook_url" )) : echo('<a href="'); the_field( "facebook_url" ); echo('">Facebook</a>');  endif; ?>
-				<?php if(get_field( "linkedin_irl" )) : echo('<a href="'); the_field( "linkedin_irl" ); echo('">LinkedIn</a>');  endif; ?>
-				<?php if(get_field( "instagram_url" )) : echo('<a href="'); the_field( "instagram_url" ); echo('">Instagram</a>');  endif; ?>
-				<?php if(get_field( "url" )) : echo('<a href="'); the_field( "url" ); echo('">WEB</a>');  endif; ?>
+				<?php if(get_field( "twitter_url" )) : echo('<a href="'); the_field( "twitter_url" ); echo('"><i class="fa fa-twitter" aria-hidden="true"></i></a>');  endif; ?>
+				<?php if(get_field( "facebook_url" )) : echo('<a href="'); the_field( "facebook_url" ); echo('"><i class="fa fa-facebook" aria-hidden="true"></i></a>');  endif; ?>
+				<?php if(get_field( "instagram_url" )) : echo('<a href="'); the_field( "instagram_url" ); echo('"><i class="fa fa-instagram" aria-hidden="true"></i></a>');  endif; ?>
+				<?php if(get_field( "url" )) : echo('<a href="'); the_field( "url" ); echo('"><i class="fa fa-globe" aria-hidden="true"></i></a>');  endif; ?>
 
 
 
