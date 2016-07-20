@@ -58,7 +58,7 @@
 
 				<h3 class="text-white">See all Phoenix Design Week events</h3>
 				<p class="text-white">There are design events all week across the city.</p>
-				<a href="#" class="button purple text-white">SEE THE EVENT SCHEDULE</a>
+				<a href="<?php echo home_url(); ?>/events" class="button purple text-white">SEE THE EVENT SCHEDULE</a>
 
 				</div><?php // end thecontent ?>
 			</div><?php // end content b ?>
@@ -81,7 +81,7 @@
 		<div class="col-10 col-centered text-center">
 			<h3 class="text-white">Become a sponsor</h3>
 			<p class="text-white">Invest in the most celebrated event in the Arizona design community, and hundreds of creative professionals will take notice.</p>
-			<a href="#" class="button white text-pink">See sponsorship opportunities</a>
+			<a href="<?php echo home_url(); ?>/sponsorship" class="button white text-pink">See sponsorship opportunities</a>
 		</div>
 	</div>
 </section>

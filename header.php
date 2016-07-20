@@ -30,12 +30,12 @@
   <header class="container">
 		<div class="row">
 			<div class="col-8" style="padding-left:0px;">
-				<h1 class="branding"><a href=""><span>Phonix Design Week</span></a></h1>
+				<h1 class="branding"><a href="<?php echo home_url(); ?>"><span>Phonix Design Week</span></a></h1>
 				<h2>Phoenix Design Week   ||   October 21-28, 2016</h2>
 			</div>
 
 			<div class="col-4 header-buy-menu">
-        <a href="#" class="buynow">
+        <a href="https://www.eventbrite.com/e/method-madness-conference-phxdw-2016-tickets-24939107542" class="buynow">
 		      Buy Method + Madness Tickets
         </a>
         <div class="nifty-burger">
