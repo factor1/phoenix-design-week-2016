@@ -10,7 +10,7 @@
 // 			Page HERO
 //============ ** ============ //?>
 
-<section class="hero container">
+<section class="hero contacthero container">
 	<div class="row hero-content">
 		<div class="col-10 col-centered text-center">
 			<h1 class="text-white">
