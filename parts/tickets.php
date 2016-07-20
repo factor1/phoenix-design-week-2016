@@ -32,7 +32,7 @@
 
 			<div class="row">
 				<div class="col-4 col-centered">
-					<a href="#" class="button white text-pink text-center" style="margin-bottom: 40px;">
+					<a href="#" class="button white text-pink text-center" style="margin-bottom: 40px; width:100%;">
 						GET YOUR TICKET</a>
 				</div>
 			</div>
