@@ -14,13 +14,19 @@
 		font-style: italic;
 	}
 	
-	.f1_mentor_details_social_container a, 
-	.f1_mentor_details_social_container a:visited {
-		color: $teal;
+	.f1_mentor_details_social_container {
 		display: block;
-		text-align: left;
-		float: left;
-		padding: 10px;
-		border: 3px solid $teal;
+		width: 100%;
+		margin-bottom: 20px;
+		
+		a, a:visited {
+			color: $teal;
+			display: block;
+			text-align: left;
+			float: left;
+			padding: 10px 15px;
+			margin: 0 10px;
+			border: 3px solid $teal;
+		}
 	}
 }
