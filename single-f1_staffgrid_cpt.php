@@ -36,14 +36,14 @@
 
 <section class="container speaker-top">
 	<div class="row">
-		<div class="col-6">
+		<div class="col-6 stretch nopadding">
 			<?php if(has_post_thumbnail()) {
 			the_post_thumbnail('large');
 			} else {	}
 			?>	
 		</div>
 		
-		<div class="col-6">
+		<div class="col-6 stretch nopadding">
 			<?php if (get_field('portfolio')): ?>
 				<img src="<?php the_field('portfolio');?>">
 			<?php endif;?>
@@ -53,11 +53,22 @@
 	
 	<div class="row">
 		<div class="col-8">
-			<?php the_content();?>
+			<?php the_field('staff_bio');?>
 		</div>
 		
 		<div class="col-4">
-			<?php // social ?>
+			<h3 class="text-teal">Find them online</h3>
+			<div class="f1_mentor_details_social_container">
+				<?php if(get_field( "twitter_url" )) : echo('<a href="'); the_field( "twitter_url" ); echo('">Twitter</a>');  endif; ?>
+				<?php if(get_field( "facebook_url" )) : echo('<a href="'); the_field( "facebook_url" ); echo('">Facebook</a>');  endif; ?>
+				<?php if(get_field( "linkedin_irl" )) : echo('<a href="'); the_field( "linkedin_irl" ); echo('">LinkedIn</a>');  endif; ?>
+				<?php if(get_field( "instagram_url" )) : echo('<a href="'); the_field( "instagram_url" ); echo('">Instagram</a>');  endif; ?>
+				<?php if(get_field( "url" )) : echo('<a href="'); the_field( "url" ); echo('">WEB</a>');  endif; ?>
+
+
+
+								</div>
+								
 			<?php the_field('quote');?>
 		</div>
 	</div>
