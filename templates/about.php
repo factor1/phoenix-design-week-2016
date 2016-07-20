@@ -168,7 +168,7 @@
 
 		<div class="rightyright stretch">
 			<div class="thecontent">
-				<h2 class="text-white">	Check out Phoenix Design Week events</h2>
+				<h2 class="text-white">	Check out <br>Phoenix Design Week events</h2>
 				<p>There are design events all week across the city.</p>
 				<a href="<?php echo home_url(); ?>/events" class="button purple">See the event schedule</a>
 			</div>
