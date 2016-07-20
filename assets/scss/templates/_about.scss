@@ -80,13 +80,14 @@
 
 .abouthalves {
 	.leftyleft {
-		background: #fff pattern(diagonals-loose, pink);
+		background: #fff pattern(diagonals-loose, teal);
 		background-size: 55px 55px;
 		.thecontent {
 			background: #fff;
 			width: 100%;
 			max-width: 580px;
 			padding: 60px;
+			margin-top: 20px;
 		}
 	}
 	
