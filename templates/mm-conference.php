@@ -124,7 +124,7 @@
 ?>
 <section class="container join-us">
 	<div class="row">
-		<div class="col-6 stretch">
+		<div class="col-6 stretch joincontent">
 			<h2>Join us in downtown<br>Phoenix, AZ</h2>
 			<p>
 				M + M takes place in the heart of the city. The increasingly revitalized

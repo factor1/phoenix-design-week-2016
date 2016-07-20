@@ -108,11 +108,11 @@
 
 // Join us downtown
 .join-us{
-	background: $purple pattern('diagonals-tight', 'purple');
+	background: $blue pattern('diagonals-tight', 'purple');
 	background-size: 55px 55px;
 	.col-6{
-		background: $purple;
-		&:first-of-type{
+		background: $blue;
+		.joincontent {
 			padding-top: rem(58px);
 			padding-bottom: ref(58px);
 			padding-left: rem(60px);
@@ -129,6 +129,7 @@
 	}
 	.button{
 		color: $purple;
+		margin-bottom: 40px;
 	}
 }
 
