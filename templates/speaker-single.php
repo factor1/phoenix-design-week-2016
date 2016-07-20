@@ -34,20 +34,69 @@
 //================= ** ================ //
 ?>
 
-<section class="container about_intro">
+<section class="container speaker-top">
 	<div class="row">
-	<article class="col-11 col-centered">
-
+		<div class="col-6">
+			<?php if(has_post_thumbnail()) {
+			the_post_thumbnail('large');
+			} else {	}
+			?>	
+		</div>
 		
-		<?php		the_content();?>
-			
-
-	</article>
+		<div class="col-6">
+			<?php if (get_field('portfolio')): ?>
+				<img src="<?php the_field('portfolio');?>">
+			<?php endif;?>
+		</div>
+	</div>
+	
+	
+	<div class="row">
+		<div class="col-8">
+			<?php the_content();?>
+		</div>
+		
+		<div class="col-4">
+			<?php // social ?>
+			<?php the_field('quote');?>
+		</div>
 	</div>
 
 
 </section>
 
+
+
+<section class="container pricegrid">
+	<div class="row">
+		<div class="col-10 col-centered">
+			<h2 class="text-center text-white">
+				Get your ticket to see <?php the_title();?> & many others!
+			</h2>
+
+			<p class="text-white text-center">
+				All tickets include entrance to the Method + Madness Conference, PHXDW Kickoff Party,
+				Method + Madness 	Opening Reception, and the PHXDW Closing Party
+			</p>
+
+			<?php
+				//============ ** ============ //
+				// 	   Get Tickets
+				//============ ** ============ //
+				
+				get_template_part('parts/tickets');
+				
+				
+				?>
+			
+			
+		</div>
+
+
+
+
+	</div>
+</section>
 
 
 <?php endwhile;
