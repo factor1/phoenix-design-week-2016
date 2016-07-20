@@ -260,9 +260,9 @@
 <div class="row">
 	<div class="leftyleft">
 		<div class="thecontent">
-			<h2>Are you a student on a shoestring?</h2>
+			<h2 class="text-white">Are you a student on a shoestring?</h2>
 			<p>Every year, we offer a limited number of student scholarships to attend the M + M Conference. </p>
-			<a href="" class="button">LEARN MORE</a>
+			<a href="" class="button pink">LEARN MORE</a>
 
 		</div>
 	</div>
@@ -271,7 +271,7 @@
 		<div class="thecontent">
 			<h2>Why students love M + M</h2>
 			<p>Don’t consider yourself a professional yet? We don’t mind! Here's why you should attend.</p>
-			<a href="" class="button">GET THE DETAILS</a>
+			<a href="" class="button purple">GET THE DETAILS</a>
 
 		</div>
 	</div>

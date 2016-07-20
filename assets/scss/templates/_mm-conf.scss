@@ -114,8 +114,8 @@
 		background: $purple;
 		&:first-of-type{
 			padding-top: rem(58px);
-			padding-bottom: rem(58px);
-			padding-left: rem(40px);
+			padding-bottom: ref(58px);
+			padding-left: rem(60px);
 			padding-right: rem(40px);
 		}
 	}
@@ -133,7 +133,7 @@
 }
 
 // Conf compare
-// phase 2 only
+
 
 .halfsplit.comparesplit {
 	.leftyleft {
@@ -187,6 +187,56 @@
 // Convince your boss
 // phase 2 only
 
+
+
+// Students
+
+
+.halfsplit.studentsplit {
+	.leftyleft {
+		background: $drkpurple pattern(zigzags,pink);
+		background-size: 55px 55px;
+
+		.thecontent {
+			background: $drkpurple;
+			padding: 50px 60px;
+			margin-top: 20px;
+			width: 100%;
+			max-width: 586px;
+			h2{
+				margin-top: 0;
+				font: rem(40px) $proxima;
+				font-weight: normal;
+				text-transform: capitalize;
+			}
+			p {color: #fff;}
+		}
+	} // end lefty left
+
+	.rightyright {
+		background: $fff pattern(diagonals-tight,lime);
+		background-size: 55px 55px;
+		justify-content: flex-start;
+			.thecontent {
+				background: $fff;
+				padding: 66px 60px;
+				max-width: 586px;
+				width: 100%;
+				margin-bottom: 20px;
+
+				h2{
+					margin-top: 0;
+					font: rem(40px) $proxima;
+					font-weight: normal;
+					color: $drkpurple;
+					text-transform: capitalize;
+				}
+
+				p {color: $grey;}
+			}
+	} // end righty right
+
+}
 
 // Price grid
 .pricegrid {
