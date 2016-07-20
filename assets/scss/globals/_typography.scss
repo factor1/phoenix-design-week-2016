@@ -11,17 +11,21 @@ h1{
   text-transform: uppercase;
 }
 
-h2{
+h2, h3{
   font-size: rem(40px);
   text-transform: capitalize;
   color: $purple;
 }
 
+/*  Commented out per issue #68. 
+	"Global: Make sure all H3s look exactly like H2s"
+	I guess, seems odd though. - ma
 h3{
   font-size: rem(25px);
   text-transform: capitalize;
   color: $purple;
 }
+*/
 
 h4{
   font-size: rem(24px);
