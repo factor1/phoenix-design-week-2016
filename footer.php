@@ -43,7 +43,7 @@
           Code of Conduct
         </a>
          &nbsp; &nbsp;
-        <a href="#">
+        <a href="<?php echo home_url(); ?>/contact">
           Contact Us
         </a>
       </p>
