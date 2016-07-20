@@ -111,14 +111,15 @@
 	background: $blue pattern('diagonals-tight', 'purple');
 	background-size: 55px 55px;
 	.col-6{
-		background: $blue;
-		.joincontent {
+		background: $blue;}
+		
+	.joincontent {
 			padding-top: rem(58px);
 			padding-bottom: ref(58px);
 			padding-left: rem(60px);
 			padding-right: rem(40px);
 		}
-	}
+		
 	h2, p{
 		color: white;
 	}
