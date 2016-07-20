@@ -15,9 +15,9 @@ Agency Sponsor
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h1>
+        <h2>
           PHXDW Is Made Possible By Generous Sponsors
-        </h1>
+        </h2>
       </div>
     </div>
 
