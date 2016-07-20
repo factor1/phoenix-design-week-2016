@@ -241,7 +241,7 @@
 
 	<div class="rightyright stretch">
 		<div class="thecontent">
-			<h2>Why students love M + M</h2>
+			<h2 class="text-purple">Why students love M + M</h2>
 			<p>Don’t consider yourself a professional yet? We don’t mind! Here's why you should attend.</p>
 			<a href="" class="button purple">GET THE DETAILS</a>
 
