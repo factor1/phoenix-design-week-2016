@@ -35,8 +35,8 @@
 ?>
 
 <section class="container weekevents">
-	<div class="row">
-	<article class="col-12">
+	<div class="row" style="padding:0px;">
+	<article class="col-12" style="padding:0px;">
 	
 	
 	
