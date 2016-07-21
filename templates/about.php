@@ -126,7 +126,7 @@
 	<li>Amy Robinson, Project Management and Volunteer Coordination</li>
 	<li>Danielle Knotts, Sponsorship Director</li>
 	<li>Leah Newsom, Events Coordinator</li>
-	<li>Rebekah Cancino, Speaker Coordinator</li>
+	<li>Rebekah Cancino, Speaker Communications Coordinator</li>
 	<li>Kathy Morgan, Finance Director</li>
 	<li>Melissa Balkon, Creative Director</li>
 	<li>Tara Anderson, Design Support</li>
