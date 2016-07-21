@@ -33,7 +33,9 @@
 	
 	
 	form {
-		
+		input, textarea, select {
+			border: 1px solid $ltgrey !important;
+			}
 		.gform_button {
 		  border: 5px solid $drkpurple;
 		  background: $drkpurple;
