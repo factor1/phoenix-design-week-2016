@@ -7,7 +7,7 @@
 		padding-bottom: 60px;
 		background: $teal;
 		
-		p {color: $fff;}
+		p,li {color: $fff;}
 		
 		}
 }
@@ -24,7 +24,7 @@
     bottom: 0;
     width: 100%;
     height: rem(35px);
-    background: #fff pattern('circles','lime');
+    background: $pink pattern('circles','lime');
     background-size: 55px 55px;
   }
   
