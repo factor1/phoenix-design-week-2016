@@ -157,7 +157,7 @@
 
 <section class="container halfsplit abouthalves">
 	<div class="row">
-		<div class="leftyleft">
+		<div class="leftyleft stretch">
 			<div class="thecontent">
 
 				<h2 class="text-pink">Learn more about the Method + Madness Conference</h2>
