@@ -83,6 +83,7 @@
 		blockquote {
 			background: none;
 			&:before {background: none;}
+			&:after {background: none;}
 
 			h2{
 				font: rem(40px) $proxima;
