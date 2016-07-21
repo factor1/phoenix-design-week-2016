@@ -80,6 +80,7 @@
 
 
 
+/*
 .abouthalves {
 	.leftyleft {
 		background: #fff pattern(diagonals-loose, teal);
@@ -103,4 +104,55 @@
 			padding: 60px;
 		}
 	}
+}
+*/
+
+
+
+
+
+.halfsplit.abouthalves {
+	.leftyleft {
+		background: #fff pattern(diagonals-loose,teal);
+		background-size: 55px 55px;
+
+		.thecontent {
+			background: #fff;
+			padding: 50px 60px;
+			margin-top: 20px;
+			width: 100%;
+			max-width: 586px;
+			h2{
+				margin-top: 0;
+				font: rem(40px) $proxima;
+				font-weight: normal;
+				text-transform: capitalize;
+			}
+			p {color: $black;}
+		}
+	} // end lefty left
+
+	.rightyright {
+		background: $teal pattern(diamonds1,purple);
+		background-size: 55px 55px;
+		justify-content: flex-start;
+			.thecontent {
+				background: $teal;
+				padding: 66px 60px;
+				max-width: 586px;
+				width: 100%;
+				margin-bottom: 20px;
+
+				h2{
+					margin-top: 0;
+					font: rem(40px) $proxima;
+					font-weight: normal;
+					color: white;
+					text-transform: capitalize;
+				}
+
+				p {color: #fff;}
+			}
+	} // end righty right
+
 }
