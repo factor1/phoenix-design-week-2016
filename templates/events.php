@@ -78,9 +78,10 @@
 					   	 	<?php endif;?>
                	 	</div>
                 <?php endwhile; else: ?>
-		               	 
+		               	 <div class="col-6 col-centered">
 		               	 <p class="text-center">There aren't any events scheduled for this day.<br>
 		               	 Want to get yours on the calendar?</p>
+		               	 </div>
 		               	
 		       	<?php endif; ?>
               </div>
