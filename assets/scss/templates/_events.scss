@@ -21,7 +21,7 @@
 		  cursor: pointer;
 		  
 		  >.row {
-		  background: $purple;
+		  background: $blue;
 		  color: $fff;
 		  h2 {color: $fff;}
 		  i {color: #fff;}
@@ -29,7 +29,7 @@
 		  } // end title
 		  
 		  .accordion--content {
-			  background: $purple;
+			  background: $blue;
 			  display: none;
 			  width: 100%;
 			  >.container >.row {padding: 0;}
@@ -69,8 +69,8 @@
 		  >.row {
 		  background: #fff;
 		  color: $purple;
-		  h2 {color: $purple;}
-		  i {color: $purple;}
+		  h2 {color: $blue;}
+		  i {color: $blue;}
 		  }// end row
 		  } // end title
 		  
@@ -80,7 +80,7 @@
 		  background: #fff;
 			  h3 {color: $teal;}
 			  p {color: $grey;}
-			  button {background: $purple; color: #fff;}
+			  button {background: $blue; color: #fff;}
 			} // end odd rows
 
 	
