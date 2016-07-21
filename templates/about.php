@@ -125,6 +125,8 @@
 	<li>Liz Magura, AIGA Arizona President and Speaker Coordination</li>
 	<li>Amy Robinson, Project Management and Volunteer Coordination</li>
 	<li>Danielle Knotts, Sponsorship Director</li>
+	<li>Leah Newsom, Events Coordinator</li>
+	<li>Rebekah Cancino, Speaker Coordinator</li>
 	<li>Kathy Morgan, Finance Director</li>
 	<li>Melissa Balkon, Creative Director</li>
 	<li>Tara Anderson, Design Support</li>
@@ -132,8 +134,7 @@
 	<li>Jessie Gould, Copywriting</li>
 	<li>Matt Adams, Web Director</li>
 	<li>Eric Stout, Web Developer</li>
-	<li>Leah Newsom, Events Coordinator</li>
-	<li>Rebekah Cancino, Speaker Coordinator</li>
+	
 </ul>
 
 	</div>
