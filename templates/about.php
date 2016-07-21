@@ -132,7 +132,8 @@
 	<li>Jessie Gould, Copywriting</li>
 	<li>Matt Adams, Web Director</li>
 	<li>Eric Stout, Web Developer</li>
-	<li>Matt Quirk, Promotions Director</li>
+	<li>Leah Newsom, Events Coordinator</li>
+	<li>Rebekah Cancino, Speaker Coordinator</li>
 </ul>
 
 	</div>
