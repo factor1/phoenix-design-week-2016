@@ -2,10 +2,32 @@
 	background: $teal patter(zigzag, purple);
 	background-size: 55px 55px;
 	
-	.row {background: $teal;}
+	.row {
+		padding-top: 60px;
+		padding-bottom: 60px;
+		background: $teal;
+		
+		p {color: $fff;}
+		
+		}
 }
 
 .volform {
 	background: $pink;
+	padding-top: 60px;
+	
+	 &:after{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: rem(35px);
+    background: #fff pattern('circles','lime');
+    background-size: 55px 55px;
+  }
+  
+  
 }
 

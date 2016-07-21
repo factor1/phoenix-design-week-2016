@@ -64,7 +64,7 @@
 	<div class="row">
 		<div class="col-11 col-centered">
 
-		<h2>Interested in volunteering? Reach out, and we’ll send you the details!</h2>
+		<h2 class="text-center text-white">Interested in volunteering? Reach out, and we’ll send you the details!</h2>
 		
 		<?php gravity_form( 3, false, false, false, '', false ); ?>
 		
