@@ -75,9 +75,14 @@
 		               	 	<a href="<?php the_sub_field('event_cta_url'); ?>" class="button purple text-white">
 		               	 		<?php the_sub_field('event_button_text>'); ?>
 					   	 	</a>
-		               	 <?php endif; ?>
+					   	 	<?php endif;?>
                	 	</div>
-                <?php endwhile; endif; ?>
+                <?php endwhile; else: ?>
+		               	 
+		               	 <p class="text-center">There aren't any events scheduled for this day.<br>
+		               	 Want to get yours on the calendar?</p>
+		               	
+		       	<?php endif; ?>
               </div>
               </div>
             </div>
