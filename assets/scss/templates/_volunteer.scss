@@ -41,12 +41,26 @@
 		padding: 0;
 	}
 	
-	li {
+	li.detailblock {
 		list-style: none;
 		margin: 0 0 40px;
 		padding: 60px 80px;
 		background: $blue;
 		position: relative;
+		display: block;
+		
+		&:after{
+		    content: '';
+		    display: block;
+		    position: absolute;
+		    left: 0;
+		    bottom: 0;
+		    width: 100%;
+		    height: rem(35px);
+		    background-size: 55px 55px;
+		    background: $blue pattern('circles','lime');
+		    }
+		    
 		
 		h3, p, li {
 			line-height: 1.2em;
@@ -58,22 +72,13 @@
 			list-style: square;
 			margin: 0 0 10px 20px;
 			padding: 0 0 0 10px;
+			background: none;
 				
 			}
 		
 		a, a:visited {color: $lime; text-decoration: underline;}
 		
-		&.detailblock:after{
-		    content: '';
-		    display: block;
-		    position: absolute;
-		    left: 0;
-		    bottom: 0;
-		    width: 100%;
-		    height: rem(35px);
-		    background-size: 55px 55px;
-		    background: $blue pattern('circles','lime');
-		    }
+		
 		    
 		    
 	}
