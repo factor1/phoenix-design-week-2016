@@ -13,7 +13,7 @@
 	throughout the week, companies have plenty of opportunities to put their brand in front of an
 	excited, targeted audience. All that’s missing is you.</p>
 	
-	<a href="" class="button">Download the sponsorship brochure</a>
+	<a href="http://phxdw.com/wp-content/uploads/2016/06/phxdw-2016-sponsorship-packet-051316.pdf" class="button white">Download the sponsorship brochure</a>
 </section>
 
 
@@ -56,11 +56,18 @@
 //============ ** ============ //
 ?>	
 
+<section class="container sponsorcontent">
+	<div class="row">
+		<div class="col-11 col-centered">
 		<?php if(have_posts()): 
 			while(have_posts()): the_post();
 				the_content();
 			endwhile; 
 		endif ?>
+		
+		</div>
+	</div>
+</section>
 
 
 
@@ -70,13 +77,28 @@
 //=============== ** =============== //
 ?>	
 
-<section class="contianer">
 
-ACF repeater ?
+<section class="container levels">
+	<div class="row" style="margin:0 auto; padding:60px 0;">
+		<div class="col-12 col-centered">
+		
+		<?php if( have_rows('levels') ):?>
+			<ul>
+			<?php while( have_rows('levels') ): the_row(); ?>
+				<li>
+					<h3><?php the_sub_field('level_name');?></h3>
+					<div class="vol_description"><?php the_sub_field('description');?></div>
+				</li>
+			<?php endwhile; ?>
+			</ul>
+		<?php endif; ?>
+		
+		<a href="http://phxdw.com/wp-content/uploads/2016/06/phxdw-2016-sponsorship-packet-051316.pdf" class="button pink">Download the sponsorship brochure</a>
 
-Final sponsor CTA
-
+		</div>
+	</div>
 </section>
+
 
 
 

@@ -1,5 +1,5 @@
-.volcontent {
-	background: $teal pattern(zigzag, purple);
+.sponsorcontent {
+	background: $teal pattern(diagonals-tight, purple);
 	background-size: 55px 55px;
 	
 	.row {
@@ -12,30 +12,9 @@
 		}
 }
 
-.volform {
-	background: $pink;
-	padding-top: 60px;
-	padding-bottom: 80px;
-	
-	label {color: $fff;}
-	
-	 &:after{
-    content: '';
-    display: block;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: rem(35px);
-    background: $pink pattern('circles','lime');
-    background-size: 55px 55px;
-  }
-  
-  
-}
 
 
-.vollopps {
+.levels {
 	ul {
 		margin: 0;
 		padding: 0;
