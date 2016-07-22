@@ -53,16 +53,24 @@
 ?>	
 
 
-<?php if( have_rows('volopp') ):?>
-	<ul>
-	<?php while( have_rows('volopp') ): the_row(); ?>
-		<li>
-			<h3><?php the_sub_field('opportunity_name');?></h3>
-			<div class="vol_description"><?php the_sub_field('description');?></div>
-		</li>
-	<?php endwhile; ?>
-	</ul>
-<?php endif; ?>
+<section class="container vollopps">
+	<div class="row">
+		<div class="col-12 col-centered">
+		
+		<?php if( have_rows('volopp') ):?>
+			<ul>
+			<?php while( have_rows('volopp') ): the_row(); ?>
+				<li>
+					<h3><?php the_sub_field('opportunity_name');?></h3>
+					<div class="vol_description"><?php the_sub_field('description');?></div>
+				</li>
+			<?php endwhile; ?>
+			</ul>
+		<?php endif; ?>
+
+		</div>
+	</div>
+</section>
 
 
 
