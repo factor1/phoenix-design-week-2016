@@ -28,6 +28,12 @@
     input[type=text], input[type=email]{
       width: 98%;
       margin: 0 auto rem(25px);
+      
+      button {
+	      	border-radius: 0px !important;
+	        font: rem(30px) $bebas !important;
+	        text-align: center;
+      }
     }
   }
 }

@@ -126,7 +126,7 @@
 	<li>Amy Robinson, Project Management and Volunteer Coordination</li>
 	<li>Danielle Knotts, Sponsorship Director</li>
 	<li>Leah Newsom, Events Coordinator</li>
-	<li>Rebekah Cancino, Speaker Coordinator</li>
+	<li>Rebekah Cancino, Speaker Communications Coordinator</li>
 	<li>Kathy Morgan, Finance Director</li>
 	<li>Melissa Balkon, Creative Director</li>
 	<li>Tara Anderson, Design Support</li>
@@ -157,7 +157,7 @@
 
 <section class="container halfsplit abouthalves">
 	<div class="row">
-		<div class="leftyleft">
+		<div class="leftyleft stretch">
 			<div class="thecontent">
 
 				<h2 class="text-pink">Learn more about the Method + Madness Conference</h2>
