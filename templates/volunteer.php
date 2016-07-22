@@ -53,6 +53,20 @@
 ?>	
 
 
+<?php if( have_rows('volopp') ):?>
+	<ul>
+	<?php while( have_rows('volopp') ): the_row(); ?>
+		<li>
+			<h3><?php the_sub_field('opportunity_name');?></h3>
+			<div class="vol_description"><?php the_sub_field('description');?></div>
+		</li>
+	<?php endwhile; ?>
+	</ul>
+<?php endif; ?>
+
+
+
+
 <?php 
 //============ ** ============ //	
 //  			FORM
@@ -64,7 +78,7 @@
 	<div class="row">
 		<div class="col-11 col-centered">
 
-		<h2 class="text-center text-white">Interested in volunteering? Reach out, and we’ll send you the details!</h2>
+		<h2 class="text-center text-white">Interested in volunteering? <br>Reach out, and we’ll send you the details!</h2>
 		
 		<?php gravity_form( 3, false, false, false, '', false ); ?>
 		
