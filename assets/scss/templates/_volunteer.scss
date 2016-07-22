@@ -49,6 +49,20 @@
 		
 		h3, p {color: $fff;}
 		a, a:visited {color: $lime; text-decoration: underline;}
+		
+		&:after{
+		    content: '';
+		    display: block;
+		    position: absolute;
+		    left: 0;
+		    bottom: 0;
+		    width: 100%;
+		    height: rem(35px);
+		    background-size: 55px 55px;
+		    background: $blue pattern('circles','lime');
+		    }
+		    
+		    
 	}
 	
 	li:nth-child(4n+1) { 
