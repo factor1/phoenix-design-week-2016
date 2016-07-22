@@ -5,7 +5,9 @@
 ?>
 
 <section class="container hero">
-	<h1>Sponsor Phoenix Design Week</h1>
+	<div class="row hero-content">
+		<div class="col-10 col-centered text-center">
+			<h1 class="text-white">Sponsor Phoenix Design Week</h1>
 	
 	<p>Phoenix Design Week is the premier design event in Arizona for designers, students, educators, writers, illustrators, and marketing professionals. Each year, over 450 individuals gather in downtown Phoenix to celebrate and share their skills, while another 4,000+ stay up to date on the event through social media and email. </p>
 	
@@ -14,6 +16,9 @@
 	excited, targeted audience. All that’s missing is you.</p>
 	
 	<a href="http://phxdw.com/wp-content/uploads/2016/06/phxdw-2016-sponsorship-packet-051316.pdf" class="button white">Download the sponsorship brochure</a>
+	
+		</div>
+	</div>
 </section>
 
 
