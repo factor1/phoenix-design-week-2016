@@ -32,7 +32,7 @@
     <?php // Past Sponsors ?>
     <?php if(have_rows('past_sponsors', 'option')):?>
     
-<section class="sponsors--container">
+<section class="container sponsors--container">
     <div class="row">
       <div class="col-12 text-center">
         <h4 class="sponsors--headline">
