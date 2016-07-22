@@ -136,7 +136,7 @@
 				100 N. 3rd Street<br>
 				Phoenix, AZ 85004
 			</p>
-			<a href="#" class="button white">
+			<a href="http://dtphx.org/things-to-do/" class="button white">
 				Learn About Downtown Phoenix
 			</a>
 		</div>
@@ -160,7 +160,7 @@
 				<h2 class="text-pink">How does Method + Madness compare to other conferences?</h2>
 				<p>Not all conferences are created equal. Here’s why you should definitely attend this one.</p>
 
-				<a href="" class="button pink">SEE HOW M + M STACKS UP</a>
+				<a href="<?php echo home_url(); ?>/compare-conferences" class="button pink">SEE HOW M + M STACKS UP</a>
 
 			</div>
 		</div>
@@ -173,7 +173,7 @@
 				<p>
 					The Method + Madness Conference is a solid investment in your design career.
 				</p>
-				<a href="" class="button purple">WHY YOU SHOULD ATTEND</a>
+				<a href="<?php echo home_url(); ?>/convince-your-boss/" class="button purple">WHY YOU SHOULD ATTEND</a>
 			</div>
 		</div>
 	</div>
@@ -234,7 +234,7 @@
 		<div class="thecontent">
 			<h2 class="text-white">Are you a student on a shoestring?</h2>
 			<p>Every year, we offer a limited number of student scholarships to attend the M + M Conference. </p>
-			<a href="" class="button pink">LEARN MORE</a>
+			<a href="<?php echo home_url(); ?>/student-application/" class="button pink">LEARN MORE</a>
 
 		</div>
 	</div>
@@ -243,7 +243,7 @@
 		<div class="thecontent">
 			<h2 class="text-purple">Why students love M + M</h2>
 			<p>Don’t consider yourself a professional yet? We don’t mind! Here's why you should attend.</p>
-			<a href="" class="button purple">GET THE DETAILS</a>
+			<a href="<?php echo home_url(); ?>/why-students-should-attend/" class="button purple">GET THE DETAILS</a>
 
 		</div>
 	</div>
