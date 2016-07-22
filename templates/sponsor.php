@@ -135,11 +135,16 @@ Arizona design community year­ round. Please contact Danielle Knotts at
 //============ ** ============ //
 ?>	
 
-<h2>Contact us</h2>
-
-[form gf_id=3]
-
-Button: Submit
+<section class="container" id="event_form">
+	<div class="row">
+		<div class="col-12">
+		<h2 class="text-center text-white">IContact Us</h2>
+		
+		<?php gravity_form( 2, false, false, false, '', false ); ?>
+		</div>
+		
+	</div>
+</section>
 
 
 
