@@ -59,19 +59,7 @@
 			padding: 0 0 0 10px;
 			background: none;
 		}
-		
-		&:after{
-		    content: '';
-		    display: block;
-		    position: absolute;
-		    left: 0;
-		    bottom: 0;
-		    width: 100%;
-		    height: rem(35px);
-		    background-size: 55px 55px;
-		    background: $blue pattern('circles','lime');
-		    }
-		    
+			    
 		    
 	}
 	
