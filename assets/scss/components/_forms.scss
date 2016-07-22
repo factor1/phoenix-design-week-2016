@@ -23,8 +23,10 @@ input[type=submit]{
 form {
 		input, textarea, select {
 			border-radius: 4px;
-			padding-left: 15px !important;
+			padding-left: 15px;
 			border: 1px solid $ltgrey;
+			font: rem(22px) $proxima;
+			color: $grey;
 			}
 		
 		select {height: 60px;}
