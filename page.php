@@ -53,7 +53,7 @@
 if ( is_page(87) ) : ?>
 		<section class="container" id="student_form">
 			<div class="row">
-				<div class="col-12">	
+				<div class="col-10 col-centered">	
 				<?php gravity_form( 4, false, false, false, '', false ); ?>
 				</div>
 				
