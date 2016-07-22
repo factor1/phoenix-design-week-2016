@@ -47,11 +47,17 @@
 		padding: 60px 80px;
 		background: $blue;
 		
-		h3, p {
+		h3, p, li {
 			line-height: 1.2em;
 			color: $fff;}
 			
 		h3 {margin: 0 0 20px 0;}
+		
+		li {
+			list-style: square;
+			margin: 0 0 10px 20px;
+			padding: 0 0 0 10px;
+		}
 		
 		a, a:visited {color: $lime; text-decoration: underline;}
 		
