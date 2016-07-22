@@ -47,6 +47,23 @@
 </section>
 
 
+
+<?php 
+	// Is this the student applicaiton page? 
+if ( is_page(87) ) : ?>
+		<section class="container" id="student_form">
+			<div class="row">
+				<div class="col-12">	
+				<?php gravity_form( 4, false, false, false, '', false ); ?>
+				</div>
+				
+			</div>
+		</section>
+
+<?php endif; ?>
+
+
+
 <?php
 // Include Newsletter Part
 get_template_part('parts/newsletter');
