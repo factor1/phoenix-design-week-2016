@@ -60,7 +60,7 @@
 		<?php if( have_rows('volopp') ):?>
 			<ul>
 			<?php while( have_rows('volopp') ): the_row(); ?>
-				<li>
+				<li class="detailblock">
 					<h3><?php the_sub_field('opportunity_name');?></h3>
 					<div class="vol_description"><?php the_sub_field('description');?></div>
 				</li>

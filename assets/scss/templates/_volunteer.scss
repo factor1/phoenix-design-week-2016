@@ -46,6 +46,7 @@
 		margin: 0 0 40px;
 		padding: 60px 80px;
 		background: $blue;
+		position: relative;
 		
 		h3, p, li {
 			line-height: 1.2em;
@@ -57,12 +58,12 @@
 			list-style: square;
 			margin: 0 0 10px 20px;
 			padding: 0 0 0 10px;
-			position: relative;
-		}
+				
+			}
 		
 		a, a:visited {color: $lime; text-decoration: underline;}
 		
-		&:after{
+		&.detailblock:after{
 		    content: '';
 		    display: block;
 		    position: absolute;
