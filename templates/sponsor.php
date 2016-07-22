@@ -93,7 +93,7 @@
 		<?php if( have_rows('levels') ):?>
 			<ul>
 			<?php while( have_rows('levels') ): the_row(); ?>
-				<li>
+				<li class="detailblock">
 					<h3><?php the_sub_field('level_name');?></h3>
 					<div class="vol_description"><?php the_sub_field('description');?></div>
 				</li>
