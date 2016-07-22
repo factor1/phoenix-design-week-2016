@@ -1,2 +1,11 @@
 // Default Page Styles - You can find `.page--intro` in `scss/templates/_splash.scss`
 
+.pagecopy {
+	background: $fff pattern('circles','lime');
+	background-size: 55px;
+	
+	.row {
+		padding-top: 60px;
+		background: $fff;
+	}
+}
