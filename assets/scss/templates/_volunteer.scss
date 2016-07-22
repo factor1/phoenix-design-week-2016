@@ -51,7 +51,8 @@
 		a, a:visited {color: $lime; text-decoration: underline;}
 	}
 	
-	li:nth-child(4n+1):after{
+	li:nth-child(4n+1) { 
+		&:after{
 		    content: '';
 		    display: block;
 		    position: absolute;
@@ -60,7 +61,8 @@
 		    width: 100%;
 		    height: rem(35px);
 		    background-size: 55px 55px;
-		    background: $pink pattern('circles','lime');
+		    background: $blue pattern('circles','lime');
+		    }
 	    
 	}
 }
