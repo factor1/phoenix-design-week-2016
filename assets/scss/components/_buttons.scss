@@ -1,5 +1,5 @@
 // Button Styles
-.button{
+.button, .button:visited{
   display: inline-block;
   position: relative;
   padding: rem(10px) rem(28px);
@@ -9,6 +9,7 @@
   background: none;
   transition: all .3s ease;
   cursor: pointer;
+  text-decoration: none !important;
 }
 
 .button-yellow{
