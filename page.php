@@ -60,7 +60,25 @@ if ( is_page(87) ) : ?>
 			</div>
 		</section>
 
+
+<?php 
+	// Is this the student applicaiton page? 
+elseif ( is_page(88) ) : ?>
+<section class="container tesimonial">
+	<div class="row">
+		<div class="col-12 text-center">
+			<blockquote>
+				<h2>
+					"I hope nobody ever tells the PHXDW organizers that they're only charging a tenth of what they should be for a conference of this caliber."
+				</h2>
+				<cite>James Archer, 2014 attendee</cite>
+			</blockquote>
+		</div>
+	</div>
+</section>
+
 <?php endif; ?>
+
 
 
 
