@@ -54,7 +54,7 @@
 
 
 <section class="container vollopps">
-	<div class="row">
+	<div class="row" style="margin:0 auto; padding:60px 0;">
 		<div class="col-12 col-centered">
 		
 		<?php if( have_rows('volopp') ):?>

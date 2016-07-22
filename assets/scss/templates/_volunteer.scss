@@ -18,6 +18,8 @@
 	padding-bottom: 80px;
 	margin-bottom: 20px;
 	
+	label {color: $fff;}
+	
 	 &:after{
     content: '';
     display: block;
@@ -42,7 +44,7 @@
 	
 	li {
 		list-style: none;
-		margin: 0;
+		margin: 0 0 40px;
 		padding: 40px;
 		background: $blue;
 		
