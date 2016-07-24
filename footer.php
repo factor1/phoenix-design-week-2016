@@ -38,11 +38,11 @@
         <a href="http://www.aiga.org/terms/">
           Privacy Policy
         </a>
-        &nbsp; &nbsp;
+        &nbsp;
         <a href="http://www.aiga.org/code-of-conduct/">
           Code of Conduct
         </a>
-         &nbsp; &nbsp;
+         &nbsp;
         <a href="<?php echo home_url(); ?>/contact">
           Contact Us
         </a>
