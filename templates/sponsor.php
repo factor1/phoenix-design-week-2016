@@ -86,7 +86,7 @@
 
 <section class="container levels">
 	<div class="row" style="margin:0 auto; padding:60px 0;">
-		<div class="col-12 col-centered">
+		<div class="col-12 col-centered" style="padding-left:0px; padding-right: 0px;">
 		
 		<h2 class="text-center text-blue">Sponsorship opportunities</h2>
 		
