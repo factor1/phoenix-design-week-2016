@@ -166,7 +166,7 @@
 				<h2 class="text-pink">Learn more about the Method + Madness Conference</h2>
 				<p>The Method + Madness Conference is a solid investment in your design career.</p>
 
-				<a href="https://www.eventbrite.com/e/method-madness-conference-phxdw-2016-tickets-24939107542" class="button pink">Get your M + M ticket</a>
+				<a href="https://www.eventbrite.com/e/method-madness-conference-phxdw-2016-tickets-24939107542" class="button pink">Get your M+M ticket</a>
 
 			</div>
 		</div>

@@ -47,7 +47,7 @@
 
 				<h3 style="text-pink">Attend the Method + Madness conference</h3>
 		    	<p>Check out this year’s speakers and reserve your spot now!</p>
-		    	<a href="<?php echo home_url(); ?>/method-and-madness-conference/" class="button pink text-white">LEARN MORE ABOUT M + M</a>
+		    	<a href="<?php echo home_url(); ?>/method-and-madness-conference/" class="button pink text-white">LEARN MORE ABOUT M+M</a>
 
 
 				</div><?php // end thecontent ?>

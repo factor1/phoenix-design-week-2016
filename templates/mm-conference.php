@@ -127,7 +127,7 @@
 		<div class="col-6 stretch joincontent">
 			<h2>Join us in downtown<br>Phoenix, AZ</h2>
 			<p>
-				M + M takes place in the heart of the city. The increasingly revitalized
+				M+M takes place in the heart of the city. The increasingly revitalized
 				downtown area is full of plenty of dining options and nightlife hotspots,
 				and by October we’ll be experiencing some of the best weather of the year.
 			</p>
@@ -160,7 +160,7 @@
 				<h2 class="text-pink">How does Method + Madness compare to other conferences?</h2>
 				<p>Not all conferences are created equal. Here’s why you should definitely attend this one.</p>
 
-				<a href="<?php echo home_url(); ?>/compare-conferences" class="button pink">SEE HOW M + M STACKS UP</a>
+				<a href="<?php echo home_url(); ?>/compare-conferences" class="button pink">SEE HOW M+M STACKS UP</a>
 
 			</div>
 		</div>
@@ -233,7 +233,7 @@
 	<div class="leftyleft stretch">
 		<div class="thecontent">
 			<h2 class="text-white">Are you a student on a shoestring?</h2>
-			<p>Every year, we offer a limited number of student scholarships to attend the M + M Conference. </p>
+			<p>Every year, we offer a limited number of student scholarships to attend the M+M Conference. </p>
 			<a href="<?php echo home_url(); ?>/student-application/" class="button pink">LEARN MORE</a>
 
 		</div>
@@ -241,7 +241,7 @@
 
 	<div class="rightyright stretch">
 		<div class="thecontent">
-			<h2 class="text-purple">Why students love M + M</h2>
+			<h2 class="text-purple">Why students love M+M</h2>
 			<p>Don’t consider yourself a professional yet? We don’t mind! Here's why you should attend.</p>
 			<a href="<?php echo home_url(); ?>/why-students-should-attend/" class="button purple">GET THE DETAILS</a>
 
