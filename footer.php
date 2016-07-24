@@ -25,7 +25,7 @@
   </div>
   <div class="row" style="padding-top: 60px;">
     <div class="col-8 col-centered text-center aiga">
-      Presented By <a href="https://arizona.aiga.org/"><img src="<?php bloginfo('template_url');?>/assets/img/aiga-logo.png" alt="AIGA Arizona"></a>
+      Presented By <a href="https://arizona.aiga.org/" class="padding-top:10px;"><img src="<?php bloginfo('template_url');?>/assets/img/aiga-logo.png" alt="AIGA Arizona"></a>
     </div>
   </div>
   <div class="row" style="padding-top: 30px; padding-bottom:55px">
