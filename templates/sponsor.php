@@ -11,7 +11,7 @@
 	
 	<p class="text-white">Phoenix Design Week is the premier design event in Arizona for designers, students, educators, writers, illustrators, and marketing professionals. Each year, over 450 individuals gather in downtown Phoenix to celebrate and share their skills, while another 4,000+ stay up to date on the event through social media and email. </p>
 	
-	<p class="text-white">Between the two ­day Method + Madness Conference and a host of local events taking place
+	<p class="text-white">Between the two-­day Method + Madness Conference and a host of local events taking place
 	throughout the week, companies have plenty of opportunities to put their brand in front of an
 	excited, targeted audience. All that’s missing is you.</p>
 	
