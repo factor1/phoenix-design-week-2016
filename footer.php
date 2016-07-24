@@ -35,7 +35,7 @@
         <a href="http://arizona.aiga.org/">AIGA Arizona</a>.  
       </p>
       <p>
-        <a href="#">
+        <a href="http://www.aiga.org/terms/">
           Privacy Policy
         </a>
         &nbsp; &nbsp;
