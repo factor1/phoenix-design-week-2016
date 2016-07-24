@@ -192,7 +192,7 @@
 	<div class="row">
 		<div class="col-10 col-centered">
 			<h2 class="text-center text-white">
-				Save up to 60% now with Early Bird ticket pricing!<br>
+				Save up To 30% now with Advance Ticket pricing!<br>
 				<strong>Prices go up September 1</strong>
 			</h2>
 
