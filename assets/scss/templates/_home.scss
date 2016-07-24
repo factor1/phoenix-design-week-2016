@@ -129,3 +129,14 @@
 		.button:hover {color: $fff;}
 		
 } // End home-sponsor
+
+
+
+
+
+@media screen and (max-width: $small-breakpoint){
+
+.home-intros.halfsplit .rightyright .content-a .thecontent h3,
+.home-intros.halfsplit .rightyright .content-b .thecontent h3 {margin-top: 10px;}
+
+}
