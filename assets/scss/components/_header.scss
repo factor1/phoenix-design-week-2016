@@ -181,7 +181,16 @@ header {
 	
 	
 	
-}
+} // END tablet 1024
+
+
+
+@media screen and (max-width: $tablet-vert-breakpoint){
+	
+$header-height: 85px;
+	
+	
+} // END 768 breaks
 
 @media screen and (max-width: $small-breakpoint){
 
