@@ -75,7 +75,15 @@
 
   // Newsletter
   .newsletter--container{
-    margin-top: 10px;
+    margin-top: 0px;
+  }
+  
+  .newsletter--container form .button {
+	  text-align: center;
+	  margin-left: auto;
+	  margin-right: auto;
+	  display: block;
+	  max-width: 280px;
   }
 
   .newsletter--container form input[type=text], .newsletter--container form input[type=email]{
