@@ -4,7 +4,7 @@
     <div class="row">
       <div class="col-12 text-center">
         <h2>
-          Sign Up For Email Alerts
+          Sign up for email alerts
         </h2>
         <p>
           Phoenix Design Week 2016 is heating up. Be the first to know

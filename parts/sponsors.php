@@ -16,7 +16,7 @@ Agency Sponsor
     <div class="row">
       <div class="col-12 text-center">
         <h2 class="text-teal">
-          PHXDW Is Made Possible By Generous Sponsors
+          PHXDW is made possible by generous sponsors
         </h2>
       </div>
     </div>
@@ -79,7 +79,7 @@ Agency Sponsor
     <div class="row">
       <div class="col-12 text-center">
         <h4 class="sponsors--headline">
-          Premier Print and Large Format Sponsor
+          Premier Print And Large Format Sponsor
         </h4>
       </div>
     </div>
@@ -179,7 +179,7 @@ Agency Sponsor
     <div class="row">
       <div class="col-12 text-center">
         <h4 class="sponsors--headline">
-           Partner Organizations who helped organize this event
+           Partner Organizations Who Helped Organize This Event
         </h4>
       </div>
     </div>
