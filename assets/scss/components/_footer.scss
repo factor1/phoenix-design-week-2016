@@ -87,3 +87,17 @@ footer{
     }
   }
 }
+
+
+
+
+@media screen and (max-width: $tablet-vert-breakpoint){
+	.footer .social-icons{
+    	h3{
+	  	  display: block;
+	  	  margin-bottom: 10px;
+	  	  }
+	    }
+	
+	
+	}
