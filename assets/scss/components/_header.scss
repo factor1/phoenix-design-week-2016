@@ -150,7 +150,8 @@ header {
 
 @media screen and (max-width: $tablet-breakpoint){
 	
-	h1.branding, h1.branding a {
+header {
+		h1.branding, h1.branding a {
 		text-indent: -10000px;
 		height: 190px;
 		width: 200px;
@@ -175,7 +176,7 @@ header {
 		font-size: 20px;
 		padding: 20px;
 	}// end buynow
-	
+}// ENd Header
 	
 	
 	
