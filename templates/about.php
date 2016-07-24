@@ -58,7 +58,7 @@
 	<div class="col-12">
 
 		
-<h2 class="text-pink text-center">Past Method + Madness Speakers</h2>
+<h2 class="text-pink text-center">Past Method + Madness speakers</h2>
 
 <ul>
 	<li>Altay Sendil, Pinterest</li>

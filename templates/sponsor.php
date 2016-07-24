@@ -88,7 +88,7 @@
 	<div class="row" style="margin:0 auto; padding:60px 0;">
 		<div class="col-12 col-centered">
 		
-		<h2 class="text-center text-blue">Sponsorship Opportunities</h2>
+		<h2 class="text-center text-blue">Sponsorship opportunities</h2>
 		
 		<?php if( have_rows('levels') ):?>
 			<ul>
@@ -141,7 +141,7 @@ Arizona design community year­ round. Please contact Danielle Knotts at
 <section class="container" id="event_form">
 	<div class="row">
 		<div class="col-12">
-		<h2 class="text-center text-white">Contact Us</h2>
+		<h2 class="text-center text-white">Contact us</h2>
 		
 		<?php gravity_form( 2, false, false, false, '', false ); ?>
 		</div>
