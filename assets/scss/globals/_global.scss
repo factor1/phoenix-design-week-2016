@@ -301,6 +301,19 @@ $doodles: url(../img/patterns/doodle-pattern-purple-bg-tile.png) repeat;
 }
 
 
+@media screen and (max-width: $small-breakpoint){
+	
+	.hero {
+	padding-top: 40px;
+	}
+
+	// hero content
+	.hero .hero-content {
+		padding: 30px;}
+		
+	
+	}
+
 // ====================
 // Page Specific Heros
 // ====================
