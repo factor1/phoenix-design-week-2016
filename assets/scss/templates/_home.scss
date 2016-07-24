@@ -131,7 +131,16 @@
 } // End home-sponsor
 
 
+@media screen and (max-width: $tablet-vert-breakpoint){
 
+.home-intros.halfsplit .leftyleft .thecontent,
+.home-intros.halfsplit .rightyright .content-a .thecontent {max-width: 720px;}
+
+.home-intros.halfsplit .rightyright .content-b .thecontent {max-width: 740px;}
+
+
+	
+}
 
 
 @media screen and (max-width: $small-breakpoint){
