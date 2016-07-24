@@ -101,3 +101,14 @@
 	&.teal		   {background: $teal;}
 
 }
+
+
+
+
+@media screen and (max-width: $small-breakpoint){
+	.button, .button:visited{
+		font: rem(20px) $bebas;
+		}
+	
+	
+	}
