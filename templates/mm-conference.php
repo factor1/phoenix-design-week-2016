@@ -154,7 +154,7 @@
 
 <section class="container halfsplit comparesplit">
 	<div class="row">
-		<div class="leftyleft">
+		<div class="leftyleft stretch">
 			<div class="thecontent">
 
 				<h2 class="text-pink">How does Method + Madness compare to other conferences?</h2>
@@ -230,7 +230,7 @@
 
 <section class="container halfsplit studentsplit">
 <div class="row">
-	<div class="leftyleft">
+	<div class="leftyleft stretch">
 		<div class="thecontent">
 			<h2 class="text-white">Are you a student on a shoestring?</h2>
 			<p>Every year, we offer a limited number of student scholarships to attend the M + M Conference. </p>
