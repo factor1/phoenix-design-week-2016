@@ -148,9 +148,41 @@ header {
 	}
 }
 
+@media screen and (max-width: $tablet-breakpoint){
+	
+	h1.branding, h1.branding a {
+		text-indent: -10000px;
+		height: 190px;
+		width: 200px;
+
+		span {
+			height: 170px;
+			width:185px;
+		} // end span
+	} // end h1.brand
+
+	h2 {
+		color: $teal;
+		font-size: 20px;
+		padding: 20px;
+		margin: 0 0 0 200px;
+		display: block;
+		float: left;
+	}
 
 
-@media screen and (max-width: 768px) {
+	.buynow, .buynow:visited {
+		font-size: 20px;
+		padding: 20px;
+	}// end buynow
+	
+	
+	
+	
+	
+}
+
+@media screen and (max-width: $small-breakpoint){
 
 header {
 	background: #fff;
@@ -160,4 +192,4 @@ header {
 	
 	header .header-buy-menu {margin-top:30px;}
 	
-	}
+}
