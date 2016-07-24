@@ -187,7 +187,9 @@ header {
 
 @media screen and (max-width: $tablet-vert-breakpoint){
 	
-$header-height: 85px;
+	header {
+	height: 85px;
+	}
 	
 	
 } // END 768 breaks
