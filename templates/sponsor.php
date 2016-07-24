@@ -124,7 +124,7 @@
 			<p class="text-white">AIGA Arizona hosts over 25 events annually attended by thousands of Arizona designers. If you
 would like to support AIGA Arizona directly, there are multiple opportunities to interact with the
 Arizona design community year­ round. Please contact Danielle Knotts at
-<a href="mailto:danielle.knotts@arizona.aiga.org">danielle.knotts@arizona.aiga.org</a> or (480) 529­1825 for more information.</p>
+<a href="mailto:danielle.knotts@arizona.aiga.org">danielle.knotts@arizona.aiga.org</a> or (480) 529­-1825 for more information.</p>
 	
 		</div>
 	</div>
