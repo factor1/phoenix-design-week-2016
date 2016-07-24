@@ -106,9 +106,9 @@
 		<div class="col-12 text-center">
 			<blockquote>
 				<h2>
-					"Method + Madness inspires me to create more,
+					&ldquo;Method + Madness inspires me to create more,
 					strive to make my work better, and try new things.
-					It reminds me why I love design."
+					It reminds me why I love design.&rdquo;
 				</h2>
 				<cite>Kristie Erkkila</cite>
 			</blockquote>

@@ -69,7 +69,7 @@ elseif ( is_page(88) ) : ?>
 		<div class="col-12 text-center">
 			<blockquote>
 				<h2>
-					"I hope nobody ever tells the PHXDW organizers that they're only charging a tenth of what they should be for a conference of this caliber."
+					&ldquo;I hope nobody ever tells the PHXDW organizers that they're only charging a tenth of what they should be for a conference of this caliber&rdquo;
 				</h2>
 				<cite>James Archer, 2014 attendee</cite>
 			</blockquote>
