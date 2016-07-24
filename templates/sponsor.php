@@ -125,7 +125,7 @@
 would like to support AIGA Arizona directly, there are multiple opportunities to interact with the
 Arizona design community year­ round.</p>
 
-<a href="http://arizona.aiga.org/about-us/support/" class="button yellow"><span class="text-teal">See ways to support AIGA AZ</span></a>
+<a href="http://arizona.aiga.org/about-us/support/" class="button white"><span class="text-teal">See ways to support AIGA AZ</span></a>
 	
 		</div>
 	</div>
