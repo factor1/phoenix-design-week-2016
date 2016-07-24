@@ -270,7 +270,9 @@
 
 @media screen and (max-width: $tablet-vert-breakpoint){
 	
-	.priceblock {flex-basis: 48%;}
+	.priceblock {
+		margin-bottom: 50px;
+		flex-basis: 48%;}
 	}
 
 

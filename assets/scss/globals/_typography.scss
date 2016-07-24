@@ -62,6 +62,17 @@ a:visited {
 }
 
 // Media Queries
+
+@media screen and (max-width: $tablet-vert-breakpoint){
+  h1{
+    font-size: rem(50px);
+  }
+  h2, h3{
+    font-size: rem(32px);
+  }
+}	
+	
+	
 @media screen and (max-width: $small-breakpoint){
   h1{
     font-size: rem(38px);
