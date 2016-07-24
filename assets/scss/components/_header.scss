@@ -195,8 +195,13 @@ header {
 		margin-left: -40px;
 		}
 		
+		
+	.nifty-burger {
+		flex: 0 1 85px;
+		height: 85px;
 	}
 	
+	}// End header
 	
 } // END 768 breaks
 
@@ -206,15 +211,21 @@ header {
 	background: #fff;
 	height: auto;
 	
+	.header-buy-menu {margin-top:30px;}
+	
 	.buynow, .buynow:visited {
-		height: 65px;
+		height: 67px;
 		margin-left: 0px;
 		}
+		
+	.nifty-burger {
+		flex: 0 1 67px;
+		height: 67px;
+	}
 		
 		
 	} // END header
 	
-	
-	header .header-buy-menu {margin-top:30px;}
+
 	
 }
