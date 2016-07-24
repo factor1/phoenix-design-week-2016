@@ -140,7 +140,7 @@
 				Learn About Downtown Phoenix
 			</a>
 		</div>
-		<div class="col-6 stretch" style="background: url(<?php bloginfo('template_url');?>/assets/img/map.png) center center no-repeat; background-size:cover; padding: 0;">
+		<div class="col-6 stretch dtphxmap" style="min-height:400px;background: url(<?php bloginfo('template_url');?>/assets/img/map.png) center center no-repeat; background-size:cover; padding: 0;">
 		</div>
 	</div>
 </section>
