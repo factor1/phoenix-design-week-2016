@@ -39,7 +39,7 @@
           Privacy Policy
         </a>
         &nbsp; &nbsp;
-        <a href="#">
+        <a href="http://www.aiga.org/code-of-conduct/">
           Code of Conduct
         </a>
          &nbsp; &nbsp;
