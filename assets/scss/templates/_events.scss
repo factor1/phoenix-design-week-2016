@@ -142,9 +142,8 @@
 
 @media screen and (max-width: $tablet-vert-breakpoint){
 .weekevents .accordion--content .event-col4 {
-	width: 90%;
+	flex-basis: 95%;
 	margin: 0 auto;
-	float: none;
 }
 	
 	
