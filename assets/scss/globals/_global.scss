@@ -300,6 +300,19 @@ $doodles: url(../img/patterns/doodle-pattern-purple-bg-tile.png) repeat;
 	}
 }
 
+@media screen and (max-width: $tablet-vert-breakpoint){
+	
+		.hero {
+	padding-top: 60px;
+	}
+
+	// hero content
+	.hero .hero-content {
+		padding: 20px 10px;}
+		
+	
+	}
+
 
 @media screen and (max-width: $small-breakpoint){
 	
