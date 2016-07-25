@@ -50,3 +50,11 @@
 	}
 	
 }
+
+
+
+@media screen and (max-width: $tablet-vert-breakpoint){
+	.contactus .col-4, .contactus .col-8 {
+		flex-basis: 95%;
+		}
+	}
