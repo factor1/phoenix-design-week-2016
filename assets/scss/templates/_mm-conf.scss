@@ -242,7 +242,7 @@
 		//@include aspect-ratio(7,6);
 		padding: 25px 10px;
 
-		.content {margin: 0 10px;}
+		.content {margin: 10px;}
 
 		p {
 			text-transform: uppercase;
@@ -271,13 +271,14 @@
 
 @media screen and (max-width: $tablet-vert-breakpoint){
 	
-	.priceblock {
-		margin-bottom: 50px;
+	.pricegrid { 
+		.priceblock {
+		margin-bottom: 0px;
 		flex-basis: 48%;
-		height: auto;
 		padding: 25px 10px;
 		}
 	}
+}
 
 
 
