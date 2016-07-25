@@ -105,7 +105,13 @@
 
 } // end testimonials
 
-
+@media screen and (max-width: $tablet-vert-breakpoint){
+	
+	.tesimonial {
+		padding: 20px 0 65px 0;
+	}
+	
+}
 
 
 
