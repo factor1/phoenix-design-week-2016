@@ -40,7 +40,7 @@
 		.speakerthumb {
 			margin-bottom: 10px;
 			
-			img{
+			.profilepic{
 					 position: relative;
 					 &:after{
 					   content: '';
@@ -76,7 +76,7 @@
 			}
 			
 			&:hover {
-				img:after{
+				.profilepic:after{
 					   background: rgba($blue, 0.8);
 					 }
 				h4, p {color: $blue;}
