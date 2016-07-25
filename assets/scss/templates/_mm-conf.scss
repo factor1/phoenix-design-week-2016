@@ -40,8 +40,22 @@
 		.speakerthumb {
 			margin-bottom: 10px;
 			
-			img:after {background: $blue; opacity: 0}
-			
+			img{
+					 position: relative;
+					 &:after{
+					   content: '';
+					   display: block;
+					   position: absolute;
+					   top: 0;
+					   left: 0;
+					   width: 100%;
+					   height: 100%;
+					   background: rgba($blue, 0);
+					 }
+					}
+
+
+
 			h4{
 				font: rem(25px) $proxima;
 				font-weight: 600;
@@ -62,19 +76,9 @@
 			}
 			
 			&:hover {
-				img{
-					 position: relative;
-					 &:after{
-					   content: '';
-					   display: block;
-					   position: absolute;
-					   top: 0;
-					   left: 0;
-					   width: 100%;
-					   height: 100%;
-					   background: ($blue, 0.8);
+				img:after{
+					   background: rgba($blue, 0.8);
 					 }
-					}
 				h4, p {color: $blue;}
 			}
 		} // End speakerthumb
