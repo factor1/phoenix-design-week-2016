@@ -71,7 +71,9 @@
 				<?php while( $query->have_posts() ): $query->the_post();?>
 					<div class="col-4 speakerthumb">
 						<a href="<?php the_permalink();?>">
-							<?php the_post_thumbnail('profile-picture'); ?>
+							<div class="profilepic">
+								<?php the_post_thumbnail('profile-picture'); ?>
+							</div>
 							<h4>
 								<?php the_title();?>
 							</h4>

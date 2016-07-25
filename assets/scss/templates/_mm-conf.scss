@@ -40,6 +40,8 @@
 		.speakerthumb {
 			margin-bottom: 10px;
 			
+			.profilepic {background: $blue;}
+			
 			h4{
 				font: rem(25px) $proxima;
 				font-weight: 600;
@@ -58,7 +60,14 @@
 					color: white;
 				}
 			}
+			
+			&:hover {
+				h4, p {color: $blue;}
+				img {opacity: 0.8;}
+			}
 		} // End speakerthumb
+		
+		
 	} // end speakerthumbgrid
 
 } // End conf-content
