@@ -239,7 +239,8 @@
 	background: $pink;
 
 	.priceblock {
-		@include aspect-ratio(7,6);
+		//@include aspect-ratio(7,6);
+		padding: 25px 10px;
 
 		.content {margin: 0 10px;}
 
