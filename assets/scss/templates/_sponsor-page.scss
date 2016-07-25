@@ -96,7 +96,9 @@
 	}
 }
 
-
+@media screen and (max-width: $tablet-breakpoint){
+	.levels li.detailblock {margin: 0 20px 20px;}
+	}
 
 @media screen and (max-width: $small-breakpoint){
 	
