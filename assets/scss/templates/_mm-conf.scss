@@ -284,11 +284,12 @@
 
 
 @media screen and (max-width: $small-breakpoint){
-	
-	.priceblock {
-		height: 165px !important;
-		margin-bottom: 10px;
-		}
+	.pricegrid { 
+		.priceblock {
+			flex-basis: 96%;
+			margin-bottom: 10px;
+			}
+	}
 		
 }
 		
