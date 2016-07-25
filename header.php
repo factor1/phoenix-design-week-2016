@@ -31,7 +31,7 @@
 		<div class="row">
 			<div class="col-8" style="padding-left:0px;">
 				<h1 class="branding"><a href="<?php echo home_url(); ?>"><span>Phonix Design Week</span></a></h1>
-				<h2>Phoenix Design Week   ||   October 21-28, 2016</h2>
+				<h2>Phoenix Design Week &bull; October 21-28, 2016</h2>
 			</div>
 
 			<div class="col-4 header-buy-menu">
