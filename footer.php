@@ -35,17 +35,11 @@
         <a href="http://arizona.aiga.org/">AIGA Arizona</a>.  
       </p>
       <p>
-        <a href="http://www.aiga.org/terms/">
-          Privacy Policy
-        </a>
+        <a href="http://www.aiga.org/terms/">Privacy Policy</a>
         &nbsp;
-        <a href="http://www.aiga.org/code-of-conduct/">
-          Code of Conduct
-        </a>
+        <a href="http://www.aiga.org/code-of-conduct/">Code of Conduct</a>
          &nbsp;
-        <a href="<?php echo home_url(); ?>/contact">
-          Contact Us
-        </a>
+        <a href="<?php echo home_url(); ?>/contact">Contact Us</a>
       </p>
     </div>
   </div>
