@@ -1,0 +1,127 @@
+.volcontent {
+	background: $teal pattern(zigzag, purple);
+	background-size: 55px 55px;
+	
+	.row {
+		padding-top: 60px;
+		padding-bottom: 60px;
+		background: $teal;
+		
+		p,li {color: $fff;}
+		
+		}
+}
+
+.volform {
+	background: $pink;
+	padding-top: 60px;
+	padding-bottom: 80px;
+	
+	label {color: $fff;}
+	
+	 &:after{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: rem(35px);
+    background: $pink pattern('circles','lime');
+    background-size: 55px 55px;
+  }
+  
+  
+}
+
+
+.vollopps {
+	ul {
+		margin: 0;
+		padding: 0;
+	}
+	
+	li.detailblock {
+		list-style: none;
+		margin: 0 0 40px;
+		padding: 60px 80px;
+		background: $blue;
+		position: relative;
+		display: block;
+		
+		&:after{
+		    content: '';
+		    display: block;
+		    position: absolute;
+		    left: 0;
+		    bottom: 0;
+		    width: 100%;
+		    height: rem(35px);
+		    }
+		    
+		
+		h3, p, li {
+			line-height: 1.2em;
+			color: $fff;}
+			
+		h3 {margin: 0 0 20px 0;}
+		
+		li {
+			list-style: square;
+			margin: 0 0 10px 20px;
+			padding: 0 0 0 10px;
+			background: none;
+				
+			}
+		
+		a, a:visited {color: $lime; text-decoration: underline;}
+		
+		
+		    
+		    
+	}
+	
+	li.detailblock:nth-child(4n+1) { 
+		&:after{
+		    background: $blue pattern('circles','lime');
+		    background-size: 55px 55px;
+		    }
+	    
+	}
+	
+	li.detailblock:nth-child(4n+2) { 
+		&:after{
+		    background: $blue pattern('diagonals-loose','lime');
+		    background-size: 55px 55px;
+		    }
+	    
+	}
+	
+	li.detailblock:nth-child(4n+3) { 
+		&:after{
+		    background: $blue pattern('diamonds1','lime');
+		    background-size: 55px 55px;
+		    }
+	    
+	}
+	
+	li.detailblock:nth-child(4n+4) { 
+		&:after{
+		    background: $blue pattern('diagonals-tight','lime');
+		    background-size: 55px 55px;
+		    }
+	    
+	}
+	
+}
+
+
+
+@media screen and (max-width: $small-breakpoint){
+	
+	.vollopps li.detailblock {
+		padding: 20px 25px 50px;
+		}
+	
+	}
+

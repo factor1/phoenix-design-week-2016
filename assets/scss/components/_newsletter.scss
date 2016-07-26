@@ -1,0 +1,94 @@
+.newsletter--container{
+  display: block;
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background: $yellow;
+  padding: rem(33px) 0 rem(63px);
+  &:after{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: rem(35px);
+    background: #fff pattern('diagonals-tight','lime');
+    background-size: 55px 55px;
+  }
+  h2{
+    text-transform: none;
+    font-family: $proxima;
+    font-weight: normal;
+    color: $pink;
+  }
+  form{
+    margin: rem(37px) auto 0;
+    input[type=text], input[type=email]{
+      width: 98%;
+      margin: 0 auto rem(25px);
+      
+      button {
+	      	border-radius: 0px !important;
+	        font: rem(30px) $bebas !important;
+	        text-align: center;
+      }
+    }
+  }
+}
+
+// Mail Chimp Newsletter override
+#mce-success-response.response{
+  position: absolute;
+  display: block;
+  top: -30px;
+  left: 0;
+  text-align: center;
+  background: $yellow;
+  padding: 60px 40px;
+  z-index: 999;
+  width: 109%;
+  height: 116%;
+  color: $pink;
+}
+@media screen and (max-width: 925px){
+  #mce-success-response.response{
+    width: 100%;
+  }
+}
+
+
+// Media Queries
+
+@media screen and (max-width: rem(960px)){
+  .newsletter--container{
+    form.row{
+      div{
+        flex: 0 0 100%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $small-breakpoint){
+
+  // Newsletter
+  .newsletter--container{
+    margin-top: 0px;
+  }
+  
+  .newsletter--container form .button {
+	  text-align: center;
+	  margin-left: auto;
+	  margin-right: auto;
+	  display: block;
+	  max-width: 280px;
+  }
+
+  .newsletter--container form input[type=text], .newsletter--container form input[type=email]{
+    width: 91%;
+    margin: 0 auto rem(15px);
+  }
+
+}

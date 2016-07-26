@@ -38,6 +38,8 @@ blockquote {
   padding : 0;
 }
 
+a, avisited {color: $purple;}
+
 small {
   font-size : .85em;
 }
@@ -170,7 +172,11 @@ blockquote{
   }
 }
 
+
+// ====================
 // Flex Video Based on Zurb Foundation
+// ====================
+
 .flex-video {
   position: relative;
   height: 0;
@@ -244,6 +250,108 @@ blockquote{
       opacity: 1;
     }
 }
+
+
+// ====================
+// Text color
+// ====================
+	
+	
+.text-white 		{color: #fff;}
+.text-yellow 		{color: $yellow;}
+.text-ltpurple		{color: $ltpurple;}
+.text-purple		{color: $purple;}
+.text-drkpurple		{color: $drkpurple;}
+.text-blue			{color: $blue;}
+.text-pink			{color: $pink;}
+.text-teal			{color: $teal;}
+
+
+
+// Text alignments 
+.text-center 	{text-align: center;}
+.text-right		{text-align: right;}
+
+
+// ====================
+//heros
+// ====================
+
+
+$lines-circles: url(../img/patterns/line-circle-pattern-purple-bg-tile.png) repeat;
+$lines-shapes: url(../img/patterns/line-shape-pattern-purple-bg-tile.png) repeat;
+$scribles: url(../img/patterns/scribble-pattern-purple-bg-tile.png) repeat;
+$doodles: url(../img/patterns/doodle-pattern-purple-bg-tile.png) repeat;
+
+
+
+.hero {
+	background: $purple $scribles;
+	padding-top: 80px;
+	text-align: center;
+	}
+
+// hero content
+.hero .hero-content {
+	background: $pink;
+	padding: 70px;
+	h1{
+		margin-bottom: 15px;
+	}
+}
+
+@media screen and (max-width: $tablet-vert-breakpoint){
+	
+		.hero {
+	padding-top: 60px;
+	}
+
+	// hero content
+	.hero .hero-content {
+		padding: 20px 10px;}
+		
+	
+	}
+
+
+@media screen and (max-width: $small-breakpoint){
+	
+	.hero {
+	padding-top: 40px;
+	}
+
+	// hero content
+	.hero .hero-content {
+		padding: 20px 10px;}
+		
+	
+	}
+
+// ====================
+// Page Specific Heros
+// ====================
+
+	// Why Students Love MM
+	.page-id-90 .hero {
+		background: $purple $lines-circles;
+		}
+	
+	// Convince yo' boss
+	.page-id-86 .hero {
+		background: $purple $doodles;
+		}
+		
+	// Compare conferences
+	.page-id-88 .hero {
+		background: $purple $lines-circles;
+		}
+	
+	
+	// Volunteer opps
+	.page-id-85 .hero {
+		background: $purple $doodles;
+		}	
+		
 
 
 // Media Queries

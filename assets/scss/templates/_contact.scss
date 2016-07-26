@@ -1,0 +1,60 @@
+.contacthero {
+	background: $purple url(../img/patterns/doodle-pattern-purple-bg-tile.png) repeat !important;
+	padding-top: 80px;
+	text-align: center;
+}
+
+.contactus {
+	background: #fff pattern(circles, lime);
+	background-size: 55px 55px;
+	
+	.row {
+		background: #fff;
+		padding: 40px;
+		
+	}
+	
+	h3 {
+		font-family: $proxima;
+		font-weight: 500;
+		color: $teal;
+		font-size: 21px;
+		text-transform: uppercase;}
+		
+	p {
+		color: $grey;
+		font-size: 19px;
+		
+		a {
+			color: $grey;
+			font-size: 16px;}
+	}
+	
+	
+	
+	form {
+		input, textarea, select {
+			border: 1px solid $ltgrey !important;
+			}
+		.gform_button {
+		  border: 5px solid $drkpurple;
+		  background: $drkpurple;
+		  color: #fff;
+		    &:hover{
+		      border: 5px solid $drkpurple;
+		      color: $drkpurple;
+		      background: #fff;
+		    }
+
+		}
+	}
+	
+}
+
+
+
+@media screen and (max-width: $tablet-vert-breakpoint){
+	.contactus .col-4, .contactus .col-8 {
+		flex-basis: 95%;
+		}
+	}

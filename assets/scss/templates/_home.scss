@@ -1,0 +1,158 @@
+//Home hero
+.home_hero {
+	background: $purple url(../img/patterns/line-shape-pattern-purple-bg-tile.png) repeat !important;
+	padding-top: 80px;
+	text-align: center;
+}
+
+
+// Home Intros
+.home-intros.halfsplit {
+	.row {
+		max-width: 100%;
+		padding: 0;
+	}
+
+	.leftyleft, .rightyright {
+		width: 50%;
+	}
+
+	.leftyleft {
+		display: flex;
+		flex-flow: column wrap;
+		justify-content: center;
+		align-items: flex-end;
+		margin: 0;
+		background: $blue pattern(waves,pink);
+		background-size: 55px 55px;
+		.thecontent {
+			background: $blue;
+			padding: 80px 50px;
+			width: 100%;
+			max-width: 585px;
+			p {
+				font-size: 21px;
+				line-height: 1.22em;
+				color: #fff;
+				a, a:visited {
+					color: $teal;
+				}
+				a:hover {
+					color: $lime;
+				}
+			}
+		}
+	} // end lefty left
+
+	.rightyright {
+		display: flex;
+		flex-flow: column wrap;
+		justify-content: center;
+		align-items: flex-start;
+		.content-a {
+			display: flex;
+			justify-content: flex-start;
+			align-items: stretch;
+			flex: 1 1 auto;
+			background: #fff pattern(diagonals-loose,teal);
+			background-size: 55px 55px;
+			width: 100%;
+			.thecontent {
+				background: #fff;
+				padding: 20px 60px;
+				flex: 1 1 auto;
+				width: 100%;
+				max-width: 560px;
+				margin: 20px 0 0 20px;
+				justify-content: flex-end;
+				align-items: flex-end;
+				h3 {
+					color: $pink;
+				}
+				p {
+					color: $grey
+				}
+			}
+		}
+
+		.content-b{
+			display: flex;
+			flex: 1 1 auto;
+			background: $teal pattern(diamonds1,purple);
+			background-size: 55px 55px;
+			width: 100%;
+			.thecontent {
+				background: $teal;
+				padding: 20px 60px;
+				flex: 1 1 auto;
+				width: 100%;
+				max-width: 580px;
+				justify-content: flex-start;
+				align-items: flex-start;
+				margin-bottom: 20px;
+				h3 {
+					color: #fff;
+				}
+				p {
+					color: #fff
+				}
+			}
+		}
+	} // end righty right
+
+}// end home-intros
+
+// home-sponsor
+.home-sponsor {
+	position: relative;
+	padding: 35px 0 75px 0;
+	background: $pink url(../img/photos/0067-purple-pink.jpg) center center no-repeat;
+	background-size: cover;
+	color: #fff;
+	&:after {
+		display: block;
+		position: absolute;
+		bottom: 0px;
+		z-index: 100;
+		content: '';
+		height: 30px;
+		width: 100%;
+		background: pattern(circles,lime);
+		background-size: 55px 55px;
+		}
+		
+	a, a:visited {
+		color: $lime; 
+		text-decoration: underline;}
+		
+		.button, .button:visited {color: $pink;}
+		.button:hover {color: $fff;}
+		
+} // End home-sponsor
+
+
+@media screen and (max-width: $tablet-vert-breakpoint){
+
+/*
+.home-intros.halfsplit .leftyleft .thecontent,
+.home-intros.halfsplit .rightyright .content-a .thecontent {max-width: 720px;}
+
+.home-intros.halfsplit .rightyright .content-b .thecontent {max-width: 740px;}
+*/
+
+
+
+.home-intros.halfsplit .leftyleft .thecontent {
+	padding: 20px 50px;
+}
+
+	
+}
+
+
+@media screen and (max-width: $small-breakpoint){
+
+.home-intros.halfsplit .rightyright .content-a .thecontent h3,
+.home-intros.halfsplit .rightyright .content-b .thecontent h3 {margin-top: 10px;}
+
+}

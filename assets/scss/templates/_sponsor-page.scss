@@ -1,0 +1,109 @@
+.sponsorcontent {
+	background: $teal pattern(diagonals-tight, purple);
+	background-size: 55px 55px;
+	
+	.row {
+		padding-top: 40px;
+		padding-bottom: 60px;
+		background: $teal;
+		
+		p,li {color: $fff;}
+		
+		}
+}
+
+
+
+.levels {
+	
+	.button {
+		display: block;
+		margin: 0 auto 40px;
+		text-align: center;
+		max-width: 300px;
+	}
+	ul {
+		margin: 0;
+		padding: 0;
+	}
+	
+	li.detailblock {
+		list-style: none;
+		margin: 0 0 40px;
+		padding: 60px 80px;
+		background: $blue;
+		position: relative;
+		display: block;
+		
+		&:after{
+		    content: '';
+		    display: block;
+		    position: absolute;
+		    left: 0;
+		    bottom: 0;
+		    width: 100%;
+		    height: rem(35px);
+		    }
+		    		
+		h3, p, li {
+			line-height: 1.2em;
+			color: $fff;}
+			
+		h3 {margin: 0 0 20px 0;}
+		
+		a, a:visited {color: $lime; text-decoration: underline;}
+		
+		li {
+			list-style: square;
+			margin: 0 0 10px 20px;
+			padding: 0 0 0 10px;
+			background: none;
+		}
+			    
+		    
+	}
+	
+	li.detailblock:nth-child(4n+1) { 
+		&:after{
+		    background: $blue pattern('circles','lime');
+		    background-size: 55px 55px;
+		    }
+	    
+	}
+	
+	li.detailblock:nth-child(4n+2) { 
+		&:after{
+		    background: $blue pattern('diagonals-loose','lime');
+		    background-size: 55px 55px;
+		    }
+	    
+	}
+	
+	li.detailblock:nth-child(4n+3) { 
+		&:after{
+		    background: $blue pattern('diamonds1','lime');
+		    background-size: 55px 55px;
+		    }
+	    
+	}
+	
+	li.detailblock:nth-child(4n+4) { 
+		&:after{
+		    background: $blue pattern('diagonals-tight','lime');
+		    background-size: 55px 55px;
+		    }
+	    
+	}
+}
+
+@media screen and (max-width: $tablet-breakpoint){
+	.levels li.detailblock {margin: 0 20px 20px;}
+	}
+
+@media screen and (max-width: $small-breakpoint){
+	
+	.levels li.detailblock {
+		padding: 20px 25px 50px;
+		}
+	
+	}

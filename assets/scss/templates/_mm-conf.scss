@@ -1,0 +1,330 @@
+.mmconf_hero {
+	background: $purple url(../img/patterns/scribble-pattern-purple-bg-tile.png) repeat;
+	padding-top: 80px;
+	text-align: center;
+
+	.hero-content {
+/*
+		background: $pink;
+		padding: 100px;
+*/
+
+	}// end hero-content
+
+}// end home-hero
+
+
+
+
+// Conference Detail Copy  (aka the_content + Speakers
+
+.conf-content{
+	background: $teal pattern('zigzag','purple');
+	background-size: 70px;
+
+	p {
+		color: white;
+	}
+
+	.row{
+		background: $teal;
+		&:first-of-type{
+			padding-top: rem(50px);
+		}
+		&:last-of-type{
+			padding-bottom: rem(50px);
+		}
+	}
+
+	.speakerthumbgrid {
+		.speakerthumb {
+			margin-bottom: 10px;
+			
+			.profilepic{
+					 position: relative;
+					 &:after{
+					   content: '';
+					   display: block;
+					   position: absolute;
+					   top: 0;
+					   left: 0;
+					   width: 100%;
+					   height: 100%;
+					   background: rgba($blue, 0);
+					 }
+					}
+
+
+
+			h4{
+				font: rem(25px) $proxima;
+				font-weight: 600;
+				color: white;
+				margin: 8px 0 0;
+				padding-bottom: 8px;
+			}
+			img{
+				max-width: 100%;
+			}
+			p{
+				margin-bottom: rem(15px);
+				margin-top: 0px;
+				a{
+					font-size: rem(20px);
+					color: white;
+				}
+			}
+			
+			&:hover {
+				.profilepic:after{
+					   background: rgba($blue, 0.8);
+					 }
+				h4, p {color: $blue;}
+			}
+		} // End speakerthumb
+		
+		
+	} // end speakerthumbgrid
+
+} // End conf-content
+
+
+// Testimonials
+.tesimonial {
+	background: $pink url(../img/photos/0101-purple-pink.jpg) bottom center no-repeat;
+	background-size: cover;
+	color: #fff;
+	padding: 35px 0 75px 0;
+	position: relative;
+
+	&:after {
+		height: 30px;
+		width: 100%;
+		background: pattern(circles,lime);
+		background-size: 55px 55px;
+		position: absolute;
+		bottom: 0px;
+		z-index: 100;
+		content: '';
+		display: block;
+		}
+
+		blockquote {
+			background: none;
+			&:before {background: none;}
+			&:after {background: none;}
+
+			h2{
+				color: white;
+				font-weight: normal;
+				text-transform: none;
+			}
+
+			cite {
+				font: rem(20px) $proxima;
+				text-transform: uppercase;
+				color: white;
+			} // end cite
+		}// end blockquote
+
+
+} // end testimonials
+
+@media screen and (max-width: $tablet-vert-breakpoint){
+	
+	.tesimonial {
+		padding: 20px 0 65px 0;
+	}
+	
+}
+
+
+
+
+// Join us downtown
+.join-us{
+	background: $blue url(../img/patterns/diagonals-tight-map.png) repeat;
+	background-size: 55px 55px;
+	.col-6{
+		background: $blue;}
+		
+	.joincontent {
+			padding-top: rem(58px);
+			padding-bottom: rem(58px);
+			padding-left: rem(60px);
+			padding-right: rem(40px);
+		}
+		
+	h2, p{
+		color: white;
+	}
+	h2{
+		font-weight: normal;
+		text-transform: none;
+	}
+	.button{
+		color: $purple;
+		margin-bottom: 40px;
+	}
+}
+
+// Conf compare
+
+
+.halfsplit.comparesplit {
+	.leftyleft {
+		background: #fff pattern(diagonals-loose,teal);
+		background-size: 55px 55px;
+
+		.thecontent {
+			background: #fff;
+			padding: 50px 60px;
+			margin-top: 20px;
+			width: 100%;
+			max-width: 586px;
+			h2{
+				margin-top: 0;
+				font-weight: normal;
+			}
+			p {color: $black;}
+		}
+	} // end lefty left
+
+	.rightyright {
+		background: $teal pattern(diamonds1,purple);
+		background-size: 55px 55px;
+		justify-content: flex-start;
+			.thecontent {
+				background: $teal;
+				padding: 66px 60px;
+				max-width: 586px;
+				width: 100%;
+				margin-bottom: 20px;
+
+				h2{
+					margin-top: 0;
+					font-weight: normal;
+					color: white;
+				}
+
+				p {color: #fff;}
+			}
+	} // end righty right
+
+}
+
+
+
+
+// Convince your boss
+// phase 2 only
+
+
+
+// Students
+
+
+.halfsplit.studentsplit {
+	.leftyleft {
+		background: $blue pattern(zigzag,pink);
+		background-size: 55px 55px;
+
+		.thecontent {
+			background: $blue;
+			padding: 50px 60px;
+			margin-top: 20px;
+			width: 100%;
+			max-width: 586px;
+			h2{
+				margin-top: 0;
+				font-weight: normal;
+			}
+			p {color: #fff;}
+		}
+	} // end lefty left
+
+	.rightyright {
+		background: $fff pattern(diagonals-tight,lime);
+		background-size: 55px 55px;
+		justify-content: flex-start;
+			.thecontent {
+				background: $fff;
+				padding: 66px 60px;
+				max-width: 586px;
+				width: 100%;
+				margin-bottom: 20px;
+
+				h2{
+					margin-top: 0;
+					font-weight: normal;
+				}
+
+				p {color: $grey;}
+			}
+	} // end righty right
+
+}
+
+// Price grid
+.pricegrid {
+	background: $pink;
+
+	.priceblock {
+		//@include aspect-ratio(7,6);
+		padding: 25px 10px;
+
+		.content {padding: 10px;}
+
+		p {
+			text-transform: uppercase;
+			text-align: center;
+			font-size: 18px;
+			line-height: 22px;
+			color: #fff;
+		}
+
+		p.price {
+			font-size: 36px;
+			padding: 10px;
+		}
+
+		&.first .content {background: $purple url(../img/patterns/drkpurple/diagonals-loose-purple-dark.png) repeat; background-size: 55px 55px;}
+		&.second .content {background: $purple url(../img/patterns/drkpurple/circles-purple-dark.png) repeat; background-size: 55px 55px;}
+		&.third .content {background: $purple url(../img/patterns/drkpurple/chevrons-purple-dark.png) repeat; background-size: 55px 55px;}
+		&.fourth .content {background: $purple url(../img/patterns/drkpurple/diagonals-tight-purple-dark.png) repeat; background-size: 55px 55px;}
+
+
+		.button {margin: 25px auto;}
+	}
+}
+
+
+
+@media screen and (max-width: $tablet-vert-breakpoint){
+	
+	.pricegrid { 
+		.priceblock {
+		margin-bottom: 0px;
+		flex-basis: 48%;
+		padding: 25px 10px;
+		}
+	}
+}
+
+
+
+
+@media screen and (max-width: $small-breakpoint){
+	.pricegrid { 
+		.priceblock {
+			flex-basis: 96%;
+			margin-bottom: 10px;
+			}
+	}
+		
+}
+		
+	
+	
+	
+	

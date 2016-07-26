@@ -7,13 +7,18 @@
   get_header();
 ?>
 
-  <section class="error-404">
-    <h1>Hmm, that page does not exist...</h1>
-    <p>Maybe you can find what you are looking for <a
-        href="<?php echo esc_url( home_url( '/' ) ); ?>">here</a>.</p>
-    <p>Or try searching below...</p>
-    <?php get_search_form(); ?>
-  </section>
+
+<section class="hero container">
+	<div class="row hero-content">
+		<div class="col-10 col-centered text-center">
+			<h1 class="text-white">
+				Hmm, that page does not exist...
+			</h1>
+		</div>
+	</div>
+</section>
+
+
 
 <?php
   get_sidebar();

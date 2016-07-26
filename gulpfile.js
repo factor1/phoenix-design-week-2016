@@ -12,7 +12,7 @@ var phpFiles     = ['./**/*.php', './*.php'],
     styleFiles   = [cssFiles, sassFiles],
     jsFiles      = ['./assets/js/theme.js'],
     imageFiles   = ['./assets/img/*.{jpg,png,gif}'],
-    concatFiles  = ['./assets/js/*.js', '!./assets/js/theme.min.js', '!./assets/js/all.js'],
+    concatFiles  = ['./bower_components/nifty-nav/src/js/nifty-nav.js', './assets/js/*.js', '!./assets/js/theme.min.js', '!./assets/js/all.js'],
     url          = 'phxdw:8888'; // See https://browsersync.io/docs/options/#option-proxy
 
 // Include gulp
@@ -53,7 +53,9 @@ gulp.task('sass', function() {
       .pipe(sass({
         includePaths: [
           './node_modules/ginger-grid/',
-          './bower_components/sugar/'
+          './bower_components/sugar/',
+           './bower_components/nifty-nav/src/',
+           './bower_components/font-awesome/scss/'
         ]
       }))
       .pipe(autoprefixer({

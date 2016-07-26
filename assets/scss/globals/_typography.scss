@@ -3,29 +3,36 @@
 ------------------------------------------------------------------------------*/
 
 h1,h2,h3,h4,h5{
-  font-family: $bebas;
+  font-family: $proxima;
 }
 
 h1{
-  font-size: rem(60px);
+  font-size: rem(90px);
   text-transform: uppercase;
+  line-height: 1em;
 }
 
-h2{
+h2, h3{
   font-size: rem(40px);
-  text-transform: uppercase;
+  text-transform: none;
   color: $purple;
+  font-weight: normal;
+  line-height: 1.15em;
 }
 
+/*  Commented out per issue #68. 
+	"Global: Make sure all H3s look exactly like H2s"
+	I guess, seems odd though. - ma
 h3{
   font-size: rem(25px);
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: $purple;
 }
+*/
 
 h4{
   font-size: rem(24px);
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: $purple;
 }
 
@@ -36,14 +43,17 @@ h4.sponsors--headline{
 
 h5{
   font-size: rem(23px);
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: $purple;
 }
 
 p, ul, ol{
   font: rem(22px) $proxima;
   color: $black;
+  line-height: 1.2em;
 }
+
+li {margin-bottom: 10px;}
 
 // Links
 a,
@@ -52,11 +62,22 @@ a:visited {
 }
 
 // Media Queries
+
+@media screen and (max-width: $tablet-vert-breakpoint){
+  h1{
+    font-size: rem(50px);
+  }
+  h2, h3{
+    font-size: rem(32px);
+  }
+}	
+	
+	
 @media screen and (max-width: $small-breakpoint){
   h1{
-    font-size: rem(40px);
+    font-size: rem(38px);
   }
-  h2{
-    font-size: rem(30px);
+  h2, h3{
+    font-size: rem(26px);
   }
 }

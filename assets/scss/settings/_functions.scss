@@ -1,0 +1,12 @@
+// Patern Function
+
+@function pattern($pattern, $color){
+  @return  url(../img/patterns/#{$pattern}/#{$pattern}-#{$color}.png) repeat; 
+}
+
+
+// Use example
+//				.test{
+//				  background: pattern(zigzag,red);
+//				}
+

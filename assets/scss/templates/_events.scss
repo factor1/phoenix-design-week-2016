@@ -1,0 +1,160 @@
+.events-hero {
+	background: $purple url(../img/patterns/line-shape-pattern-purple-bg-tile.png) repeat !important;
+	padding-top: 80px;
+	text-align: center;
+}
+
+.weekevents {
+	background: #fff pattern(zigzag, teal);
+	background-size: 55px 55px;
+	padding: 0;
+	
+	.big-accordian {width: 100%;}
+	
+	.row {
+		padding: 40px;
+		}
+
+
+		.accordion--title{
+		  width: 100%;
+		  position: relative;
+		  cursor: pointer;
+		  
+		  >.row {
+		  background: $blue;
+		  color: $fff;
+		  h2 {color: $fff;}
+		  i {color: #fff;}
+		  } // End row
+		  } // end title
+		  
+		  .accordion--content {
+			  background: $blue;
+			  display: none;
+			  width: 100%;
+			  >.container >.row {padding: 0;}
+			  h3 {color: $teal;}
+			  p {color: #fff;}
+			  button {background: #fff; color: $purple;}
+		  }
+		  
+		
+		  .titlebox {
+			  position: relative;
+			  
+			  h2{
+			    display: inline-block;
+			    vertical-align: middle;
+			    margin-top: 0;
+			    margin-bottom: 0;
+			    
+			  }
+			  i{
+			    font-size: rem(20px);
+			    margin-left: rem(10px);
+			    vertical-align: middle;
+			    position: absolute;
+			    right: 0px;
+			    top: 15px;
+			  }
+		  
+		  } // end titlebox
+		} // end accordian title
+		
+		
+		
+		.big-accordian:nth-of-type(2n) {
+		
+		.accordion--title{
+		  >.row {
+		  background: #fff;
+		  color: $purple;
+		  h2 {color: $blue;}
+		  i {color: $blue;}
+		  }// end row
+		  } // end title
+		  
+		
+		.accordion--content{
+		  display: none;
+		  background: #fff;
+			  h3 {color: $teal;}
+			  p {color: $grey;}
+			  button {background: $blue; color: #fff;}
+			} // end odd rows
+
+	
+	
+}
+
+
+
+
+
+
+#event_form {
+	background: $purple;
+	padding: 40px;
+	
+	form {
+		max-width: 900;
+		margin: 0 auto;
+		
+		input, select, textarea {
+			background: #fff;
+			width: 100%;
+			padding-left: 15px !important;
+			border-radius: 4px;
+		}
+		
+		label {
+			color: #fff;
+			text-transform: uppercase;
+		}
+		
+		.gform_button {
+		  display: block;
+		  margin: 20px auto !important;
+		  position: relative;
+		  padding: rem(10px) rem(40px) !important;
+		  max-width: 300px;
+		  font: rem(30px) $bebas;
+		  text-transform: uppercase;
+		  text-align: center;
+		  background: none;
+		  transition: all .3s ease;
+		  cursor: pointer;
+		  border: 3px solid #fff;
+		  background: #fff;
+		  border-radius: 0px;
+		  color: $purple;
+		    &:hover{
+		      border: 3px solid $teal;
+		      color: $teal;
+		      background: $purple;
+		    }
+
+		}
+	}
+}
+
+
+@media screen and (max-width: $tablet-vert-breakpoint){
+.weekevents .accordion--content .event-col4 {
+	flex-basis: 95%;
+	margin: 0 auto;
+}
+	
+	
+	}
+
+
+@media screen and (max-width: $small-breakpoint){
+	
+	.weekevents .row {
+		padding: 20px 10px;
+	}
+	
+	.weekevents .titlebox i {top: 0px;}
+	}

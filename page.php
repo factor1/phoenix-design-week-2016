@@ -7,42 +7,80 @@
   get_header();
 ?>
 
-<section class="page--intro">
-  <div class="container">
-    <div class="row">
-      <div class="col-8 col-centered text-center">
-        <a href="<?php bloginfo('url');?>/">
-          <img src="<?php bloginfo('template_url');?>/assets/img/phxdw-logo.png" alt="Phoenix Design Week 2016" class="main-logo">
-        </a>
-        <h1 class="event-date">
-          October 21-28, 2016
-        </h1>
-      </div>
-    </div>
-  </div>
+
+<?php
+//============ ** ============ //
+// 			Page HERO
+//============ ** ============ //?>
+
+<section class="hero container">
+	<div class="row hero-content">
+		<div class="col-10 col-centered text-center">
+			<h1 class="text-white">
+				<?php the_title();?>
+			</h1>
+		</div>
+	</div>
 </section>
 
-<section class="page--title container">
-  <div class="row">
-    <div class="col-10 col-centered text-center">
-      <h1>
-        <?php the_title();?>
-      </h1>
-    </div>
-  </div>
+
+
+<?php
+//============ ** ============ //
+// 			Page copy
+//============ ** ============ //?>
+
+<section class="container pagecopy">
+	<div class="rowt">
+	<?php if(have_posts()):?>
+	  <section class="page--content container">
+	    <?php while(have_posts()): the_post();?>
+	      <div class="row">
+	        <article class="col-10 col-centered">
+	          <?php the_content();?>
+	        </article>
+	      </div>
+	    <?php endwhile;?>
+	  </section>
+	<?php endif;?>
+	</div>
 </section>
 
-<?php if(have_posts()):?>
-  <section class="page--content container">
-    <?php while(have_posts()): the_post();?>
-      <div class="row">
-        <article class="col-10 col-centered">
-          <?php the_content();?>
-        </article>
-      </div>
-    <?php endwhile;?>
-  </section>
-<?php endif;?>
+
+
+<?php 
+	// Is this the student applicaiton page? 
+if ( is_page(87) ) : ?>
+		<section class="container" id="student_form">
+			<div class="row">
+				<div class="col-10 col-centered">	
+				<?php gravity_form( 4, false, false, false, '', false ); ?>
+				</div>
+				
+			</div>
+		</section>
+
+
+<?php 
+	// Is this the student applicaiton page? 
+elseif ( is_page(88) ) : ?>
+<section class="container tesimonial">
+	<div class="row">
+		<div class="col-12 text-center">
+			<blockquote>
+				<h2>
+					&ldquo;I hope nobody ever tells the PHXDW organizers that they're only charging a tenth of what they should be for a conference of this caliber&rdquo;
+				</h2>
+				<cite>James Archer, 2014 attendee</cite>
+			</blockquote>
+		</div>
+	</div>
+</section>
+
+<?php endif; ?>
+
+
+
 
 <?php
 // Include Newsletter Part

@@ -1,21 +1,61 @@
 // Default Page Styles - You can find `.page--intro` in `scss/templates/_splash.scss`
 
-.page-template-default .main--container{
-  min-height: 100vh;
-  background: url('../img/IntroBG.jpg') center top no-repeat;
-  background-size: 100%;
-  padding: rem(106px) 0 0;
+.pagecopy {
+	background: $fff pattern('circles','lime');
+	background-size: 55px;
+	
+	.row {
+		padding-top: 60px;
+		padding-bottom: 60px;
+		background: $fff;
+	}
 }
 
-// Page Title Container
-.page--title{
-  position: relative;
-  width: 95%;
-  margin: rem(40px) auto rem(75px);
-  padding: rem(40px) 0;
-  background: $purple;
-  h1{
-    color: white;
-    margin: 0;
-  }
+
+
+
+#student_form  {
+	background: $pink;
+	padding: 40px;
+	
+	form {
+		max-width: 900;
+		margin: 0 auto;
+		
+		input, select, textarea {
+			background: #fff;
+			width: 100%;
+			padding-left: 15px !important;
+			border-radius: 4px;
+		}
+		
+		label {
+			color: #fff;
+			text-transform: uppercase;
+		}
+		
+		.gform_button {
+		  display: block;
+		  margin: 20px auto !important;
+		  position: relative;
+		  padding: rem(10px) rem(40px) !important;
+		  max-width: 300px;
+		  font: rem(30px) $bebas;
+		  text-transform: uppercase;
+		  text-align: center;
+		  background: none;
+		  transition: all .3s ease;
+		  cursor: pointer;
+		  border: 3px solid #fff;
+		  background: #fff;
+		  border-radius: 0px;
+		  color: $purple;
+		    &:hover{
+		      border: 3px solid $teal;
+		      color: $teal;
+		      background: $purple;
+		    }
+
+		}
+	}
 }

@@ -8,14 +8,27 @@ $proxima:     'Proxima Nova Regular', 'Proxima Nova', 'proxima-nova', Arial, san
 
 // colors
 $yellow:      #e1e723;
+$lime:	      #e1e723;  // Yellow and lime are the same, but kind of an odd color. 
+
+$fff:		  #fff; // Becuase Matt likes to forget # and $ arent the same. 
 
 $ltpurple:    #8348ad;
-$purple:      #444a9c;
-$drkpurple:   #333679;
+$purple :		$ltpurple;
+
+$blue:      #444a9c;
+$drkpurple:   $blue;;
 
 $pink:        #ee41aa;
 
 $teal:        #63cbca;
 
 $grey:        #999999;
+$ltgrey:      #cccccc;
 $black:       #333333;
+
+
+
+
+
+	
+	

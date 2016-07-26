@@ -1,5 +1,5 @@
 // Button Styles
-.button{
+.button, .button:visited{
   display: inline-block;
   position: relative;
   padding: rem(10px) rem(28px);
@@ -9,41 +9,106 @@
   background: none;
   transition: all .3s ease;
   cursor: pointer;
+  text-decoration: none !important;
+  -webkit-appearance: none !important;
 }
 
 .button-yellow{
-  border: 3px solid $yellow;
+  border: 5px solid $yellow;
   color: $yellow;
     &:hover{
-      border: 3px solid white;
+      border: 5px solid white;
       color: white;
     }
 }
 
 .button-white{
-  border: 3px solid white;
+  border: 5px solid white;
   color: white;
     &:hover{
-      border: 3px solid $purple;
+      border: 5px solid $purple;
       color: $purple;
     }
 }
 
 .button-drkpurple{
-  border: 3px solid $drkpurple;
+  border: 5px solid $drkpurple;
   color: $drkpurple;
     &:hover{
-      border: 3px solid white;
+      border: 5px solid white;
       color: white;
     }
 }
 
 .button-pink{
-  border: 3px solid $pink;
+  border: 5px solid $pink;
   color: $pink;
     &:hover{
       background: none;
-      border: 3px solid $purple;
+      border: 5px solid $purple;
       color: $purple;
     }
 }
+
+
+// Buttons
+.button {
+	display: inline-block;
+  font: rem(24px) $bebas;
+	text-transform: uppercase;
+	//padding: 25px 35px;
+
+	&.white{
+    border: 5px solid white;
+    background: #fff;
+    color: $pink;
+    &:hover{
+      background: none;
+      color: white;
+    }
+  }
+
+	&.yellow{
+    border: 5px solid $yellow;
+    background: $yellow;
+    &:hover{
+      background: none;
+    }
+  }
+
+	&.ltpurple	 {background: $ltpurple;}
+
+	&.purple{
+    background: $purple;
+    border: 5px solid $purple;
+    color: white;
+    &:hover{
+      background: none;
+      color: $purple;
+    }
+  }
+
+	&.drkpurple	 {background: $drkpurple;}
+	&.pink{
+    border: 5px solid $pink;
+    background: $pink;
+    color: white;
+    &:hover{
+      background: none;
+      color: $pink;
+    }
+  }
+	&.teal		   {background: $teal;}
+
+}
+
+
+
+
+@media screen and (max-width: $small-breakpoint){
+	.button, .button:visited{
+		font: rem(20px) $bebas;
+		}
+	
+	
+	}

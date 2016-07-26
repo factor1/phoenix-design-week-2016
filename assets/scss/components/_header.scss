@@ -1,3 +1,231 @@
 /*------------------------------------------------------------------------------
   Header
 ------------------------------------------------------------------------------*/
+
+$header-height: 67px;
+
+header {
+	background: #fff;
+	height: $header-height;
+	width: 100%;
+	overflow-y: visible;
+	z-index: 10;
+
+	h1.branding, h1.branding a {
+		text-indent: -10000px;
+		display: block;
+		position: absolute;
+		height: 235px;
+		width: 245px;
+		background: pattern(diagonals-tight,teal);
+		background-size: 20%;
+		margin: 0 25px 0 0;
+		padding: 0;
+		float: left;
+
+		span {
+			display: block;
+			height: 210px;
+			width:225px;
+			background-color: $teal;
+			background-image: url(../img/logos/logo-random.php);
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: 75%;
+		} // end span
+	} // end h1.brand
+
+	h2 {
+		color: $teal;
+		font-size: 20px;
+		padding: 20px;
+		margin: 0 0 0 250px;
+		display: block;
+		float: left;
+	}
+
+	.header-buy-menu{
+		display: flex;
+		position: relative;
+		flex-flow: row nowrap;
+		justify-content: center;
+		align-items: center;
+		padding: 0;
+	}
+
+	.buynow, .buynow:visited {
+		flex: 1 1 auto;
+		background: $purple;
+		color: #fff;
+		height: $header-height;
+		font-family: $bebas;
+		font-size: 24px;
+		padding: 20px;
+		text-align: center;
+		text-transform: uppercase;
+		&:hover {
+			background: $yellow;
+			color: $purple;
+		}// end hover
+	}// end buynow
+
+
+	.nifty-burger {
+		flex: 0 1 67px;
+		height: $header-height;
+		position: relative;
+		vertical-align: top;
+		background: $teal;
+		cursor: pointer;
+		&:hover{
+			background: $ltpurple;
+		}
+	}
+
+	.nifty-burger.active{
+		background: $purple;
+	}
+
+}// end header
+
+#nifty-nav-toggle {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: none;
+    position: absolute;
+    transition: all .3s ease;
+    top: 0;
+    right: 0;
+}
+
+#nifty-nav-toggle span{
+    cursor: pointer;
+    border-radius: 1px;
+    height: 3px;
+    width: 30px;
+    background: #fff;
+    position: absolute;
+    top: 31px;
+    right: 20px;
+    display: block;
+    content: '';
+}
+
+#nifty-nav-toggle span:before {
+    top: -8px;
+    right: 0;
+}
+
+#nifty-nav-toggle span:after {
+    bottom: -8px;
+    top: 8px;
+    right: 0;
+}
+
+// Nifty Panel Styles
+.nifty-panel{
+	left: 0;
+	background: rgba($ltpurple, 0.9);
+	overflow-y: hidden;
+	ul{
+		list-style: none;
+		margin: 20px 0;
+		padding: 0;
+		li{
+			width: 100%;
+			position: relative;
+			&:hover{
+				background: rgba($ltpurple, 0.9);
+			}
+			a{
+				display: block;
+				padding: 8px 15px;
+				text-transform: uppercase;
+				color: white;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: $tablet-breakpoint){
+	
+header {
+		h1.branding, h1.branding a {
+		text-indent: -10000px;
+		height: 190px;
+		width: 200px;
+
+		span {
+			height: 170px;
+			width:185px;
+		} // end span
+	} // end h1.brand
+
+	h2 {
+		color: $teal;
+		font-size: 20px;
+		padding: 20px;
+		margin: 0 0 0 200px;
+		display: block;
+		float: left;
+	}
+
+
+	.buynow, .buynow:visited {
+		font-size: 20px;
+		padding: 20px;
+	}// end buynow
+}// ENd Header
+	
+	
+	
+	
+} // END tablet 1024
+
+
+
+@media screen and (max-width: $tablet-vert-breakpoint){
+	
+	header {
+	height: 85px;
+	
+	.buynow, .buynow:visited {
+		height: 85px;
+		margin-left: -40px;
+		}
+		
+		
+	.nifty-burger {
+		flex: 0 1 85px;
+		height: 85px;
+	}
+	
+	}// End header
+	
+} // END 768 breaks
+
+@media screen and (max-width: $small-breakpoint){
+
+header {
+	background: #fff;
+	height: auto;
+	
+	.header-buy-menu {margin-top:30px;}
+	
+	.buynow, .buynow:visited {
+		height: 67px;
+		margin-left: 0px;
+		}
+		
+	.nifty-burger {
+		flex: 0 1 67px;
+		height: 67px;
+	}
+		
+		
+	} // END header
+	
+
+	
+}
