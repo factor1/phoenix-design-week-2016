@@ -200,7 +200,7 @@
 
 			<p class="text-white text-center">
 				All tickets include entrance to the Method + Madness Conference, PHXDW Kickoff Party,
-				Method + Madness 	Opening Reception, and the PHXDW Closing Party
+				Method + Madness Evening Reception, and the PHXDW Closing Party
 			</p>
 
 			<?php
