@@ -22,14 +22,9 @@ Agency Sponsor
       </div>
     </div>
 
-<<<<<<< HEAD
-    
-    <?php // Premier Sponsors ?>
-=======
     <?php // Title Sponsors ?>
     <?php if(have_rows('title_sponsors', 'option')):?>
     
->>>>>>> develop
     <div class="row">
       <div class="col-12 text-center">
         <h4 class="sponsors--headline">
@@ -37,30 +32,6 @@ Agency Sponsor
         </h4>
       </div>
     </div>
-<<<<<<< HEAD
-    <?php //if(have_rows('premier_sponsors', 'option')):?>
-      <div class="row row--justify-content-center">
-        <?php //while(have_rows('premier_sponsors', 'option')): the_row();?>
-          <div class="col-3 text-center sponsors--grid-item">
-            <a href="http://adobe.com<?php //the_sub_field('sponsor_link');?>" target="_blank">
-              <img src="<?php //the_sub_field('sponsor_image');?>  <?php bloginfo('template_url');?>/assets/img/adobe.png" alt="Sponsor Image">
-            </a>
-          </div>
-        <?php //endwhile;?>
-      </div>
-    <?php //endif;?>
-
-    
-    
-    <?php // Premier Sponsors ?>
-    <div class="row">
-      <div class="col-12 text-center">
-        <h4 class="sponsors--headline">
-          Premier Print And Large Format Sponsor
-        </h4>
-      </div>
-    </div>
-=======
     
       <div class="row row--justify-content-center">
         <?php while(have_rows('title_sponsors', 'option')): the_row();?>
@@ -79,7 +50,6 @@ Agency Sponsor
 
 
     <?php // Premier Sponsors ?>
->>>>>>> develop
     <?php if(have_rows('premier_sponsors', 'option')):?>
     
     <div class="row">
@@ -102,22 +72,15 @@ Agency Sponsor
     <?php endif;?>
     
     
-<<<<<<< HEAD
-=======
     
     
->>>>>>> develop
 
     <?php // Print Sponsors ?>
     <?php if(have_rows('print_sponsors', 'option')):?>
     <div class="row">
       <div class="col-12 text-center">
         <h4 class="sponsors--headline">
-<<<<<<< HEAD
-          Leadership Sponsors
-=======
           Premier Print And Large Format Sponsor
->>>>>>> develop
         </h4>
       </div>
     </div>
