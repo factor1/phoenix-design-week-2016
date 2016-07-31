@@ -127,6 +127,7 @@
 	<li>Brittany Baker, AIGA AZ Programming Director</li>
 	<li>Amy Robinson, Project Management and Volunteer Coordination</li>
 	<li>Danielle Knotts, Sponsorship Director</li>
+	<li>Jim Nissen, Facilities Director and Sponsorship Support</li>
 	<li>Leah Newsom, Events Coordinator</li>
 	<li>Liz Hallbeck, Communications Director</li>
 	<li>Rebekah Cancino, Speaker Communications Coordinator</li>
