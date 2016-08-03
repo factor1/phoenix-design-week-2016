@@ -42,7 +42,7 @@
 			
 			.profilepic{
 					 position: relative;
-					 transition: all .2s ease-in;
+					 
 					 &:after{
 					   content: '';
 					   display: block;
@@ -52,6 +52,7 @@
 					   width: 100%;
 					   height: 100%;
 					   background: rgba($blue, 0);
+					   transition: all .2s ease-in;
 					 }
 					}
 
@@ -78,7 +79,7 @@
 			
 			&:hover {
 				.profilepic:after{
-					   background: rgba($blue, 0.8);
+					   background: rgba($blue, 0.6);
 					 }
 				h4, p {color: $blue;}
 			}
