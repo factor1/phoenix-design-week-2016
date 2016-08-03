@@ -119,28 +119,7 @@
 	<div class="col-12">
 
 <h2 class="text-center text-yellow">Meet the team</h2>
-<p>These are the volunteers who have given their time and talents to put together this year’s Phoenix Design Week. </p>
-
-<ul>
-	<li>Liz Magura, AIGA AZ President and PHXDW Director</li>
-	<li>Kyle Larkin, AIGA AZ Vice President </li>
-	<li>Brittany Baker, AIGA AZ Programming Director</li>
-	<li>Amy Robinson, Project Management and Volunteer Coordination</li>
-	<li>Danielle Knotts, Sponsorship Director</li>
-	<li>Jim Nissen, Facilities Director and Sponsorship Support</li>
-	<li>Leah Newsom, Events Coordinator</li>
-	<li>Liz Hallbeck, Communications Director</li>
-	<li>Rebekah Cancino, Speaker Communications Coordinator</li>
-	<li>Kathy Morgan, Finance Director</li>
-	<li>Melissa Balkon, Creative Director</li>
-	<li>Tara Anderson, Design Support</li>
-	<li>Allison Perlis, Design Support</li>
-	<li>Jessie Gould, Copywriting</li>
-	<li>Matt Adams, Web Director</li>
-	<li>Eric Stout, Web Developer</li>
-	
-</ul>
-
+	<?php the_field('the_team');?>
 	</div>
 	</div>
 </section>
