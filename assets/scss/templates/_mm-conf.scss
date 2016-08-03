@@ -42,6 +42,7 @@
 			
 			.profilepic{
 					 position: relative;
+					 transition: all .2s ease-in;
 					 &:after{
 					   content: '';
 					   display: block;
