@@ -17,7 +17,7 @@
 				Method + Madness Conference
 			</h1>
 			<h3 class="text-white">
-				October 22-­23, 2016
+				October 21-­23, 2016
 				<br>The Phoenix Convention Center
 				<br>8am Check­in • 9am Talks begin
 			</h3>
@@ -207,13 +207,13 @@
 				//============ ** ============ //
 				// 	   Get Tickets
 				//============ ** ============ //
-				
+
 				get_template_part('parts/tickets');
-				
-				
+
+
 				?>
-			
-			
+
+
 		</div>
 
 
