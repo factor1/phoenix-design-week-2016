@@ -14,7 +14,7 @@
 	<div class="row hero-content text-center">
 		<div class="col-12">
 			<h1 class="text-white">Phoenix Design Week is Coming</h1>
-			<h3 class="text-white">October 22-28, 2016  •  Phoenix Design Week 2016</h3>
+			<h3 class="text-white">October 21-28, 2016  •  Phoenix Design Week 2016</h3>
 		</div>
 	</div>
 </section>
