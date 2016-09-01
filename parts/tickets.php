@@ -2,14 +2,14 @@
 				<div class="col-3 priceblock first stretch">
 					<div class="content">
 					<p class="title">AIGA Member<br>General Admission</p>
-					<p class="price">$199</p>
+					<p class="price">$299</p>
 					</div>
 				</div>
 
 				<div class="col-3 priceblock second stretch">
 					<div class="content">
 					<p class="title">AIGA Non-Member<br>General Admission</p>
-					<p class="price">$269</p>
+					<p class="price">$369</p>
 					</div>
 				</div>
 
@@ -23,7 +23,7 @@
 				<div class="col-3 priceblock fourth stretch">
 					<div class="content">
 					<p class="title">AIGA Non-Member<br>Student Admission</p>
-					<p class="price">$129</p>
+					<p class="price">$149</p>
 					</div>
 				</div>
 
