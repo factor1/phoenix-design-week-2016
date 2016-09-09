@@ -1,0 +1,63 @@
+.conf-program {
+	background: white pattern(zigzag, teal);
+	background-size: 55px 55px;
+	
+	.row {background: white;
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+		
+	h3 {color: $purple;}
+	
+	p, p a, p a:visited {color: $teal;}
+	
+	
+}
+
+
+ul.daily-details {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	
+	li.row {
+		color: $teal;
+		font-size: 25px;
+		list-style: none;
+		border-bottom: 2px solid $teal;
+		padding: 8px;
+		
+		&:last-child {border-bottom: 0px;}
+		}
+}
+
+
+
+.breakout {
+	margin-top: 10px;
+	p {
+		font-size: 18px;
+		margin: 10px 3px;
+		color: $purple}
+		
+	p.tag {
+		background: $purple;
+		color: white;
+		display: inline;
+		font-size: 12px;
+		text-transform: uppercase;
+		border-radius: 15px;
+		padding: 7px 10px;
+		margin-left: 0px;
+		font-weight: bold;
+	}
+	
+	p.speaker {
+		font-weight: bold;
+		span {font-weight: normal;}
+	}
+	
+	p.title {
+		font-style: italic;
+	}
+}
