@@ -35,7 +35,7 @@
 <section class="container conf-program">
 	<div class="row">
 	<article class="col-11 col-centered">
-		<h2>Saturday, October 22</h2>
+		<h3>Saturday, October 22</h3>
 		
 		<ul class="daily-details">	
 
@@ -43,35 +43,35 @@
 				<div class="col-4">Time</div>
 				<div class="col-8">Detail</div>
 			</li>
-			<li>
+			<li class="row">
 				<div class="col-4">Time</div>
 				<div class="col-8">Detail</div>
 			</li>
-			<li>
+			<li class="row">
 				<div class="col-4">Time</div>
 				<div class="col-8">Detail</div>
 			</li>
-			<li>
+			<li class="row">
 				<div class="col-4">Time</div>
 				<div class="col-8">Detail</div>
 			</li>
-			<li>
+			<li class="row">
 				<div class="col-4">Time</div>
 				<div class="col-8">Detail</div>
 			</li>
-			<li>
+			<li class="row">
 				<div class="col-4">Time</div>
 				<div class="col-8">Detail</div>
 			</li>
-			<li>
+			<li class="row">
 				<div class="col-4">Time</div>
 				<div class="col-8">Detail</div>
 			</li>
-			<li>
+			<li class="row">
 				<div class="col-4">Time</div>
 				<div class="col-8">Detail</div>
 			</li>
-			<li>
+			<li class="row">
 				<div class="col-4">Time</div>
 				<div class="col-8">Detail</div>
 			</li>
@@ -80,43 +80,50 @@
 	
 	
 	<article class="col-11 col-centered">
-		<h2>Sunday, October 23</h2>
+		<h3>Sunday, October 23</h3>
 		
 		<ul class="daily-details">	
 
-			<li>
+			<li class="row">
+				<div class="col-4">Time</div>
+				<div class="col-8">Breakout
+					<div class="breakout">
+						<p class="tag">Tag name</p>
+						<p class="speaker">Speaker Name <span>Company name</span></p>
+						<p class="title">title of talk here</p>
+					</div>
+				
+				</div>
+			</li>
+			<li class="row">
 				<div class="col-4">Time</div>
 				<div class="col-8">Detail</div>
 			</li>
-			<li>
+			<li class="row">
 				<div class="col-4">Time</div>
 				<div class="col-8">Detail</div>
 			</li>
-			<li>
+			<li class="row">
 				<div class="col-4">Time</div>
 				<div class="col-8">Detail</div>
 			</li>
-			<li>
+			<li class="row">
 				<div class="col-4">Time</div>
 				<div class="col-8">Detail</div>
 			</li>
-			<li>
+			<li class="row">
 				<div class="col-4">Time</div>
 				<div class="col-8">Detail</div>
 			</li>
-			<li>
+			<li class="row">
 				<div class="col-4">Time</div>
 				<div class="col-8">Detail</div>
 			</li>
-			<li>
+			<li class="row">
 				<div class="col-4">Time</div>
 				<div class="col-8">Detail</div>
 			</li>
-			<li>
-				<div class="col-4">Time</div>
-				<div class="col-8">Detail</div>
-			</li>
-			<li>
+			<li class="row">
 				<div class="col-4">Time</div>
 				<div class="col-8">Detail</div>
 			</li>

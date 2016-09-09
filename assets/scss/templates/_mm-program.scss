@@ -23,5 +23,35 @@ ul.daily-details {
 	li {
 		color: $teal;
 		font-size: 25px;
-		list-style: none}
+		list-style: none;
+		border-bottom: 2px solid $teal;
+		
+		&last-child {border-bottom: 0px;}
+		}
+}
+
+
+
+.breakout {
+	p {
+		font-size: 18px;
+		color: $purple}
+		
+	p.tag {
+		background: $purple;
+		color: white;
+		font-size: 12px;
+		text-transform: uppercase;
+		border-radius: 15px;
+		padding: 7px 10px;
+	}
+	
+	p.speaker {
+		font-weight: bold;
+		span {font-weight: normal;}
+	}
+	
+	p.title {
+		font-style: italic;
+	}
 }
