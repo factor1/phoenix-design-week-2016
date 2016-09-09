@@ -68,7 +68,7 @@
 					<li class="row">
 						<div class="col-4"><?php the_sub_field('time'); ?></div>
 						<div class="col-8"><?php the_sub_field('detail'); ?>
-						<?php if( have_rows('breakout') ): while( have_rows('breakout') ): the_row(); ?>
+						<?php if( have_rows('breakouts') ): while( have_rows('breakouts') ): the_row(); ?>
 							<div class="breakout">
 								<p class="tag"><?php the_sub_field('tag'); ?></p>
 								<p class="speaker"><?php the_sub_field('speaker'); ?><span><?php the_sub_field('company'); ?></span></p>
