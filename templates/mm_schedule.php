@@ -124,4 +124,30 @@
 	</article>
 	
 	
+	
+	
+	<?php
+//============ ** ============ //
+// 	   Sign up for email
+//============ ** ============ //
+
+get_template_part('parts/newsletter');
+
+
+?>
+
+
+<?php
+//============ ** ============ //
+// 	   Include Sponsors
+//============ ** ============ //
+
+get_template_part('parts/sponsors');
+
+?>
+
+
+<?php get_footer(); ?>
+	
+	
 		
