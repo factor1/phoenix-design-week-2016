@@ -37,45 +37,22 @@
 	<article class="col-11 col-centered">
 		<h3>Saturday, October 22</h3>
 		
+		<?php if( have_rows('program_sat') ): while( have_rows('program_sat') ): the_row(); ?>		
 		<ul class="daily-details">	
 
 			<li class="row">
-				<div class="col-4">Time</div>
-				<div class="col-8">Detail</div>
-			</li>
-			<li class="row">
-				<div class="col-4">Time</div>
-				<div class="col-8">Detail</div>
-			</li>
-			<li class="row">
-				<div class="col-4">Time</div>
-				<div class="col-8">Detail</div>
-			</li>
-			<li class="row">
-				<div class="col-4">Time</div>
-				<div class="col-8">Detail</div>
-			</li>
-			<li class="row">
-				<div class="col-4">Time</div>
-				<div class="col-8">Detail</div>
-			</li>
-			<li class="row">
-				<div class="col-4">Time</div>
-				<div class="col-8">Detail</div>
-			</li>
-			<li class="row">
-				<div class="col-4">Time</div>
-				<div class="col-8">Detail</div>
-			</li>
-			<li class="row">
-				<div class="col-4">Time</div>
-				<div class="col-8">Detail</div>
-			</li>
-			<li class="row">
-				<div class="col-4">Time</div>
-				<div class="col-8">Detail</div>
+				<div class="col-4"><?php the_sub_field('time'); ?></div>
+				<div class="col-8"><?php the_sub_field('detail'); ?></div>
 			</li>
 		</ul>
+		
+        <?php endwhile; else: ?>
+       	 <div class="col-6 col-centered">
+       	 <p class="text-center">There aren't any events scheduled for this day.</p>
+       	 </div>
+       	
+	<?php endif; ?>
+		       	
 	</article>
 	
 	
