@@ -39,7 +39,7 @@
 		
 		<ul class="daily-details">	
 
-			<li>
+			<li class="row">
 				<div class="col-4">Time</div>
 				<div class="col-8">Detail</div>
 			</li>

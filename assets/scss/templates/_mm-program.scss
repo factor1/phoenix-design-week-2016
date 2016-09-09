@@ -1,6 +1,6 @@
 .conf-program {
-	
 	background: white pattern(zigzag, teal);
+	background-size: 55px 55px;
 	
 	.row {background: white;
 		padding-top: 80px;
@@ -12,4 +12,16 @@
 	p a, p a:visited {color: $teal;}
 	
 	
+}
+
+
+ul.daily-details {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	
+	li {
+		color: $teal;
+		font-size: 25px;
+		list-style: none}
 }
