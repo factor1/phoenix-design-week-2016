@@ -6,10 +6,10 @@
 		padding-top: 80px;
 		padding-bottom: 80px;
 	}
+		
+	h3 {color: $purple;}
 	
-	h2, h3, p {color: $teal;}
-	
-	p a, p a:visited {color: $teal;}
+	p, p a, p a:visited {color: $teal;}
 	
 	
 }
@@ -27,7 +27,7 @@ ul.daily-details {
 		border-bottom: 2px solid $teal;
 		padding: 8px;
 		
-		:last-child {border-bottom: 0px;}
+		&:last-child {border-bottom: 0px;}
 		}
 }
 
