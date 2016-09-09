@@ -37,12 +37,12 @@ ul.daily-details {
 	p {
 		font-size: 18px;
 		margin: 10px 3px;
-		display: inline;
 		color: $purple}
 		
 	p.tag {
 		background: $purple;
 		color: white;
+		display: inline;
 		font-size: 12px;
 		text-transform: uppercase;
 		border-radius: 15px;
