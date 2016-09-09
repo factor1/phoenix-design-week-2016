@@ -74,7 +74,7 @@
 								<p class="speaker"><?php the_sub_field('speaker'); ?><span><?php the_sub_field('company'); ?></span></p>
 								<p class="title"><?php the_sub_field('talk_title'); ?></p>
 							</div>
-
+						<?php endif; ?>
 						
 						
 						</div>
