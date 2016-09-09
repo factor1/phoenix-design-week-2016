@@ -27,7 +27,7 @@ ul.daily-details {
 		border-bottom: 2px solid $teal;
 		padding: 8px;
 		
-		&last-child {border-bottom: 0px;}
+		:last-child {border-bottom: 0px;}
 		}
 }
 
@@ -37,6 +37,7 @@ ul.daily-details {
 	p {
 		font-size: 18px;
 		margin: 10px 3px;
+		display: inline;
 		color: $purple}
 		
 	p.tag {
