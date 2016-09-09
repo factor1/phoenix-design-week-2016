@@ -71,7 +71,7 @@
 						<?php if( have_rows('breakouts') ): while( have_rows('breakouts') ): the_row(); ?>
 							<div class="breakout">
 								<p class="tag"><?php the_sub_field('tag'); ?></p>
-								<p class="speaker"><?php the_sub_field('speaker'); ?><span><?php the_sub_field('company'); ?></span></p>
+								<p class="speaker"><?php the_sub_field('speaker'); ?><span>&nbsp;?php the_sub_field('company'); ?></span></p>
 								<p class="title"><?php the_sub_field('talk_title'); ?></p>
 							</div>
 						<?php endwhile; endif; ?>
