@@ -20,11 +20,12 @@ ul.daily-details {
 	padding: 0;
 	list-style: none;
 	
-	li {
+	li.row {
 		color: $teal;
 		font-size: 25px;
 		list-style: none;
 		border-bottom: 2px solid $teal;
+		padding: 8px;
 		
 		&last-child {border-bottom: 0px;}
 		}
@@ -35,6 +36,7 @@ ul.daily-details {
 .breakout {
 	p {
 		font-size: 18px;
+		margin: 10px 3px;
 		color: $purple}
 		
 	p.tag {
@@ -44,6 +46,8 @@ ul.daily-details {
 		text-transform: uppercase;
 		border-radius: 15px;
 		padding: 7px 10px;
+		margin-left: 0px;
+		font-weight: bold;
 	}
 	
 	p.speaker {
