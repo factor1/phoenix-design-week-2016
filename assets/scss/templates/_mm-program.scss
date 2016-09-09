@@ -1,1 +1,15 @@
-.conf-program {}
+.conf-program {
+	
+	background: white pattern(zigzag, teal);
+	
+	.row {background: white;
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+	
+	h2, h3, p {color: $teal;}
+	
+	p a, p a:visited {color: $teal;}
+	
+	
+}
