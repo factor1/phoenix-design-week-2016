@@ -60,52 +60,37 @@
 	<article class="col-11 col-centered">
 		<h3>Sunday, October 23</h3>
 		
-		<ul class="daily-details">	
+		
+		<?php if( have_rows('program_sun') ) : ?>
+			
+			<ul class="daily-details">	
+				<?while( have_rows('program_sun') ): the_row(); ?>	
+					<li class="row">
+						<div class="col-4"><?php the_sub_field('time'); ?></div>
+						<div class="col-8"><?php the_sub_field('detail'); ?>
+						<?php if( have_rows('breakout') ): while( have_rows('breakout') ): the_row(); ?>
+							<div class="breakout">
+								<p class="tag"><?php the_sub_field('tag'); ?></p>
+								<p class="speaker"><?php the_sub_field('speaker'); ?><span><?php the_sub_field('company'); ?></span></p>
+								<p class="title"><?php the_sub_field('talk_title'); ?></p>
+							</div>
 
-			<li class="row">
-				<div class="col-4">Time</div>
-				<div class="col-8">Breakout
-					<div class="breakout">
-						<p class="tag">Tag name</p>
-						<p class="speaker">Speaker Name <span>Company name</span></p>
-						<p class="title">title of talk here</p>
-					</div>
-				
-				</div>
-			</li>
-			<li class="row">
-				<div class="col-4">Time</div>
-				<div class="col-8">Detail</div>
-			</li>
-			<li class="row">
-				<div class="col-4">Time</div>
-				<div class="col-8">Detail</div>
-			</li>
-			<li class="row">
-				<div class="col-4">Time</div>
-				<div class="col-8">Detail</div>
-			</li>
-			<li class="row">
-				<div class="col-4">Time</div>
-				<div class="col-8">Detail</div>
-			</li>
-			<li class="row">
-				<div class="col-4">Time</div>
-				<div class="col-8">Detail</div>
-			</li>
-			<li class="row">
-				<div class="col-4">Time</div>
-				<div class="col-8">Detail</div>
-			</li>
-			<li class="row">
-				<div class="col-4">Time</div>
-				<div class="col-8">Detail</div>
-			</li>
-			<li class="row">
-				<div class="col-4">Time</div>
-				<div class="col-8">Detail</div>
-			</li>
-		</ul>
+						
+						
+						</div>
+					</li>
+				<?php endwhile; ?>
+			</ul>
+        <?php else: ?>
+       	 	<div class="col-6 col-centered">
+	   	 		<p class="text-center">There aren't any events scheduled for this day.</p>
+	   	 	</div>
+       	
+	   	<?php endif; ?>
+	   	
+	   	
+	   	
+		
 	</article>
 	
 	</div>
