@@ -93,8 +93,8 @@
 		<?php endif; wp_reset_postdata();?>
 		
 		<div class="col-11 col-centered">
-			<a href="http://phxdw.com/mm-program/" class="button">
-				<h3>View the full program schedule <i class="fa fa-chevron-right" aria-hidden="true"></i></h3>
+			<a href="http://phxdw.com/mm-program/" class="button purple">
+				<h3 class="white">View the full program schedule <i class="fa fa-chevron-right" aria-hidden="true"></i></h3>
 			</a>
 		</div>
 		
