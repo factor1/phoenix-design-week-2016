@@ -94,7 +94,7 @@
 		
 		<div class="col-11 col-centered">
 			<a href="http://phxdw.com/mm-program/" class="button purple" style="display:block; width:100%">
-				<h3 class="text-white" style="text-transform:capitalize;">View the full program schedule <i class="fa fa-chevron-right" aria-hidden="true"></i></h3>
+				<h3 class="text-white" style="text-transform:capitalize; margin:15px">View the full program schedule <i class="fa fa-chevron-right" aria-hidden="true"></i></h3>
 			</a>
 		</div>
 		
