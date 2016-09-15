@@ -59,7 +59,9 @@
 			padding: 0 0 0 10px;
 			background: none;
 		}
-			    
+		
+		a.button, a.button:visited {color: $teal;}
+		a.button:hover {color: $yellow;}
 		    
 	}
 	
