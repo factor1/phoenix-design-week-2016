@@ -22,37 +22,6 @@
 </section>
 
 
-<?php 
-//================== ** ================== //	
-//  PAST Sponsor Repeater Grid  (Borrowed from parts/sponsors)
-//================== ** ================== //
-?>	
-
-
-    <?php // Past Sponsors ?>
-    <?php if(have_rows('past_sponsors', 'option')):?>
-    
-<section class="container sponsors--container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h4 class="sponsors--headline">
-          Past sponsors have included
-        </h4>
-      </div>
-    </div>
-    
-      <div class="row row--justify-content-center">
-        <?php while(have_rows('past_sponsors', 'option')): the_row();?>
-          <div class="col-3 text-center sponsors--grid-item">
-            <a href="<?php the_sub_field('sponsor_link');?>" target="_blank">
-              <img src="<?php the_sub_field('sponsor_image');?>" alt="Sponsor Image">
-            </a>
-          </div>
-        <?php endwhile;?>
-      </div>
-</section>    
-    <?php endif;?>
-
 
 
 
