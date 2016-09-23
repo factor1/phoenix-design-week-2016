@@ -125,7 +125,7 @@
 					M+M Breakout Speakers
 				</h2>
 				<?php while( $query->have_posts() ): $query->the_post();?>
-					<div class="col-5 speakerthumb">
+					<div class="col-2 speakerthumb">
 						<a href="<?php the_permalink();?>">
 							<div class="profilepic">
 								<?php the_post_thumbnail('profile-picture'); ?>
@@ -141,9 +141,6 @@
 					</div>
 			<?php endwhile;?>
 
-			<div class="col-4 speakerthumb">
-				<img src="<?php bloginfo('template_url');?>/assets/img/andmore.png" alt="And many more!">
-			</div>
 
 			</div>
 		<?php endif; wp_reset_postdata();?>
