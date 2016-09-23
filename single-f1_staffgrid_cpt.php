@@ -6,7 +6,7 @@
 
 <?php if(have_posts()):
 			while(have_posts()): the_post();
-			
+
 			?>
 
 
@@ -28,7 +28,7 @@
 
 
 
-<?php if (has_term('f1_staffgrid_tax','main-stage')): ?>
+<?php if (has_term('main-stage','f1_staffgrid_tax')): ?>
 
 <?php
 //===================== ** ===================== //
@@ -42,22 +42,22 @@
 			<?php if(has_post_thumbnail()) {
 			the_post_thumbnail('large');
 			} else {	}
-			?>	
+			?>
 		</div>
-		
+
 		<div class="col-6 stretch nopadding">
 			<?php if (get_field('portfolio')): ?>
 				<img src="<?php the_field('portfolio');?>">
 			<?php endif;?>
 		</div>
 	</div>
-	
-	
+
+
 	<div class="row">
 		<div class="col-8 staffbio">
 			<?php the_field('staff_bio');?>
 		</div>
-		
+
 		<div class="col-4">
 			<div class="f1_mentor_details_social_container">
 			<h3 class="text-teal">Find them online</h3>
@@ -69,7 +69,7 @@
 
 
 								</div>
-			<div class="speakerquote">				
+			<div class="speakerquote">
 				<?php the_field('quote');?>
 			</div>
 		</div>
@@ -78,7 +78,7 @@
 
 </section>
 
-<?php elseif (has_term('f1_staffgrid_tax','breakout')): ?>
+<?php elseif (has_term('breakout','f1_staffgrid_tax')): ?>
 
 <?php
 //===================== ** ===================== //
@@ -92,14 +92,14 @@
 			<?php if(has_post_thumbnail()) {
 			the_post_thumbnail('large');
 			} else {	}
-			?>	
+			?>
 		</div>
-		
+
 		<div class="col-6 stretch nopadding">
 			<div class="staffbio">
-				<?php the_field('staff_bio');?>				
+				<?php the_field('staff_bio');?>
 			</div>
-			
+
 			<div class="f1_mentor_details_social_container">
 			<h3 class="text-teal">Find them online</h3>
 				<?php if(get_field( "twitter_url" )) : echo('<a href="'); the_field( "twitter_url" ); echo('"><i class="fa fa-twitter" aria-hidden="true"></i></a>');  endif; ?>
@@ -110,7 +110,7 @@
 
 		</div>
 	</div>
-	
+
 
 </section>
 
@@ -139,13 +139,13 @@
 				//============ ** ============ //
 				// 	   Get Tickets
 				//============ ** ============ //
-				
+
 				get_template_part('parts/tickets');
-				
-				
+
+
 				?>
-			
-			
+
+
 		</div>
 
 
