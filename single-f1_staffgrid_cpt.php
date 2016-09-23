@@ -118,7 +118,7 @@
 
 
 
-<?php endif; ?>
+<?php endif; }?>
 
 
 
