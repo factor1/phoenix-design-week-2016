@@ -26,7 +26,7 @@
 </section>
 
 
-<?php if('f1_staffgrid_tax' == 'main-stage') : ?>
+<?php if('f1_staffgrid_tax' == 'main-stage'): ?>
 
 <?php
 //===================== ** ===================== //
@@ -76,7 +76,7 @@
 
 </section>
 
-<?php if('f1_staffgrid_tax' == 'breakout') : ?>
+<?php elseif('f1_staffgrid_tax' == 'breakout'): ?>
 
 <?php
 //===================== ** ===================== //
@@ -154,7 +154,7 @@
 
 
 <?php endwhile;
-		endif ?>
+		endif; ?>
 
 
 <?php
