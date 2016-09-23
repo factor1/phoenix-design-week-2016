@@ -28,7 +28,7 @@
 
 
 
-<?php function get_the_terms( $post, $taxonomy ) :
+<?php function has_term( $post, $taxonomy ) {
 	
 	if('f1_staffgrid_tax' == 'main-stage'): ?>
 
