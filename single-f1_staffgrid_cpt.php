@@ -26,7 +26,11 @@
 </section>
 
 
-<?php if('f1_staffgrid_tax' == 'main-stage'): ?>
+
+
+<?php function get_the_terms( $post, $taxonomy ) {
+	
+	if('f1_staffgrid_tax' == 'main-stage'): ?>
 
 <?php
 //===================== ** ===================== //
@@ -114,7 +118,7 @@
 
 
 
-<?php endif; ?>
+<?php endif; } ?>
 
 
 
