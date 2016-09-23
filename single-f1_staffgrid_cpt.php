@@ -28,9 +28,7 @@
 
 
 
-<?php function has_term( $post, $taxonomy ) {
-	
-	if('f1_staffgrid_tax' == 'main-stage'): ?>
+<?php if (has_term('f1_staffgrid_tax','main-stage')): ?>
 
 <?php
 //===================== ** ===================== //
@@ -80,7 +78,7 @@
 
 </section>
 
-<?php elseif('f1_staffgrid_tax' == 'breakout'): ?>
+<?php elseif (has_term('f1_staffgrid_tax','breakout')): ?>
 
 <?php
 //===================== ** ===================== //
