@@ -116,7 +116,7 @@
 
 
 
-<?php endif; }?>
+<?php endif; ?>
 
 
 
