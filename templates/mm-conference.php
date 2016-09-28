@@ -53,7 +53,7 @@
 		$args = array(
 	        'posts_per_page'            => -1,
 	        'post_type'              		=> 'f1_staffgrid_cpt',
-	        //'f1_staffgrid_tax'        => 'leadership', // Department Taxonomy (per site)
+	        'f1_staffgrid_tax'        => 'main-stage', // Department Taxonomy (per site)
 	        'meta_key'              		=> 'last_name',
 	        'orderby'                   => 'meta_value',
 	        'order'                     => 'ASC'
@@ -99,6 +99,64 @@
 		</div>
 		
 		</div>
+		
+		
+		
+		
+		
+		<div class="col-11 col-centered">
+		<?php
+		$args = array(
+	        'posts_per_page'            => -1,
+	        'post_type'              		=> 'f1_staffgrid_cpt',
+	        'f1_staffgrid_tax'        => 'breakout', // Department Taxonomy (per site)
+	        'meta_key'              		=> 'last_name',
+	        'orderby'                   => 'meta_value',
+	        'order'                     => 'ASC'
+	  );
+
+		// The Query
+		$query = new WP_Query( $args );
+
+		if( $query->have_posts() ):
+		?>
+			<div class="row row--justify-content-start speakerthumbgrid">
+				<h2 class="col-12 text-white text-center">
+					M+M Breakout Speakers
+				</h2>
+				<?php while( $query->have_posts() ): $query->the_post();?>
+					<div class="col-2 speakerthumb">
+						<a href="<?php the_permalink();?>">
+							<div class="profilepic">
+								<?php the_post_thumbnail('profile-picture'); ?>
+							</div>
+							<h4>
+								<?php the_title();?>
+							</h4>
+
+							<p>
+								<?php the_field('title');?>
+							</p>
+						</a>
+					</div>
+			<?php endwhile;?>
+
+
+			</div>
+		<?php endif; wp_reset_postdata();?>
+		
+		<div class="col-11 col-centered">
+			<a href="http://phxdw.com/mm-program/" class="button purple" style="display:block; width:100%; margin-top:20px;">
+				<h3 class="text-white" style="text-transform:capitalize; margin:15px">View the full program schedule <i class="fa fa-chevron-right" aria-hidden="true"></i></h3>
+			</a>
+		</div>
+		
+		</div>
+		
+		
+		
+		
+		
 	</div>
 
 </section>
