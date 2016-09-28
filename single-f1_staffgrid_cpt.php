@@ -41,7 +41,7 @@
 		<div class="col-6 stretch nopadding">
 			<?php if(has_post_thumbnail()) {
 			the_post_thumbnail('large');
-			} else {	}
+			}
 			?>	
 		</div>
 		
@@ -91,7 +91,7 @@
 		<div class="col-6 stretch nopadding">
 			<?php if(has_post_thumbnail()) {
 			the_post_thumbnail('large');
-			} else {	}
+			}
 			?>	
 		</div>
 		
