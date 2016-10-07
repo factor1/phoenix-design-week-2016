@@ -81,7 +81,7 @@
 		<div class="col-10 col-centered text-center">
 			<h3 class="text-white">See what’s happening at Method + Madness</h3>
 <!-- 			<p class="text-white">Invest in the most celebrated event in the Arizona design community, and hundreds of creative professionals will take notice.</p> -->
-			<a href="<?php echo home_url(); ?>/events" class="button white text-pink">View the schedule</a>
+			<a href="<?php echo home_url(); ?>/mm-program" class="button white text-pink">View the schedule</a>
 		</div>
 	</div>
 </section>
