@@ -54,7 +54,8 @@ if ( is_page(87) ) : ?>
 		<section class="container" id="student_form">
 			<div class="row">
 				<div class="col-10 col-centered">	
-				<?php gravity_form( 4, false, false, false, '', false ); ?>
+				<?php //gravity_form( 4, false, false, false, '', false ); ?>
+				<h2 class="white">Thank you for your interest! 2016 Student Scholarship Applications have closed. Awardees will be selected and notified by email by October 14, 2016.</h2>
 				</div>
 				
 			</div>
