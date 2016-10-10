@@ -70,7 +70,7 @@
 						<div class="col-8"><?php the_sub_field('detail'); ?>
 						<?php if( have_rows('breakouts') ): while( have_rows('breakouts') ): the_row(); ?>
 							<div class="breakout">
-								<p class="tag"><?php the_sub_field('tag'); ?></p>
+								<p class="tag"><?php the_sub_field('tag'); ?></p><p class="room"><?php the_sub_field('room'); ?></p>
 								<p class="speaker"><?php the_sub_field('speaker'); ?><span>&nbsp;<?php the_sub_field('company'); ?></span></p>
 								<p class="title"><?php the_sub_field('talk_title'); ?></p>
 							</div>

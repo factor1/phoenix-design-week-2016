@@ -52,6 +52,14 @@ ul.daily-details {
 		font-weight: bold;
 	}
 	
+	p.room {
+		color: $purple;
+		display: inline;
+		font-weight: bold;
+		font-size: 12px;
+		text-transform: uppercase;
+	}
+	
 	p.speaker {
 		font-weight: bold;
 		span {font-weight: normal;}
