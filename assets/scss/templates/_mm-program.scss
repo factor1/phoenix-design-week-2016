@@ -20,6 +20,17 @@ ul.daily-details {
 	padding: 0;
 	list-style: none;
 	
+	a, a:visited {
+		color: $teal;
+		border-bottom: 1px $teal dotted;
+	}
+	
+	a:hover {
+		color: $purple;
+		border-bottom: 1px $pink dotted;
+		}
+	
+	
 	li.row {
 		color: $teal;
 		font-size: 25px;
