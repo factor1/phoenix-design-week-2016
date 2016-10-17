@@ -200,9 +200,13 @@
 			</p>
 			<p>
 				<strong>The Phoenix Convention Center</strong><br>
+				West building, conference room 301a<br>
 				100 N. 3rd Street<br>
 				Phoenix, AZ 85004
 			</p>
+			
+			<p>
+				Main parking entrance is at 2nd and Monroe, southeast corner, enter on 2nd st</p>
 			<a href="http://dtphx.org/things-to-do/" class="button white">
 				Learn About Downtown Phoenix
 			</a>
