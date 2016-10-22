@@ -174,27 +174,7 @@ Agency Sponsor
     
     
     
-    <?php // Partner Organization / Sponsors ?>
-    
-    <?php if(have_rows('partner_sponsors', 'option')):?>
-    <div class="row">
-      <div class="col-12 text-center">
-        <h4 class="sponsors--headline">
-           Partner Organizations Who Helped Organize This Event
-        </h4>
-      </div>
-    </div>
-    
-      <div class="row row--justify-content-center">
-        <?php while(have_rows('partner_sponsors', 'option')): the_row();?>
-          <div class="col-3 text-center sponsors--grid-item">
-            <a href="<?php the_sub_field('sponsor_link');?>" target="_blank">
-              <img src="<?php the_sub_field('sponsor_image');?>" alt="Sponsor Image">
-            </a>
-          </div>
-        <?php endwhile;?>
-      </div>
-    <?php endif;?>
+
     
     
      <?php // Other Sponors ?>
@@ -241,6 +221,31 @@ Agency Sponsor
         <?php endwhile;?>
       </div>
     <?php endif;?>
+    
+    
+        <?php // Partner Organization / Sponsors ?>
+    
+    <?php if(have_rows('partner_sponsors', 'option')):?>
+    <div class="row">
+      <div class="col-12 text-center">
+        <h4 class="sponsors--headline">
+           Partner Organizations Who Helped Organize This Event
+        </h4>
+      </div>
+    </div>
+    
+      <div class="row row--justify-content-center">
+        <?php while(have_rows('partner_sponsors', 'option')): the_row();?>
+          <div class="col-3 text-center sponsors--grid-item">
+            <a href="<?php the_sub_field('sponsor_link');?>" target="_blank">
+              <img src="<?php the_sub_field('sponsor_image');?>" alt="Sponsor Image">
+            </a>
+          </div>
+        <?php endwhile;?>
+      </div>
+    <?php endif;?>
+    
+    
 
   </div>
 </section>
