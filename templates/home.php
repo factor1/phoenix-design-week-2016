@@ -13,8 +13,9 @@
 <section class="hero home_hero container">
 	<div class="row hero-content text-center">
 		<div class="col-12">
-			<h1 class="text-white">Phoenix Design Week is Coming</h1>
-			<h3 class="text-white">October 21-28, 2016  •  Phoenix Design Week 2016</h3>
+			<h1 class="text-white">Method + Madness<br>is on!</h1>
+			<h3 class="text-white">Enjoy over a dozen keynote speakers and choose between 6 breakout tracks.</h3>
+			<p><a href="http://phxdw.com/mm-program/" class="button white">See the M+M Program</a></p>
 		</div>
 	</div>
 </section>
