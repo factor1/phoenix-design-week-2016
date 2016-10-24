@@ -13,7 +13,7 @@
 <section class="hero home_hero container">
 	<div class="row hero-content text-center">
 		<div class="col-12">
-			<h1 class="text-white">Phoenix Design<br>is on!</h1>
+			<h1 class="text-white">Phoenix Design Week<br>is on!</h1>
 			<h3 class="text-white">Enjoy over a dozen events across the city.</h3>
 			<p><a href="http://phxdw.com/evemts" class="button white">See Event Schedule</a></p>
 		</div>
