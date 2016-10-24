@@ -13,9 +13,9 @@
 <section class="hero home_hero container">
 	<div class="row hero-content text-center">
 		<div class="col-12">
-			<h1 class="text-white">Method + Madness<br>is on!</h1>
-			<h3 class="text-white">Enjoy over a dozen keynote speakers and choose between 6 breakout tracks.</h3>
-			<p><a href="http://phxdw.com/mm-program/" class="button white">See the M+M Program</a></p>
+			<h1 class="text-white">Phoenix Design<br>is on!</h1>
+			<h3 class="text-white">Enjoy over a dozen events across the city.</h3>
+			<p><a href="http://phxdw.com/evemts" class="button white">See Event Schedule</a></p>
 		</div>
 	</div>
 </section>
