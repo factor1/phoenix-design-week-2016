@@ -1,0 +1,325 @@
+@import "https://fonts.googleapis.com/css?family=Libre+Franklin|Lora";
+/*------------------------------------------------------------------------------
+  Global Styles
+------------------------------------------------------------------------------*/
+html,
+body {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%; }
+
+html,
+html a {
+  -webkit-font-smoothing: antialiased !important;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004); }
+
+body {
+  font: 100%/1.25 Helvetica, Arial, Verdana, sans-serif;
+  min-height: 100%;
+  overflow-y: scroll;
+  background: #f8f8f8;
+  padding: 100px;
+  color: #eee;
+  /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch; }
+
+
+.row {
+	max-width: 1000px;
+	margin: 0 auto;;
+}
+
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 100px;
+	background: #fff;
+}
+
+
+
+/* Set box sizing to elimate math in the padding */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+blockquote {
+  margin: 22px 40px;
+  padding: 0; }
+
+a, avisited {
+  color: #fdb812; }
+
+small {
+  font-size: .85em; }
+
+sup {
+  position: relative;
+  bottom: .3em;
+  vertical-align: baseline; }
+
+sub {
+  position: relative;
+  bottom: -0.2em;
+  vertical-align: baseline; }
+
+acronym,
+abbr {
+  cursor: help;
+  letter-spacing: 1px;
+  border-bottom: 1px dashed; }
+
+form {
+  margin: 0;
+  padding: 0;
+  display: inline; }
+
+input,
+select,
+textarea {
+  font: 1em arial, helvetica, sans-serif; }
+
+textarea {
+  line-height: 1.25; }
+
+label {
+  cursor: pointer; }
+
+table {
+  border: 0;
+  margin: 0 0 18px;
+  padding: 0; }
+
+table tr td {
+  padding: 2px; }
+
+.clear {
+  clear: both; }
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: ' ';
+  clear: both;
+  height: 0; }
+
+.clearfix {
+  display: inline-block; }
+
+/* start commented backslash hack \*/
+* html .clearfix {
+  height: 1%; }
+
+.clearfix {
+  display: block; }
+
+/* close commented backslash hack */
+.float-left {
+  float: left; }
+
+.float-right {
+  float: right; }
+
+.main--container {
+  display: block;
+  position: relative; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+.flex-video {
+  position: relative;
+  height: 0;
+  padding-bottom: 75%;
+  margin-bottom: 1rem;
+  overflow: hidden; }
+
+.flex-video iframe,
+.flex-video object,
+.flex-video embed,
+.flex-video video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.flex-video.widescreen {
+  padding-bottom: 56.25%; }
+
+.flex-video.vimeo {
+  padding-top: 0; }
+
+.close-icon {
+  position: absolute;
+  width: rem(25px);
+  height: rem(25px);
+  border: 2px solid white;
+  border-radius: 50%;
+  right: 0;
+  top: rem(-35px);
+  cursor: pointer;
+  transition: all 500ms ease-out;
+  opacity: 0.8; }
+  .close-icon span {
+    display: block; }
+    .close-icon span:before {
+      width: 73%;
+      height: 2px;
+      background: white;
+      content: '';
+      display: block;
+      margin: 0 auto;
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+      position: absolute;
+      top: 9px;
+      left: 3px; }
+    .close-icon span:after {
+      width: 73%;
+      height: 2px;
+      background: white;
+      content: '';
+      display: block;
+      margin: 0;
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg);
+      position: absolute;
+      top: 9px;
+      left: 3px; }
+  .close-icon:hover {
+    transform: rotate(360deg);
+    opacity: 1; }
+
+.text-center {
+  text-align: center; }
+
+.text-right {
+  text-align: right; }
+
+.error404 {
+  padding: 15% 0; }
+
+h1 {
+  font-size: rem(70px);
+  text-transform: uppercase;
+  line-height: 1em;
+  color: #fdb812; }
+
+h2 {
+  font-size: rem(40px);
+  color: #fdb812;
+  text-transform: none;
+  font-weight: normal;
+  line-height: 1.15em; }
+
+h3 {
+  font-size: rem(25px);
+  text-transform: capitalize;
+  color: #fdb812; }
+
+p, ul, ol {
+    margin: 0;
+    padding: 0 0 18px 0;
+    font-family: "myriad-pro", "helvetica neue", helvetica, arial, sans-serif;
+    color: #444;
+    font-size: 14px;
+    line-height: 21px;
+    }
+
+li {
+  margin-bottom: 10px; }
+
+a,
+a:visited {
+  text-decoration: none; }
+  
+  
+a.button {
+	background: #333;
+	border: 1px solid #000;
+	border-radius: 4px;
+	padding: 20px 40px;
+	text-decoration: none;
+	display: inline-block;
+	color: #fff;
+	-webkit-transition: all .2s ease-in;
+	-moz-transition: all .2s ease-in;
+	-ms-transition: all .2s ease-in;
+	-o-transition: all .2s ease-in;
+	transition: all .2s ease-in;
+}
+
+
+a.button:hover {
+	background: #fdb812;
+	border: 1px solid #fff;
+	
+}
+
+
+  
+
+  
+
+@media screen and (max-width: 48.125em) {
+  h1 {
+    font-size: rem(50px); }
+
+  h2, h3 {
+    font-size: rem(32px); } }
+@media screen and (max-width: 43em) {
+  h1 {
+    font-size: rem(38px); }
+
+  h2, h3 {
+    font-size: rem(26px); } 
+    
+   body {
+	   padding: 10px;
+   } 
+  .container {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 20px;
+	background: #fff;
+}
+    
+    }
+    
+    
+    
+    
+#mc-embedded-subscribe.button {
+  background: #7c1b15 !important;
+  color: white;
+  border: #7c1b15 2px solid !important;
+  height: auto !important; }
+  #mc-embedded-subscribe.button:hover {
+    background: #feb415 !important;
+    color: #7c1b15 !important; }
+
+header {
+  background: #2a2a2a;
+  padding: 20px; }
+  header h1 {
+    color: white; }
+  header h1 a, header h1 a:visited {
+    color: #fff; }
+
+#footer {
+  background: #2a2a2a;
+  color: white;
+  position: relative;
+  bottom: 0px; }
+  #footer p {
+    color: white; }
+  #footer a, #footer a:visited {
+    color: #feb415; }
+
+
