@@ -206,13 +206,13 @@ img {
   padding: 15% 0; }
 
 h1 {
-  font-size: rem(70px);
+  font-size: rem(70px) !important;
   text-transform: uppercase;
   line-height: 1em;
   color: #fdb812; }
 
 h2 {
-  font-size: rem(40px);
+  font-size: rem(40px) !important;
   color: #fdb812;
   text-transform: none;
   font-weight: normal;
